@@ -1,43 +1,40 @@
 ---
 layout: page
 title: Privacy Policy
-include_in_header: false
 ---
-
-**Last updated**  
-August 11 2023
-
 # Privacy Policy
 
-Spek takes your privacy very seriously.
+Last updated: October 17, 2026
 
-## Information We Collect
+Spek is provided by Mahmoud Ashraf. Contact [africanlord.apps@gmail.com](mailto:africanlord.apps@gmail.com) with privacy questions.
 
-When you sign in with Apple, we collect and store:
-- Your email address
-- Your name
+## Account and translation services
 
-This information is stored securely in our database (Supabase) and is used solely to provide you with app functionality and account management.
+Spek uses Sign in with Apple and Supabase for accounts. Your account may include the name and email address Apple shares with us. You can delete your account in the app’s Settings.
 
-## Analytics
+Translation requires an internet connection. When you request a translation, the text, audio, or image needed for that request is sent to Spek’s backend and OpenAI to process the translation. Selected language and country settings are sent with the request. These services have their own data processing and retention practices. Service diagnostics may also be processed to operate and troubleshoot the app.
 
-If you have opted in to allow Apple to share information with developers, we receive some anonymous analytics from Apple. Spek uses no other third party analytics tools or SDKs to track your activity in the app.
+Spek uses RevenueCat and Apple’s App Store to manage purchases and verify subscription access. RevenueCat receives subscription and purchase information and an app user identifier. Spek does not receive your payment card details.
 
-## Data Storage
+## Optional usage analytics
 
-- Your Sign in with Apple credentials (email and name) are stored securely in our database
-- All other app data is stored locally on your device
+In app versions that offer the Usage analytics choice, Firebase Analytics is enabled only if you allow it. You can decline or withdraw permission in Settings. This choice is separate from Apple’s advertising tracking permission.
 
-## Your Control Over Your Data
+Usage events describe screens, onboarding steps, translation attempts and outcomes, selected language and dialect codes, and purchase-screen interactions. Firebase also processes app-instance identifiers and technical app/device information for analytics. We do not put conversation text, transcriptions, audio, photos, names, email addresses, authentication tokens, or precise location in these events, and we do not set a Firebase user ID from your account.
 
-You have full control over your account and data:
-- You can delete your account at any time using the delete account button within the app
-- When you delete your account, all associated data is permanently removed from our database
+Withdrawing permission stops further usage analytics collection and resets analytics data on the device. It does not automatically erase data already received by Google. See [Google’s privacy policy](https://policies.google.com/privacy) and [Firebase’s privacy information](https://firebase.google.com/support/privacy).
 
-## Data Sharing
+## Other SDKs and Apple analytics
 
-We do not share, sell, or transfer your personal information to third parties.
+Spek includes Meta and TikTok SDKs for advertising measurement. Their data practices and Apple’s tracking-permission controls are separate from the optional Firebase usage analytics described above. Review Apple’s privacy settings and Spek’s App Store privacy disclosures for information about these SDKs. Apple may also provide App Store and app analytics according to your Apple privacy settings.
 
-## Contact
+## Your choices
 
-If you have any questions about this privacy policy, please contact us at africanlord.apps@gmail.com.
+- Allow or decline usage analytics, and change your choice in Spek’s Settings in supported versions.
+- Manage microphone, camera, photo-library, and tracking permissions in iPhone Settings.
+- Manage purchases and subscriptions through your Apple Account.
+- Delete your Spek account from the app’s Settings, or contact support for help with data requests. Account deletion does not cancel an Apple subscription.
+
+## This website
+
+This landing page does not add analytics scripts, advertising pixels, third-party fonts, or cookies. GitHub Pages hosts the site and may process technical access information under [GitHub’s privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
