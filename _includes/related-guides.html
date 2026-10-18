@@ -1,0 +1,14 @@
+{% assign related_count = 0 %}
+{% capture related_items %}
+{% for candidate in site.posts %}{% if candidate.url == page.url %}{% continue %}{% endif %}
+{% assign shares_topic = false %}{% for tag in page.tags %}{% if candidate.tags contains tag %}{% assign shares_topic = true %}{% endif %}{% endfor %}
+{% if shares_topic and related_count < 2 %}
+  {% assign related_count = related_count | plus: 1 %}
+  <a class="related-link" href="{{ candidate.url | relative_url }}"><img class="related-image" src="{{ candidate.image | relative_url }}" width="{{ candidate.image_width | default: 1448 }}" height="{{ candidate.image_height | default: 1086 }}" alt="" loading="lazy"><span><strong>{{ candidate.title | escape }}</strong><small>{{ candidate.description | escape }}</small></span><img class="link-icon" src="{{ '/assets/icons/arrow-right.svg' | relative_url }}" width="20" height="20" alt="" aria-hidden="true"></a>
+{% endif %}{% endfor %}
+{% endcapture %}
+<section class="related-guides journal-wrap" aria-labelledby="related-title"><h2 id="related-title">For your next conversation</h2><div class="related-grid">
+{{ related_items }}
+{% if related_count < 2 %}<a class="related-link" href="{{ '/#photo-translation' | relative_url }}"><img class="related-image" src="{{ '/assets/blog/paris-signs.webp' | relative_url }}" width="1536" height="1024" alt="" loading="lazy"><span><strong>More than menus</strong><small>See how Spek translates text from photos.</small></span><img class="link-icon" src="{{ '/assets/icons/arrow-right.svg' | relative_url }}" width="20" height="20" alt="" aria-hidden="true"></a>{% endif %}
+{% if related_count == 0 %}<a class="related-link" href="{{ '/#dialect-choices' | relative_url }}"><img class="related-image" src="{{ '/assets/blog/cafe-menu.webp' | relative_url }}" width="1448" height="1086" alt="" loading="lazy"><span><strong>Find your language and dialect</strong><small>Explore Spek’s country-specific language choices.</small></span><img class="link-icon" src="{{ '/assets/icons/arrow-right.svg' | relative_url }}" width="20" height="20" alt="" aria-hidden="true"></a>{% endif %}
+</div></section>

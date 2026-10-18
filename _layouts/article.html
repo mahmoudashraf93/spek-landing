@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<main tabindex="-1" id="main">
+<article class="guide">
+  <header class="article-masthead">
+    <div class="article-intro">
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span aria-hidden="true">/</span><a href="{{ '/blog/' | relative_url }}">Guides</a><span aria-hidden="true">/</span><span>{{ page.topic | escape }}</span></nav>
+      <p class="eyebrow">{{ page.topic | escape }} / {{ page.feature | escape }}</p>
+      <h1>{% if page.title_lines %}{% for line in page.title_lines %}<span class="title-line">{{ line | escape }}{% if forloop.last %}<span class="orange" aria-hidden="true">.</span>{% endif %}</span> {% endfor %}{% else %}{{ page.title | escape }}<span class="orange" aria-hidden="true">.</span>{% endif %}</h1>
+      <p class="article-lead">{{ page.subtitle | escape }}</p>
+      <p class="article-meta">By {{ page.author | escape }} <span aria-hidden="true">·</span> {{ page.reading_time }} min read <span aria-hidden="true">·</span> Updated <time datetime="{{ page.updated | default: page.date | date_to_xmlschema }}">{{ page.updated | default: page.date | date: '%-d %b %Y' }}</time></p>
+    </div>
+    <figure class="article-cover"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | escape }}" width="{{ page.image_width | default: 1448 }}" height="{{ page.image_height | default: 1086 }}" fetchpriority="high"><figcaption>{{ page.image_caption | escape }}</figcaption></figure>
+  </header>
+  <nav class="article-jump journal-wrap" aria-label="In this guide"><span>In this guide</span>{% for section in page.sections %}<a href="#{{ section.id | escape }}">{{ section.title | escape }}</a>{% endfor %}</nav>
+  <div class="article-body journal-wrap{% unless page.screenshot %} article-body-text{% endunless %}">
+    <div class="article-copy">{{ content }}</div>
+    {% if page.screenshot %}<figure class="article-example"><img src="{{ page.screenshot | relative_url }}" alt="{{ page.screenshot_alt | escape }}" width="{{ page.screenshot_width | default: 880 }}" height="{{ page.screenshot_height | default: 1913 }}" loading="lazy"><figcaption>{{ page.screenshot_caption | escape }}</figcaption></figure>{% endif %}
+  </div>
+  {% if page.sources %}<aside class="article-sources journal-wrap" aria-label="Sources and product notes"><h2>Sources &amp; product notes</h2><p>{{ page.product_note | default: 'See the linked sources for this guide.' | escape }}</p><ul>{% for source in page.sources %}<li><a href="{{ source.url | escape }}">{{ source.title | escape }}</a></li>{% endfor %}</ul></aside>{% endif %}
+</article>
+{% include blog-download.html %}
+{% include related-guides.html %}
+</main>
+{% include article-schema.html %}

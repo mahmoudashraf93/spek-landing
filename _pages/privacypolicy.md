@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
+description: How Spek handles your information, including translation data, account details, and your privacy choices.
 ---
 # Privacy Policy
 

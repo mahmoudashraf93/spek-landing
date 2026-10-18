@@ -1,8 +1,15 @@
 ---
+layout: null
+sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>{{ '/' | absolute_url }}</loc></url>
-  <url><loc>{{ '/privacypolicy/' | absolute_url }}</loc></url>
-  <url><loc>{{ '/terms/' | absolute_url }}</loc></url>
+{% comment %}The existing legal collection is named pages; html_pages holds ordinary HTML pages.{% endcomment %}
+{% assign html_pages = site.html_pages | concat: site.pages | uniq %}
+{% for item in html_pages %}{% if item.layout and item.sitemap != false %}
+  <url><loc>{{ item.url | absolute_url | xml_escape }}</loc></url>
+{% endif %}{% endfor %}
+{% for post in site.posts %}
+  <url><loc>{{ post.url | absolute_url | xml_escape }}</loc><lastmod>{{ post.updated | default: post.date | date_to_xmlschema }}</lastmod></url>
+{% endfor %}
 </urlset>

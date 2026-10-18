@@ -1,0 +1,30 @@
+{% assign article_author = page.author | default: site.author %}
+{% assign article_url = page.url | absolute_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": {{ article_url | append: '#article' | jsonify }},
+      "headline": {{ page.title | jsonify | replace: '<', '\u003c' }},
+      "description": {{ page.description | jsonify | replace: '<', '\u003c' }},
+      "image": [{{ page.image | absolute_url | jsonify }}],
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      "dateModified": {{ page.updated | default: page.date | date_to_xmlschema | jsonify }},
+      "author": {"@type": "Person", "name": {{ article_author | jsonify }}, "url": {{ '/#founder' | absolute_url | jsonify }}},
+      "publisher": {"@type": "Organization", "name": "Spek", "url": {{ '/' | absolute_url | jsonify }}},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": {{ article_url | jsonify }}},
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": {{ '/' | absolute_url | jsonify }}},
+        {"@type": "ListItem", "position": 2, "name": "Guides", "item": {{ '/blog/' | absolute_url | jsonify }}},
+        {"@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": {{ article_url | jsonify }}}
+      ]
+    }
+  ]
+}
+</script>

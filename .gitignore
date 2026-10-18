@@ -1,3 +1,6 @@
 .bundle
 .sass-cache
 _site
+
+_preview/
+__pycache__/
