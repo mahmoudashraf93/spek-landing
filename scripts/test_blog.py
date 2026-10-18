@@ -3,6 +3,7 @@ from contextlib import redirect_stdout
 from io import StringIO
 from pathlib import Path
 import importlib.util
+import os
 import shutil
 import re
 import subprocess
@@ -62,7 +63,13 @@ class SiteChecks(unittest.TestCase):
         (source / "_posts/2020-01-01-unpublished.md").write_text(fixture("Unpublished guide", "2020-01-01", "published: false\n"))
         (source / "_posts/2020-01-02-approved-related.md").write_text(fixture("Approved related guide", "2020-01-02"))
         built = Path(self.temp.name) / "fixture-output"
-        subprocess.run(["bundle", "exec", "jekyll", "build", "--destination", str(built), "--quiet"], cwd=source, check=True, capture_output=True, text=True)
+        # Keep the project's bundle/cache while building the isolated fixture source.
+        result = subprocess.run(
+            ["bundle", "exec", "jekyll", "build", "--destination", str(built), "--quiet"],
+            cwd=source, env={**os.environ, "BUNDLE_GEMFILE": str(PROJECT / "Gemfile")},
+            capture_output=True, text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         self.assertTrue((built / "blog/approved-related/index.html").exists())
         for slug in ("synthetic-draft", "future", "unpublished"):
             self.assertFalse((built / "blog" / slug).exists())
