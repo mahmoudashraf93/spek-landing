@@ -4,11 +4,11 @@ A static Jekyll site for the Spek iPhone translator. No client-side scripts, ana
 
 ## Confirmed deployment
 
-GitHub Pages API reports `master` at repository root, legacy Jekyll build, HTTPS enforced, and **no custom domain**. The public app listing links to this site's privacy policy. The site currently serves at:
+GitHub Pages publishes `master` at repository root using Jekyll. The custom domain is:
 
-https://mahmoudashraf93.github.io/spek-landing/
+https://usespek.com/
 
-The stale repository CNAME pointed to an unrelated product. This PR removes it, uses the verified GitHub Pages canonical URL, and makes no DNS or Pages-settings changes. **Do not merge or deploy until approved**: merging to master triggers the existing Pages deployment.
+`CNAME` and `_config.yml` configure the domain and root paths. GoDaddy DNS points the apex to GitHub Pages and `www` to `mahmoudashraf93.github.io`. The previous GitHub Pages URL redirects to the custom domain. Pushing to `master` triggers the existing Pages deployment.
 
 ## Local build
 
@@ -16,10 +16,10 @@ The stale repository CNAME pointed to an unrelated product. This PR removes it, 
 bundle install
 bundle exec jekyll build --destination /tmp/spek-landing-site
 python3 scripts/validate-site.py /tmp/spek-landing-site
-python3 -m http.server 4173 --directory /tmp/spek-landing-preview
+python3 -m http.server 4173 --directory /tmp/spek-landing-site
 ```
 
-For preview under the real project subpath, first create `/tmp/spek-landing-preview/spek-landing` as a symlink to `/tmp/spek-landing-site`. Then open http://127.0.0.1:4173/spek-landing/.
+For a local preview, open http://127.0.0.1:4173/.
 
 `Gemfile.lock` pins the existing GitHub Pages dependency stack. `assets/spek/site.css` is the only stylesheet.
 

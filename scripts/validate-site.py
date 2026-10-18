@@ -1,11 +1,11 @@
-"""Validate Jekyll output under Spek's actual GitHub Pages subpath."""
+"""Validate Jekyll output at Spek's custom domain root."""
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
 import re, sys
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else '_site').resolve()
-base = '/spek-landing'
+base = ''
 app = 'https://apps.apple.com/us/app/voice-translator-spek/id6748774580'
 
 class Page(HTMLParser):
@@ -25,7 +25,7 @@ for file in pages:
     assert any(t=='meta' and a.get('name')=='description' and a.get('content') for t,a in page.elements),file
     assert any(t=='meta' and a.get('property')=='og:image' for t,a in page.elements),file
     canonical=next(a['href'] for t,a in page.elements if t=='link' and a.get('rel')=='canonical')
-    assert canonical.startswith('https://mahmoudashraf93.github.io/spek-landing/'),canonical
+    assert canonical.startswith('https://usespek.com/'),canonical
     for tag, attrs in page.elements:
         if tag=='img': assert 'alt' in attrs and 'width' in attrs and 'height' in attrs,(file,attrs)
         if tag=='a' and 'apps.apple.com' in attrs.get('href',''): assert attrs['href']==app,attrs
@@ -41,5 +41,5 @@ for file in pages:
             else: target=file.parent/path
             if path.endswith('/'): target=target/'index.html'
             assert target.exists(),(file,value,target)
-assert not (root/'CNAME').exists()
+assert (root/'CNAME').read_text().strip() == 'usespek.com'
 print(f'Validated {len(pages)} pages: links/assets, SEO, semantics, image descriptions and claim checks passed.')
