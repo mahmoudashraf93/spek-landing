@@ -2,7 +2,20 @@ title: Spek — Voice, Text & Photo Translator
 description: Translate everyday conversations in the dialect you need. Voice, text, and photo translation with country-specific language choices for family, travel, and life abroad.
 url: https://usespek.com
 baseurl: ""
-appstore_link: https://apps.apple.com/us/app/voice-translator-spek/id6748774580
+appstore_link: https://apps.apple.com/app/id6748774580
+author: Mahmoud Ashraf
+timezone: Africa/Cairo
+future: false
+show_drafts: false
+permalink: /blog/:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      blog: true
+      author: Mahmoud Ashraf
 support_email: africanlord.apps@gmail.com
 markdown: kramdown
 collections:
@@ -20,3 +33,4 @@ exclude:
   - node_modules
   - package.json
   - package-lock.json
+  - design-qa.md

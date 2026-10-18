@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 {% include head.html %}
-<body>
+<body{% if page.blog %} class="journal"{% endif %}>
 {% include header.html %}
 {{ content }}
 {% include footer.html %}

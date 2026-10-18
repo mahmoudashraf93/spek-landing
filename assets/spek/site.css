@@ -2,3 +2,15 @@
 
 .site-header nav a,.site-footer nav a{display:inline-flex;align-items:center;min-height:44px}
 @media(max-width:600px){.product-pair{flex-direction:column;gap:34px}.product-pair figure{width:min(100%,300px)}.product-pair figcaption{font-size:12px}}
+
+/* Shared navigation and guide entry points. */
+.link-icon{display:inline-block;vertical-align:middle;flex-shrink:0}
+.site-header nav .nav-current{border-bottom:1px solid var(--ink)}
+.site-header nav .nav-download{gap:5px}
+.home-guides{padding-block:70px;border-bottom:1px solid var(--line)}
+.home-guides>a{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-top:30px;max-width:760px;font-size:23px;font-weight:650;text-decoration:none}
+.home-guides>p:last-child{font-size:15px}
+@media(max-width:600px){.site-header{gap:10px}.site-header .brand{font-size:24px;gap:8px}.site-header .brand img{width:32px;height:32px}.site-header nav{gap:12px;font-size:13px}.site-header nav .link-icon{width:14px;height:14px}.home-guides{padding-block:45px}.home-guides>a{font-size:20px}}
+
+.site-header .brand{flex-shrink:0}.site-header nav,.site-header nav a{white-space:nowrap;flex-shrink:0}
+@media(max-width:400px){.site-header .brand{font-size:22px}.site-header nav{font-size:12px;gap:10px}}

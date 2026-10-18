@@ -1,0 +1,15 @@
+---
+layout: default
+title: Practical translation guides
+description: Practical guides to translating photos, reading menus, and communicating across languages with Spek for iPhone.
+blog: true
+permalink: /blog/
+---
+<main id="main" tabindex="-1" class="guides-home journal-wrap">
+<p class="eyebrow">Spek guides</p><h1>Find your words.<br>Feel a little more at home<span class="orange">.</span></h1>
+<p class="guides-intro">Practical help for the moments that happen between languages. A menu at lunch. A message from a neighbor. Your next conversation.</p>
+<section aria-labelledby="latest-title"><div class="section-heading"><h2 id="latest-title">Start here</h2><a href="{{ '/feed.xml' | relative_url }}">Follow via RSS</a></div>
+{% for post in site.posts %}<article class="guide-preview"><a class="guide-preview-image" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}"><img src="{{ post.image | relative_url }}" width="{{ post.image_width | default: 1448 }}" height="{{ post.image_height | default: 1086 }}" alt="{{ post.image_alt | escape }}"{% unless forloop.first %} loading="lazy"{% endunless %}></a><div><p class="eyebrow">{{ post.topic | escape }} / {{ post.feature | escape }}</p><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{{ post.description | escape }}</p><p class="article-meta">{{ post.reading_time }} min read · <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%-d %b %Y' }}</time></p></div></article>{% else %}<p>Our first guide is on its way. In the meantime, <a href="{{ '/#features' | relative_url }}">explore how Spek works</a>.</p>{% endfor %}
+</section>
+<section class="guides-product" aria-labelledby="product-title"><h2 id="product-title">A little closer. In any conversation.</h2><p>Translate voice, text, and photos with the language choices that fit the people around you.</p><a href="{{ '/#features' | relative_url }}">Explore Spek’s features</a></section>
+</main>

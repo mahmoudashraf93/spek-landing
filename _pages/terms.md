@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Terms of Service
+description: Read the terms for using Spek, including subscriptions, service availability, and acceptable use.
 ---
 # Terms of Service
 
