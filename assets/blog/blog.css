@@ -33,12 +33,17 @@
 .article-body{display:grid;grid-template-columns:minmax(0,1.63fr) minmax(0,1fr);gap:70px;align-items:start}
 .article-copy{min-width:0;max-width:760px;font-size:17px;line-height:1.55}
 .article-copy h2{font-size:clamp(32px,4.5vw,60px);line-height:1.08;letter-spacing:-.045em;margin:0 0 12px}
+.article-copy h2:not(:first-child){margin-top:48px}
+.article-copy>h3{font-size:23px;line-height:1.25;letter-spacing:-.025em;margin-top:30px}
+.article-copy>ol:not(.guide-steps),.article-copy>ul{padding-left:24px;margin-block:16px}
+.article-copy>ol:not(.guide-steps)>li,.article-copy>ul>li{margin-block:8px;padding-left:4px}
 .article-copy p{margin-top:16px}
 .article-copy a{color:#9c4f00}
 .article-body-text{display:block;max-width:760px}
 .article-example{max-width:420px;justify-self:stretch}
 .article-example>img{width:100%;border-radius:20px}
 .article-example figcaption{font-size:12px;text-align:left;line-height:1.6}
+.article-example-inline{width:min(100%,340px);margin:30px auto}
 .guide-steps{list-style:none;counter-reset:steps;padding:0;margin:25px 0 0}
 .guide-steps li{counter-increment:steps;position:relative;padding:16px 0 18px 78px;border-top:1px solid var(--line)}
 .guide-steps li::before{content:counter(steps,decimal-leading-zero);position:absolute;left:0;top:17px;font-size:16px;color:#a85000}

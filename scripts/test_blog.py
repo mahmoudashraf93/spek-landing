@@ -51,10 +51,11 @@ class SiteChecks(unittest.TestCase):
         shutil.copytree(PROJECT, source, ignore=shutil.ignore_patterns(".git", "_site", "_preview", "vendor", ".bundle", "docs"))
         template = (source / "_posts/2026-10-19-translate-menu-iphone.md").read_text()
         def fixture(title, date, extra=""):
-            data = template.replace("How to translate a menu on your iPhone", title)
-            data = data.replace("description: Learn how", f"description: {title}. Learn how")
-            data = data.replace("date: 2026-10-19 00:00:00 +0300", f"date: {date} 00:00:00 +0300")
-            data = data.replace("updated: 2026-10-19 00:00:00 +0300", f"updated: {date} 00:00:00 +0300")
+            # Fixture metadata must stay distinct when the real article copy changes.
+            data = re.sub(r"^title:.*$", f"title: {title}", template, count=1, flags=re.M)
+            data = re.sub(r"^description:.*$", f"description: {title} fixture for publication checks.", data, count=1, flags=re.M)
+            for field in ("date", "updated"):
+                data = re.sub(rf"^{field}:.*$", f"{field}: {date} 00:00:00 +0300", data, count=1, flags=re.M)
             data = re.sub(r"title_lines:\n(?:  - .*\n)+", "", data)
             return data.replace("---\n", "---\n" + extra, 1)
         (source / "_drafts").mkdir(exist_ok=True)
