@@ -51,3 +51,99 @@ For a private draft preview, use a separate destination (`jekyll serve --drafts 
 `assets/blog/cafe-menu.webp`, `florence-banner.webp`, and `paris-signs.webp` are generated editorial illustrations matching the selected mock. The hero/menu photograph is not a real customer photo or a device test. Product screenshots and icon are the supplied existing assets. Arrows are unmodified Heroicons assets under their MIT license in `assets/icons/LICENSE`. Review captures are under `docs/review/blog` and are excluded from the published site.
 
 `assets/blog/cairo-conversation.webp` is an AI-generated editorial illustration for the Egyptian Arabic article, optimized from a 1448×1086 PNG using WebP quality 80. It is not a real customer photograph, location record, or product test. Its caption discloses generation; its exact prompt and built-in imagegen mode are recorded in the research JSON.
+
+## Seven-article plan — researched 20 October 2026
+
+Two articles are live: the menu guide (19 October) and the Egyptian Arabic comparison (20 October). Five additional guides would bring the total to seven. This plan covers English-language content for international iPhone users and deliberately expands beyond Arabic. It proposes publication at **14:30 Africa/Cairo, 21–25 October**, after editorial approval, with a maximum of one approved article per local day. These are targets, not scheduled jobs. If an article is not ready, move its date; do not publish two the next day to catch up.
+
+One-per-day is an editorial pace, not a Google safety threshold. Google's [generative-content guidance](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content/) and [spam policies](https://developers.google.com/search/docs/essentials/spam-policies) focus on reader value, accuracy, and the purpose of the content. Avoid five near-identical country substitutions, even at one per day.
+
+### Research method and limits
+
+The complete evidence and briefs are in [the research JSON](research/seven-article-plan-2026-10-20.json). Google Keyword Planner was used in the existing Chrome account for **40 manually supplied English keyword phrases**, with Google Search, **All languages** (the historical-metrics interface locks this setting), and **October 2025–September 2026** selected. Each phrase was checked worldwide and separately in the United States. This differs from the earlier Egyptian research's English-selected discovery view; scopes are recorded with each dataset. Gum's existing profile was used for Search Console reads; its shared credentials and scopes were not changed. No ad campaign or billing change was made.
+
+Ranges include close variants and must not be summed. They are searches, not unique people, traffic forecasts, app downloads, or LLM prompt counts. The Ads competition column measures advertisers, not organic difficulty. A dash means no available metric, not zero demand. Current search-result types were reviewed, but no geo-controlled Google top-ten, backlink, or numeric SEO difficulty audit is claimed. App-vendor lists were used to understand existing coverage, not as independent accuracy evidence.
+
+Search Console had only **8 preliminary impressions and 0 clicks** across the property for 1–20 October at the check. That is too small and too early to prioritize topics from Spek's own ranking performance. Google Trends was also checked for the five primary phrases: Worldwide, Past 12 months, All categories, Web Search, search terms. Relative indices are not monthly counts. European Portuguese and some other exact phrases were sparse; there is no defensible recurring-seasonality claim. For `voice translator iphone`, the mean relative index was 20.8 in the first 13 displayed weeks and 40.1 in the last 13 complete weeks. That is a descriptive observation, not a doubling of searches or a causal claim. The exact Japanese “best” phrase was sparse recently, so it is not a trend-driven urgent priority.
+
+Local screenshots and raw accessible tables remain under `/Users/mahmoud/.codex/visualizations/2026/10/20/spek-seven-article-plan/`. The repository JSON contains sanitized metrics and primary sources without Google account identifiers.
+
+### Calendar and measured primary keywords
+
+The two published entries are unchanged. New rows below use the exact measured primary phrase; related phrases have their own ranges in the research JSON.
+
+| # | Date / status | Proposed article | Measured primary phrase | Worldwide / month | US / month |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 19 Oct — live | How to translate a menu on your iPhone | Existing guide | — | — |
+| 2 | 20 Oct — live | Egyptian Arabic translator apps for iPhone: what to choose | Earlier research retained separately | — | — |
+| 3 | 21 Oct — proposed | How to translate a screenshot on your iPhone | `translate screenshot iphone` | 100–1K | 10–100 |
+| 4 | 22 Oct — proposed | Mexican Spanish translator apps for iPhone: choosing the right Spanish | `mexican spanish translator` | 1K–10K | 1K–10K |
+| 5 | 23 Oct — proposed | European Portuguese translator apps for iPhone: choosing Portuguese for Portugal | `european portuguese translator` | 100–1K | 100–1K |
+| 6 | 24 Oct — proposed | How to translate an in-person conversation on iPhone | `voice translator iphone` | 100–1K | 10–100 |
+| 7 | 25 Oct — proposed | Japanese translator apps for iPhone: menus, signs, and conversations | `best japanese translator app` | 1K–10K | 100–1K |
+
+### Article 3: screenshot translation
+
+This is a saved-screen task across languages, not another restaurant-camera tutorial. Start with Photos / Live Text and Apple Translate's Photo Library path, then show Google Translate Gallery and Spek Photo Library as alternatives. Explain missing Translate controls, text recognition versus translation-language support, legibility, and what each path needs online. `how to translate a screenshot` also showed 100–1K worldwide and in the US, but overlaps the primary phrase and is not additive.
+
+The useful original contribution is a current, demonstrated screenshot workflow with troubleshooting, using owned non-private sample screens. Record device/iOS, app version, language and method for real demonstrations; otherwise label instructions documentation-based. Spek can import an image; do not imply it automatically translates another running app. Link to the existing menu guide for restaurant tasks and `/#photo-translation`; add the Japanese guide only after it exists.
+
+Primary references: [Apple Photos / Live Text](https://support.apple.com/en-us/120004), [Apple Translate Camera and Photo Library](https://support.apple.com/guide/iphone/translate-with-the-camera-iphea8b95631/ios), [Apple availability](https://www.apple.com/ios/feature-availability/), and [Google image translation](https://support.google.com/translate/answer/6142483?co=GENIE.Platform%3DiOS&hl=en). Apple support and existing tutorials make this competitive; the recommendation rests on task clarity and fit, not presumed easy rankings.
+
+### Article 4: Mexican Spanish choices
+
+Compare Google Translate, Apple Translate, SpanishDictionary.com and Spek for a concrete choice: conversation, message wording or vocabulary lookup. Explain how a Mexico output choice differs from a Latin American dictionary label or a playback-accent setting. Spek's country list contains Mexico / Spanish (Mexican). Apple's current Translate App availability list names Spanish (Spain), which is a label distinction, not evidence that it cannot handle Mexican speech.
+
+The related `english to mexican spanish` phrase showed 10K–100K worldwide and in the US, but much of that intent can be an instant translation task. The explicit `mexican spanish translator app` phrase was only 10–100 in both markets. Do not present the large head-term range as the potential audience or traffic of the comparison.
+
+Verify regional controls for each input method before giving steps. Published translated examples or quality claims require matched inputs and fluent Mexican Spanish review. Start with a documentation-based task comparison if that evidence is unavailable. Initially link to the screenshot guide for text that cannot be selected, and to `/#dialect-choices`. When article 6 ships, add a useful conversation-guide link.
+
+Primary references: [SpanishDictionary's regional coverage](https://help.spanishdict.com/article/105-what-type-of-spanish-does-spanishdictionarycom-use), [regional pronunciations](https://help.spanishdict.com/article/146-regional-audio-pronunciations), [Google speech settings](https://support.google.com/translate/answer/6142468?co=GENIE.Platform%3DiOS&hl=en), and [Apple availability](https://www.apple.com/ios/feature-availability/). The observed search snapshot mixed generic app directories and dictionary/translator intent; it did not establish low organic competition.
+
+### Article 5: Portuguese for Portugal
+
+Compare DeepL, Google Translate, Apple Translate and Spek for users who specifically want Portuguese for Portugal. The decision is about output variety, playback and input method, not an argument that one country's Portuguese is universally unusable elsewhere. Explain Spek's separate Portugal / Portuguese (European) and Brazil / Portuguese (Brazilian) choices. Include DeepL as a credible alternative rather than reducing the article to a promotion.
+
+`english to european portuguese` showed 1K–10K worldwide and 100–1K in the US; the explicit app phrase showed 10–100 in both. Apple's Translate App list currently names Portuguese (Brazil). DeepL's developer listing names Portuguese and Portuguese (Brazilian), but its current iPhone picker and per-feature behavior still need verification before exact variety-selection instructions are written. API language availability alone is not proof of a consumer-app control.
+
+Any example comparison needs fluent European Portuguese review. Link to the screenshot and menu guides where those tasks arise, and to `/#dialect-choices`; add article 6 when live. Keep the scope translation for Portugal, rather than another list of language-learning courses.
+
+Primary references: [Apple availability](https://www.apple.com/ios/feature-availability/), [DeepL mobile help](https://support.deepl.com/hc/en-us/articles/360020662260-DeepL-mobile-apps), [DeepL's developer listing](https://apps.apple.com/app/id1552407475), and [Google speech settings](https://support.google.com/translate/answer/6142468?co=GENIE.Platform%3DiOS&hl=en). Existing commercial Portuguese comparisons already cover this space; smaller volume does not imply easy ranking.
+
+### Article 6: in-person conversations
+
+Cover two people taking turns on one phone. Compare Apple Translate Conversation / face-to-face, Google's current iPhone options, and Spek's hold, release, review and swap workflow. Address short turns, background noise, names and connectivity. Explicitly separate this from phone-call, FaceTime, continuous background or AirPods translation; those have different requirements.
+
+`translate conversation iphone` showed 10–100 worldwide and in the US. The broader `live translation iphone` showed 1K–10K in both, but mixes other intents and is not used as the article's primary demand estimate. Google's September 2026 iOS announcement makes a current-feature check particularly important. Never describe Spek as offline, a call translator or continuous live interpretation without evidence of those features.
+
+Use a non-private sample exchange if demonstrating the workflow, recording current versions and settings. Link to the already published Egyptian, Mexican and Portuguese guides where readers need a country choice, plus `/#features` for Spek's voice workflow. The homepage has no `#voice-translation` fragment.
+
+Primary references: [Apple in-person conversations](https://support.apple.com/en-euro/guide/iphone/n4pjjxr31uel/ios), [Apple Live Translation requirements](https://support.apple.com/en-us/123720), [Google's 4 September 2026 update](https://blog.google/products-and-platforms/products/translate/google-translate-ios-android-upgrades/), and [Google speech instructions](https://support.google.com/translate/answer/6142468?co=GENIE.Platform%3DiOS&hl=en).
+
+### Article 7: Japan travel toolkit
+
+Compare by task: a menu, a station sign, or a short spoken exchange. Include Apple Translate, Google Translate, the free NICT VoiceTra app and Spek. Give a real offline fallback through a tool that supports the required input method; Spek and VoiceTra require internet. NICT's current site also requires a recent supported VoiceTra version, so recheck this before writing. Link to the menu, screenshot and conversation guides instead of copying their complete tutorials.
+
+Both `best japanese translator app` and `japanese translator app` showed 1K–10K worldwide and 100–1K in the US. `japanese voice translator` showed 100–1K in both. These overlap and are not additive. The longer `japanese translation app for travel` returned no available metric; do not call it zero demand. The exact “best” Trends phrase was sparse recently, and a single year is not proof of Japan travel seasonality.
+
+This is the most competitive proposed comparison: established destination guides and app vendors already cover it. It goes last so there is time to assemble useful evidence. A readable owned Japanese sample and fluent review are needed for any published output-quality comparisons. Use a factual task matrix and ownership disclosure; do not award Spek an overall accuracy win without tests.
+
+Primary references: [VoiceTra's current NICT site](https://voicetra.nict.go.jp/en/), [its FAQ](https://voicetra.nict.go.jp/en/faq.html), [Apple availability](https://www.apple.com/ios/feature-availability/), and [Google image instructions](https://support.google.com/translate/answer/6142483?co=GENIE.Platform%3DiOS&hl=en). Search observations such as [Inside Kyoto](https://www.insidekyoto.com/best-japanese-translation-apps-for-japan-travel) and [an app-vendor comparison](https://airapps.co/blog/best-japanese-translator-app-for-travel) establish existing coverage, not an independent quality benchmark.
+
+### Topics deliberately deferred
+
+- **Offline translator roundup:** real demand, but poor direct Spek fit while it requires internet. Cover offline alternatives honestly inside the relevant guides.
+- **WhatsApp messages / voice notes:** `translate whatsapp messages iphone` showed 100–1K in both markets, and the broader `whatsapp translator` showed 10K–100K worldwide. [WhatsApp already documents native message translation](https://blog.whatsapp.com/introducing-message-translations). Spek has no verified direct integration or voice-note import; a manual copy/screenshot workaround alone is a weaker distinctive first-seven article. The announcement's whole-chat automation applied to Android; do not casually promise it on iPhone.
+- **Darija / Moroccan Arabic:** broad `darija translator` showed 10K–100K worldwide, but a -90% quarterly and yearly change in that view, versus 1K–10K in the US. There is demand to revisit, but it would repeat the regional-Arabic format before establishing breadth. `darija translator app` showed just 10–100 in both markets.
+- **Arabic image translation / OCR:** a potential follow-up, with 1K–10K worldwide for `arabic image to english translation`. One early site impression is not enough to prioritize it over broadening coverage. Cover relevant recognition limitations in the screenshot guide first; pure OCR/document extraction is a different task.
+- **Generic best AI translator / best iPhone translator:** existing broad competition and a weak distinctive claim. `best ai translation app` showed 100–1K worldwide; `best translator app for iphone` showed 1K–10K. Neither is evidence of LLM recommendation demand. Specific task and language guides are the current editorial choice.
+
+### Publication and measurement
+
+Prepare one draft PR per article. Check current controls and primary sources, disclose Spek's ownership, and verify every example or mark the comparison documentation-based. Only publish after approval, at most once per Cairo day. A future date in Jekyll does not create a scheduled build. No scheduler, automatic merge, or new article is created by this plan.
+
+Add contextual links when the destination becomes live; do not publish dead links to future guides or bump update dates for cosmetic link changes. Preserve the existing hub, schema, sitemap, RSS and mobile layout checks. After deployment, verify the production page and discovery files, then inspect crawl/index status when Search Console has data.
+
+Review indexing and early query relevance around seven days after each publication. Use at least 28 days of observations before judging acquisition performance, with longer observation if counts remain tiny. Distinguish non-brand impressions, website clicks, App Store CTA clicks and downloads; Search Console does not measure downloads. CTA analytics and attribution would need separate implementation.
+
+For LLM visibility, use a fixed balanced prompt set, consistent model/date/location settings and repeated samples, tracking recommendations and source citations separately. Search volumes and publishing cadence do not demonstrate ChatGPT or Claude visibility. Google's [AI-search guidance](https://developers.google.com/search/docs/appearance/ai-features) supports ordinary discoverability and helpful content, not a special best-list or schema shortcut.
