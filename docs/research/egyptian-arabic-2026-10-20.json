@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-20",
-  "decision": "Proceed with one unpublished iPhone comparison as a small editorial experiment. Spek remains a multilingual product; Egyptian Arabic is one content cluster.",
+  "decision": "Publish one approved iPhone comparison as a small editorial experiment. Spek remains a multilingual product; Egyptian Arabic is one content cluster.",
   "keywordPlanner": {
     "source": "Google Ads Keyword Planner, existing signed-in Chrome account",
     "locations": "All locations",
@@ -114,8 +114,8 @@
     ],
     "definitions": "https://support.google.com/trends/answer/4365533?hl=en"
   },
-  "draft": {
-    "path": "_drafts/egyptian-arabic-translator-iphone.md",
+  "article": {
+    "path": "_posts/2026-10-20-egyptian-arabic-translator-iphone.md",
     "primaryKeyword": "egyptian arabic translator",
     "secondaryKeywords": [
       "english to egyptian arabic",
@@ -123,7 +123,7 @@
       "egyptian dialect translator"
     ],
     "comparisonBasis": "Official documentation and developer listings, with Spek country choices and hold-to-speak controls checked in local source. No comparative hands-on or native-speaker accuracy test.",
-    "publication": "Unpublished until editorial approval; do not claim tested rankings or verified Arabic examples without the required evidence."
+    "publication": "Publication approved by the user on 20 October 2026. Do not claim tested rankings or verified Arabic examples without the required evidence."
   },
   "cover": {
     "path": "assets/blog/cairo-conversation.webp",

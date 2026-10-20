@@ -2,8 +2,8 @@
 title: "Egyptian Arabic translator apps for iPhone: what to choose"
 description: Compare Apple Translate, Google Translate, Egyptian Arabic Translator, and Spek for Egyptian Arabic on iPhone. Check dialect choices, voice, text, and offline needs.
 subtitle: Choose for the conversation you need, from a quick Arabic phrase to everyday Egyptian speech.
-date: 2026-10-20 00:00:00 +0300
-updated: 2026-10-20 00:00:00 +0300
+date: 2026-10-20 14:19:29 +0300
+updated: 2026-10-20 14:19:29 +0300
 reading_time: 6
 topic: Language & dialects
 feature: Egyptian Arabic
