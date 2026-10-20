@@ -91,8 +91,10 @@ def validate(output):
         for tag, attrs in page.elements:
             if tag == "img":
                 assert attrs.get("src") and all(k in attrs for k in ("alt", "width", "height")), f"Image needs alt/dimensions: {file}"
-            if tag == "a" and "apps.apple.com" in attrs.get("href", ""):
-                assert attrs["href"] == APP, f"Wrong App Store URL: {file}"
+            if tag == "a":
+                app_link = urlsplit(attrs.get("href", ""))
+                if app_link.hostname == "apps.apple.com" and re.search(r"/id6748774580(?:/|$)", app_link.path):
+                    assert attrs["href"] == APP, f"Wrong Spek App Store URL: {file}"
             for attr in ("href", "src"):
                 value = attrs.get(attr)
                 if not value:
