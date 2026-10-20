@@ -1,0 +1,139 @@
+{
+  "checked": "2026-10-20",
+  "decision": "Publish one approved iPhone comparison as a small editorial experiment. Spek remains a multilingual product; Egyptian Arabic is one content cluster.",
+  "keywordPlanner": {
+    "source": "Google Ads Keyword Planner, existing signed-in Chrome account",
+    "locations": "All locations",
+    "languageSetting": "English",
+    "network": "Google Search",
+    "period": {
+      "start": "2025-10",
+      "end": "2026-09"
+    },
+    "metric": "Average monthly searches: displayed ranges, keyword and close variants",
+    "rows": [
+      {
+        "keyword": "egyptian arabic translator",
+        "averageMonthlySearches": "1K–10K",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "english to egyptian arabic",
+        "averageMonthlySearches": "1K–10K",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "egyptian arabic to english",
+        "averageMonthlySearches": "1K–10K",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "egyptian dialect translator",
+        "averageMonthlySearches": "100–1K",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "egyptian arabic app",
+        "averageMonthlySearches": "10–100",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Medium"
+      },
+      {
+        "keyword": "egyptian arabic translator app",
+        "averageMonthlySearches": "10–100",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "masri translator",
+        "averageMonthlySearches": "10–100",
+        "threeMonthChange": "+900%",
+        "yearOverYearChange": "+900%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "translate english to egyptian arabic",
+        "averageMonthlySearches": "1K–10K",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low",
+        "origin": "Suggested idea"
+      }
+    ],
+    "notReturnedAsSeparateProvidedRows": [
+      "best egyptian arabic translator",
+      "egyptian arabic voice translator",
+      "egyptian translation app"
+    ],
+    "limitations": [
+      "Rounded ranges, not exact volumes.",
+      "Keywords and close variants may overlap; do not sum rows.",
+      "English is the selected UI language setting; the default search statistics can include the term regardless of searcher's language.",
+      "Advertiser competition is not organic SEO difficulty.",
+      "Large percentage changes in a 10–100 bucket are not evidence of a large opportunity.",
+      "No competitor ranking audit, conversion forecast, or LLM prompt-demand estimate was performed."
+    ],
+    "definitions": "https://support.google.com/google-ads/answer/3022575?hl=en"
+  },
+  "gum": {
+    "version": "2.3.1",
+    "profile": "jobhunter",
+    "operation": "googleads.keywordPlanIdeas.generateKeywordHistoricalMetrics",
+    "result": "SCOPE_MISSING: existing authorization lacks the adwords scope. No shared credentials or scopes changed.",
+    "fallback": "Existing Chrome Keyword Planner account provided ranges without launching an ad campaign."
+  },
+  "trends": {
+    "source": "https://trends.google.com/trends/explore?date=today%2012-m&q=Egyptian%20Arabic%20translator,English%20to%20Egyptian%20Arabic,Masri%20translator,Egyptian%20Arabic%20app,best%20Egyptian%20Arabic%20translator&hl=en",
+    "locations": "Worldwide",
+    "period": "Past 12 months",
+    "category": "All categories",
+    "searchType": "Web Search",
+    "comparisonType": "Search terms",
+    "averageRelativeInterest": {
+      "Egyptian Arabic translator": 4,
+      "English to Egyptian Arabic": 63,
+      "Masri translator": 0,
+      "Egyptian Arabic app": 33,
+      "best Egyptian Arabic translator": 0
+    },
+    "limitations": [
+      "Normalized sampled relative interest on a 0–100 scale, not monthly counts or percentages.",
+      "A displayed zero can mean insufficient data, not zero searches.",
+      "Do not compare these indices directly with Keyword Planner ranges or infer a breakout trend.",
+      "Latest week is incomplete."
+    ],
+    "definitions": "https://support.google.com/trends/answer/4365533?hl=en"
+  },
+  "article": {
+    "path": "_posts/2026-10-20-egyptian-arabic-translator-iphone.md",
+    "primaryKeyword": "egyptian arabic translator",
+    "secondaryKeywords": [
+      "english to egyptian arabic",
+      "egyptian arabic to english",
+      "egyptian dialect translator"
+    ],
+    "comparisonBasis": "Official documentation and developer listings, with Spek country choices and hold-to-speak controls checked in local source. No comparative hands-on or native-speaker accuracy test.",
+    "publication": "Publication approved by the user on 20 October 2026. Do not claim tested rankings or verified Arabic examples without the required evidence."
+  },
+  "cover": {
+    "path": "assets/blog/cairo-conversation.webp",
+    "mode": "Built-in imagegen tool, new image, opaque background",
+    "prompt": "Use case: photorealistic-natural\nAsset type: 4:3 landscape editorial cover for a practical guide to Egyptian Arabic translator apps for iPhone.\nPrimary request: an inviting, everyday Cairo street café scene, seen from a small outdoor table with two clear glasses of tea, with sunlit warm stone architecture and the street softly receding into the background. Natural, candid travel editorial photography with believable texture, restrained warm cream and terracotta colors, late-afternoon light. The scene should suggest everyday conversation in Egypt without staged advertising.\nComposition: landscape 4:3, enough room around the tea glasses for responsive cropping; no overlaid text.\nConstraints: no recognizable people, no phones or app interfaces, no readable signs or lettering, no brand logos, no watermark. This is an illustrative image, not evidence of a real product test.",
+    "dimensions": {
+      "width": 1448,
+      "height": 1086
+    },
+    "optimization": "cwebp -q 80",
+    "disclosure": "AI-generated editorial illustration; not a real customer photograph or a test."
+  }
+}

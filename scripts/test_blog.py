@@ -46,6 +46,16 @@ class SiteChecks(unittest.TestCase):
         with self.assertRaisesRegex(AssertionError, "Unreachable pages"):
             validator.validate(self.output)
 
+    def test_comparison_can_link_other_apps_but_spek_stays_country_neutral(self):
+        p = self.output / "blog/translate-menu-iphone/index.html"
+        original = p.read_text()
+        p.write_text(original.replace("</main>", '<a href="https://apps.apple.com/app/id6744645998">Specialist alternative</a></main>'))
+        with redirect_stdout(StringIO()):
+            validator.validate(self.output)
+        p.write_text(original.replace(validator.APP, "https://apps.apple.com/us/app/id6748774580"))
+        with self.assertRaisesRegex(AssertionError, "Wrong Spek App Store URL"):
+            validator.validate(self.output)
+
     def test_published_related_content_and_draft_boundaries(self):
         source = Path(self.temp.name) / "source"
         shutil.copytree(PROJECT, source, ignore=shutil.ignore_patterns(".git", "_site", "_preview", "vendor", ".bundle", "docs"))
