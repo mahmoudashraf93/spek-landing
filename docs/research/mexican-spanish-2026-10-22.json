@@ -1,0 +1,92 @@
+{
+  "checked": "2026-10-22",
+  "timezone": "Africa/Cairo",
+  "decision": "Publish the planned Mexican Spanish guide on October 22 as the third live article. The October 21 screenshot guide did not ship. Publish only one article today; remaining dates are editorial proposals, not automated jobs.",
+  "article": {
+    "title": "Mexican Spanish translator apps for iPhone",
+    "url": "https://usespek.com/blog/mexican-spanish-translator-iphone/",
+    "method": "Documentation-based task comparison with ownership disclosure; no hands-on accuracy ranking, translated example, or native-speaker review claimed."
+  },
+  "keywordEvidence": {
+    "researchedOn": "2026-10-20",
+    "record": "seven-article-plan-2026-10-20.json",
+    "source": "Google Ads Keyword Planner in the existing signed-in Chrome account",
+    "settings": "Google Search; All languages (historical-metrics UI locked); October 2025–September 2026; worldwide and United States separately.",
+    "rows": [
+      {
+        "keyword": "mexican spanish translator",
+        "worldwide": "1K–10K",
+        "unitedStates": "1K–10K"
+      },
+      {
+        "keyword": "english to mexican spanish",
+        "worldwide": "10K–100K",
+        "unitedStates": "10K–100K"
+      },
+      {
+        "keyword": "mexican spanish translator app",
+        "worldwide": "10–100",
+        "unitedStates": "10–100"
+      }
+    ],
+    "limits": [
+      "These are the October 20 measurements, not a fresh October 22 volume check.",
+      "Rounded ranges include close variants; do not sum.",
+      "Broad terms include instant-translation intent; they are not an app-comparison traffic forecast.",
+      "Advertiser competition is not organic ranking difficulty; no LLM prompt-demand measurement."
+    ]
+  },
+  "sourceChecks": [
+    {
+      "url": "https://help.spanishdict.com/article/105-what-type-of-spanish-does-spanishdictionarycom-use",
+      "supports": "Country labels on dictionary meanings, including Mexico; neutral Latin American machine output."
+    },
+    {
+      "url": "https://help.spanishdict.com/article/146-regional-audio-pronunciations",
+      "supports": "Latin America / Spain pronunciation controls on website and iPhone/iPad."
+    },
+    {
+      "url": "https://help.spanishdict.com/article/202-resources-on-spanishdictionarycom",
+      "supports": "Dictionary entries, examples and machine translation are different resources."
+    },
+    {
+      "url": "https://support.apple.com/guide/iphone/translate-words-and-phrases-iphd74cb450f/ios",
+      "supports": "Typed / Listen input, playback, downloaded-language translation."
+    },
+    {
+      "url": "https://www.apple.com/ios/feature-availability/",
+      "supports": "Translate App specifically lists Spanish (Spain); no inference of inability to understand Mexican speech."
+    },
+    {
+      "url": "https://support.google.com/translate/answer/6142468?co=GENIE.Platform%3DiOS&hl=en",
+      "supports": "Dictation and Speech region where supported; no unobserved Mexico option asserted."
+    },
+    {
+      "url": "https://support.google.com/translate/answer/6142483?co=GENIE.Platform%3DiOS&hl=en",
+      "supports": "Camera, Gallery, legibility, available downloaded languages for offline camera translation."
+    },
+    {
+      "url": "https://apps.apple.com/app/id6748774580",
+      "supports": "Spek listing and in-app purchases; country-neutral app ID."
+    }
+  ],
+  "spekSourceChecks": [
+    "ios/Spek/Spek/Models/Language.swift: MX = Mexico / Spanish (Mexican), alongside other countries and languages.",
+    "ios/Spek/Spek/Features/AudioTranslation/Views/AudioTranslationView.swift: header selection, hold microphone and release instructions.",
+    "ios/Spek/Spek/Features/AudioTranslation/ViewModels/AudioTranslationViewModel.swift: sourceCountry and targetCountry are passed into translation requests.",
+    "ios/Spek/Spek/Core/Network/TranslationService.swift: request country codes are serialized."
+  ],
+  "cover": {
+    "mode": "Built-in imagegen; new image; opaque background",
+    "prompt": "Use case: photorealistic-natural\nAsset type: 4:3 landscape editorial cover for a reader-first guide to Mexican Spanish translator apps for iPhone.\nPrimary request: an inviting everyday neighborhood street in Mexico City, viewed from a shaded café doorway, with warm ochre and terracotta stucco buildings, leafy trees, a few simple outdoor café tables, and soft morning sunshine. Natural travel editorial photography, believable architecture and textures, calm contemporary atmosphere, restrained cream and warm earth colors that suit a minimal magazine layout.\nComposition: landscape 4:3, subject comfortably inside the frame for mobile cropping. Do not depict a specific identifiable landmark.\nConstraints: no identifiable people, phones, app screens, readable signs or lettering, brand logos, slogans, or watermark. Avoid tourist clichés. This is an illustrative image, not a claim of a real trip or a product test.",
+    "generatedPng": "/Users/mahmoud/.codex/generated_images/01a150e4-3dbf-79d3-b4bd-19e53b4d960c/exec-4135551b-67fe-4865-b53c-81763cc58717.png",
+    "finalAsset": "assets/blog/mexico-city-conversation.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 277152,
+    "encoding": "cwebp quality 80",
+    "disclosure": "AI-generated editorial illustration; not a real trip, customer photograph or product test."
+  }
+}

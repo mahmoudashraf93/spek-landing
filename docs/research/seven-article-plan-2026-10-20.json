@@ -1,0 +1,1730 @@
+{
+  "researchedOn": "2026-10-20",
+  "objective": "Plan five additional articles, bringing Spek's published total from two to seven, with at most one approved publication per day.",
+  "audience": "English-language website content for international iPhone users. Worldwide demand is primary; the US is a comparison market, not the only target.",
+  "status": "Research and proposed calendar only; no new article, automation, scheduled publication, or paid campaign created.",
+  "published": [
+    {
+      "number": 1,
+      "title": "How to translate a menu on your iPhone",
+      "date": "2026-10-19",
+      "url": "https://usespek.com/blog/translate-menu-iphone/"
+    },
+    {
+      "number": 2,
+      "title": "Egyptian Arabic translator apps for iPhone: what to choose",
+      "date": "2026-10-20",
+      "url": "https://usespek.com/blog/egyptian-arabic-translator-iphone/"
+    }
+  ],
+  "proposedCadence": {
+    "timezone": "Africa/Cairo",
+    "time": "14:30",
+    "maximumApprovedArticlesPerLocalDay": 1,
+    "firstNewDate": "2026-10-21",
+    "lastNewDate": "2026-10-25",
+    "rule": "Approval and verification before publication. If not ready, move the date; never catch up by publishing two on one day. Dates are proposed targets, not scheduled jobs.",
+    "googleClarification": "One-per-day is an editorial preference, not a published Google safety threshold. Quality, originality, accuracy and purpose matter."
+  },
+  "method": {
+    "keywordPlanner": "40 manually supplied English keyword phrases; Google Search; All languages (UI locked); All locations and United States separately; October 2025–September 2026.",
+    "gum": "Used existing jobhunter profile for Search Console reads. Ads scope remains unavailable; keyword ranges came from the existing Chrome account. No credentials, scopes or billing changed.",
+    "trends": "Compared the five selected primary search terms worldwide over the past 12 months; stored all 53 displayed weekly rows and excluded the newest incomplete week from window means.",
+    "resultReview": "Reviewed current search-result types and official Apple, Google, WhatsApp, DeepL, SpanishDictionary and NICT sources. App-vendor comparisons are treated as competition signals, not independent accuracy evidence.",
+    "limitations": [
+      "Rounded ranges including close variants; do not sum keywords or convert volumes into traffic forecasts.",
+      "Google Ads competition is advertiser competition, not an organic SEO score.",
+      "Search snapshots are not a geo-controlled Google top-ten or backlink audit.",
+      "No third-party-app hands-on benchmark or native-speaker evaluation was performed.",
+      "No ChatGPT/Claude prompt-demand measurement or recommendation guarantee.",
+      "A dash in Keyword Planner means no available metric, not zero demand.",
+      "Trends is sampled relative interest, not volume. Low-data zeros and isolated spikes do not establish no demand or recurring seasonality."
+    ]
+  },
+  "keywordPlanner": {
+    "worldwide": {
+      "checked": "2026-10-20",
+      "locations": "All locations",
+      "languages": "All languages (UI locked)",
+      "network": "Google Search",
+      "period": "October 2025–September 2026",
+      "rows": [
+        {
+          "keyword": "arabic image to english translation",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "arabic ocr",
+          "averageMonthlySearches": "10K – 100K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "+900%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "arabic photo translator",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "-90%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "best ai translation app",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "best japanese translator app",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "best offline translator app",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "best translation app for travel",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "best translator app for iphone",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "darija translator",
+          "averageMonthlySearches": "10K – 100K",
+          "threeMonthChange": "-90%",
+          "yearOverYearChange": "-90%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "darija translator app",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "english to darija",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "english to european portuguese",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "english to mexican spanish",
+          "averageMonthlySearches": "10K – 100K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "european portuguese translator",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "european portuguese translator app",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "google translate alternatives",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "how to translate a screenshot",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "iphone conversation translator",
+          "averageMonthlySearches": "—",
+          "threeMonthChange": "—",
+          "yearOverYearChange": "—",
+          "advertiserCompetition": "—"
+        },
+        {
+          "keyword": "iphone photo translate",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "-90%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "japanese translation app for travel",
+          "averageMonthlySearches": "—",
+          "threeMonthChange": "—",
+          "yearOverYearChange": "—",
+          "advertiserCompetition": "—"
+        },
+        {
+          "keyword": "japanese translator app",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "japanese voice translator",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "live translation iphone",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "-90%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "mexican spanish translator",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "mexican spanish translator app",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "mexican spanish vs spanish",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "moroccan arabic translator",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "offline translator iphone",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "offline voice translator",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "High"
+        },
+        {
+          "keyword": "portuguese portugal translator",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "translate arabic image to english",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "translate conversation iphone",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "+∞",
+          "advertiserCompetition": "High"
+        },
+        {
+          "keyword": "translate screenshot iphone",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "translate text in image iphone",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "translate whatsapp messages iphone",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "translate whatsapp voice message",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "translator without internet iphone",
+          "averageMonthlySearches": "—",
+          "threeMonthChange": "—",
+          "yearOverYearChange": "—",
+          "advertiserCompetition": "—"
+        },
+        {
+          "keyword": "voice translator iphone",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "whatsapp message translation",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "whatsapp translator",
+          "averageMonthlySearches": "10K – 100K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "-90%",
+          "advertiserCompetition": "Low"
+        }
+      ]
+    },
+    "unitedStates": {
+      "checked": "2026-10-20",
+      "locations": "United States",
+      "languages": "All languages (UI locked)",
+      "network": "Google Search",
+      "period": "October 2025–September 2026",
+      "rows": [
+        {
+          "keyword": "arabic image to english translation",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "+900%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "arabic ocr",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "arabic photo translator",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "best ai translation app",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "best japanese translator app",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "best offline translator app",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "best translation app for travel",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "best translator app for iphone",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "darija translator",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "darija translator app",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "english to darija",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "english to european portuguese",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "english to mexican spanish",
+          "averageMonthlySearches": "10K – 100K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "european portuguese translator",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "european portuguese translator app",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "google translate alternatives",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "how to translate a screenshot",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "-90%",
+          "yearOverYearChange": "-90%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "iphone conversation translator",
+          "averageMonthlySearches": "—",
+          "threeMonthChange": "—",
+          "yearOverYearChange": "—",
+          "advertiserCompetition": "—"
+        },
+        {
+          "keyword": "iphone photo translate",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "japanese translation app for travel",
+          "averageMonthlySearches": "—",
+          "threeMonthChange": "—",
+          "yearOverYearChange": "—",
+          "advertiserCompetition": "—"
+        },
+        {
+          "keyword": "japanese translator app",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "japanese voice translator",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "live translation iphone",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "mexican spanish translator",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "mexican spanish translator app",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "mexican spanish vs spanish",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "moroccan arabic translator",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "offline translator iphone",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "offline voice translator",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "High"
+        },
+        {
+          "keyword": "portuguese portugal translator",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "translate arabic image to english",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "translate conversation iphone",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "+∞",
+          "advertiserCompetition": "High"
+        },
+        {
+          "keyword": "translate screenshot iphone",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "translate text in image iphone",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "translate whatsapp messages iphone",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "translate whatsapp voice message",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "translator without internet iphone",
+          "averageMonthlySearches": "—",
+          "threeMonthChange": "—",
+          "yearOverYearChange": "—",
+          "advertiserCompetition": "—"
+        },
+        {
+          "keyword": "voice translator iphone",
+          "averageMonthlySearches": "10 – 100",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "-90%",
+          "advertiserCompetition": "Medium"
+        },
+        {
+          "keyword": "whatsapp message translation",
+          "averageMonthlySearches": "100 – 1K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        },
+        {
+          "keyword": "whatsapp translator",
+          "averageMonthlySearches": "1K – 10K",
+          "threeMonthChange": "0%",
+          "yearOverYearChange": "0%",
+          "advertiserCompetition": "Low"
+        }
+      ]
+    }
+  },
+  "trends": {
+    "scope": "Worldwide; Past 12 months; All categories; Web Search; search terms",
+    "checked": "2026-10-20",
+    "terms": [
+      "translate screenshot iphone",
+      "european portuguese translator",
+      "mexican spanish translator",
+      "best japanese translator app",
+      "voice translator iphone"
+    ],
+    "displayedAverageIndices": [
+      7,
+      0,
+      37,
+      10,
+      41
+    ],
+    "weekly": [
+      {
+        "week": "Oct 19, 2025",
+        "indices": [
+          0,
+          0,
+          35,
+          0,
+          21
+        ]
+      },
+      {
+        "week": "Oct 26, 2025",
+        "indices": [
+          30,
+          0,
+          46,
+          0,
+          39
+        ]
+      },
+      {
+        "week": "Nov 2, 2025",
+        "indices": [
+          0,
+          0,
+          53,
+          0,
+          21
+        ]
+      },
+      {
+        "week": "Nov 9, 2025",
+        "indices": [
+          0,
+          0,
+          42,
+          34,
+          0
+        ]
+      },
+      {
+        "week": "Nov 16, 2025",
+        "indices": [
+          0,
+          0,
+          35,
+          0,
+          30
+        ]
+      },
+      {
+        "week": "Nov 23, 2025",
+        "indices": [
+          0,
+          0,
+          34,
+          26,
+          28
+        ]
+      },
+      {
+        "week": "Nov 30, 2025",
+        "indices": [
+          0,
+          0,
+          44,
+          24,
+          28
+        ]
+      },
+      {
+        "week": "Dec 7, 2025",
+        "indices": [
+          23,
+          0,
+          26,
+          20,
+          27
+        ]
+      },
+      {
+        "week": "Dec 14, 2025",
+        "indices": [
+          0,
+          0,
+          57,
+          0,
+          28
+        ]
+      },
+      {
+        "week": "Dec 21, 2025",
+        "indices": [
+          0,
+          0,
+          35,
+          0,
+          0
+        ]
+      },
+      {
+        "week": "Dec 28, 2025",
+        "indices": [
+          0,
+          0,
+          31,
+          0,
+          26
+        ]
+      },
+      {
+        "week": "Jan 4, 2026",
+        "indices": [
+          0,
+          0,
+          34,
+          0,
+          23
+        ]
+      },
+      {
+        "week": "Jan 11, 2026",
+        "indices": [
+          0,
+          0,
+          39,
+          0,
+          0
+        ]
+      },
+      {
+        "week": "Jan 18, 2026",
+        "indices": [
+          0,
+          0,
+          19,
+          0,
+          35
+        ]
+      },
+      {
+        "week": "Jan 25, 2026",
+        "indices": [
+          0,
+          0,
+          51,
+          21,
+          29
+        ]
+      },
+      {
+        "week": "Feb 1, 2026",
+        "indices": [
+          0,
+          0,
+          50,
+          0,
+          33
+        ]
+      },
+      {
+        "week": "Feb 8, 2026",
+        "indices": [
+          25,
+          0,
+          47,
+          0,
+          20
+        ]
+      },
+      {
+        "week": "Feb 15, 2026",
+        "indices": [
+          0,
+          0,
+          33,
+          0,
+          28
+        ]
+      },
+      {
+        "week": "Feb 22, 2026",
+        "indices": [
+          0,
+          0,
+          49,
+          0,
+          25
+        ]
+      },
+      {
+        "week": "Mar 1, 2026",
+        "indices": [
+          42,
+          0,
+          40,
+          0,
+          24
+        ]
+      },
+      {
+        "week": "Mar 8, 2026",
+        "indices": [
+          27,
+          0,
+          25,
+          21,
+          32
+        ]
+      },
+      {
+        "week": "Mar 15, 2026",
+        "indices": [
+          21,
+          0,
+          50,
+          30,
+          24
+        ]
+      },
+      {
+        "week": "Mar 22, 2026",
+        "indices": [
+          0,
+          0,
+          45,
+          0,
+          32
+        ]
+      },
+      {
+        "week": "Mar 29, 2026",
+        "indices": [
+          0,
+          0,
+          46,
+          30,
+          55
+        ]
+      },
+      {
+        "week": "Apr 5, 2026",
+        "indices": [
+          24,
+          0,
+          38,
+          31,
+          54
+        ]
+      },
+      {
+        "week": "Apr 12, 2026",
+        "indices": [
+          20,
+          0,
+          39,
+          0,
+          67
+        ]
+      },
+      {
+        "week": "Apr 19, 2026",
+        "indices": [
+          0,
+          0,
+          23,
+          19,
+          62
+        ]
+      },
+      {
+        "week": "Apr 26, 2026",
+        "indices": [
+          0,
+          0,
+          41,
+          26,
+          50
+        ]
+      },
+      {
+        "week": "May 3, 2026",
+        "indices": [
+          0,
+          0,
+          45,
+          26,
+          45
+        ]
+      },
+      {
+        "week": "May 10, 2026",
+        "indices": [
+          21,
+          19,
+          49,
+          28,
+          70
+        ]
+      },
+      {
+        "week": "May 17, 2026",
+        "indices": [
+          29,
+          0,
+          41,
+          27,
+          64
+        ]
+      },
+      {
+        "week": "May 24, 2026",
+        "indices": [
+          0,
+          0,
+          36,
+          26,
+          81
+        ]
+      },
+      {
+        "week": "May 31, 2026",
+        "indices": [
+          0,
+          0,
+          40,
+          29,
+          100
+        ]
+      },
+      {
+        "week": "Jun 7, 2026",
+        "indices": [
+          0,
+          0,
+          24,
+          33,
+          81
+        ]
+      },
+      {
+        "week": "Jun 14, 2026",
+        "indices": [
+          0,
+          0,
+          33,
+          0,
+          99
+        ]
+      },
+      {
+        "week": "Jun 21, 2026",
+        "indices": [
+          0,
+          0,
+          41,
+          19,
+          69
+        ]
+      },
+      {
+        "week": "Jun 28, 2026",
+        "indices": [
+          21,
+          0,
+          62,
+          22,
+          64
+        ]
+      },
+      {
+        "week": "Jul 5, 2026",
+        "indices": [
+          0,
+          0,
+          42,
+          19,
+          76
+        ]
+      },
+      {
+        "week": "Jul 12, 2026",
+        "indices": [
+          0,
+          0,
+          0,
+          20,
+          40
+        ]
+      },
+      {
+        "week": "Jul 19, 2026",
+        "indices": [
+          0,
+          0,
+          33,
+          0,
+          45
+        ]
+      },
+      {
+        "week": "Jul 26, 2026",
+        "indices": [
+          0,
+          0,
+          36,
+          0,
+          62
+        ]
+      },
+      {
+        "week": "Aug 2, 2026",
+        "indices": [
+          21,
+          0,
+          39,
+          0,
+          37
+        ]
+      },
+      {
+        "week": "Aug 9, 2026",
+        "indices": [
+          0,
+          0,
+          37,
+          0,
+          83
+        ]
+      },
+      {
+        "week": "Aug 16, 2026",
+        "indices": [
+          0,
+          0,
+          33,
+          0,
+          52
+        ]
+      },
+      {
+        "week": "Aug 23, 2026",
+        "indices": [
+          0,
+          0,
+          54,
+          0,
+          26
+        ]
+      },
+      {
+        "week": "Aug 30, 2026",
+        "indices": [
+          0,
+          0,
+          27,
+          0,
+          68
+        ]
+      },
+      {
+        "week": "Sep 6, 2026",
+        "indices": [
+          23,
+          0,
+          33,
+          0,
+          57
+        ]
+      },
+      {
+        "week": "Sep 13, 2026",
+        "indices": [
+          0,
+          0,
+          34,
+          0,
+          39
+        ]
+      },
+      {
+        "week": "Sep 20, 2026",
+        "indices": [
+          0,
+          0,
+          0,
+          0,
+          31
+        ]
+      },
+      {
+        "week": "Sep 27, 2026",
+        "indices": [
+          0,
+          0,
+          36,
+          0,
+          0
+        ]
+      },
+      {
+        "week": "Oct 4, 2026",
+        "indices": [
+          5,
+          1,
+          22,
+          7,
+          7
+        ]
+      },
+      {
+        "week": "Oct 11, 2026",
+        "indices": [
+          8,
+          4,
+          36,
+          8,
+          14
+        ]
+      },
+      {
+        "week": "Oct 18, 2026",
+        "indices": [
+          8,
+          0,
+          36,
+          5,
+          9
+        ]
+      }
+    ],
+    "descriptiveWindowMeans": {
+      "translate screenshot iphone": {
+        "first13WeekMean": 4.1,
+        "last13CompleteWeekMean": 4.4
+      },
+      "european portuguese translator": {
+        "first13WeekMean": 0,
+        "last13CompleteWeekMean": 0.4
+      },
+      "mexican spanish translator": {
+        "first13WeekMean": 39.3,
+        "last13CompleteWeekMean": 32.3
+      },
+      "best japanese translator app": {
+        "first13WeekMean": 8,
+        "last13CompleteWeekMean": 1.2
+      },
+      "voice translator iphone": {
+        "first13WeekMean": 20.8,
+        "last13CompleteWeekMean": 40.1
+      }
+    },
+    "limitations": [
+      "Relative sampled 0–100 indices, not search counts or percentages.",
+      "Zero can mean insufficient data.",
+      "Newest week excluded from descriptive window means.",
+      "One-year sample does not establish recurring seasonality or causation."
+    ]
+  },
+  "siteData": {
+    "source": "Gum Search Console searchanalytics.query, sc-domain:usespek.com",
+    "period": "2026-10-01–2026-10-20",
+    "dataState": "all, including preliminary data",
+    "propertyTotals": {
+      "impressions": 8,
+      "clicks": 0,
+      "ctr": 0,
+      "averagePosition": 5.875
+    },
+    "interpretation": "Too small and too early for topic-level prioritization; the recent publication is not yet a performance experiment with enough observations."
+  },
+  "topics": [
+    {
+      "number": 3,
+      "proposedDate": "2026-10-21",
+      "title": "How to translate a screenshot on your iPhone",
+      "slug": "translate-screenshot-iphone",
+      "primaryKeyword": "translate screenshot iphone",
+      "secondaryKeywords": [
+        "how to translate a screenshot",
+        "translate text in image iphone",
+        "iphone photo translate"
+      ],
+      "intent": "Complete a saved-screen translation task; troubleshoot missing text recognition.",
+      "reason": "Broadens coverage beyond Arabic and makes direct use of Spek Photo Library import, while teaching the built-in path first.",
+      "distinctContribution": "Show saved app screens and screenshots, a legibility check, and what to try when Live Text does not appear. Link to the menu article instead of repeating a restaurant-camera tutorial.",
+      "alternatives": [
+        "Apple Photos / Live Text",
+        "Apple Translate Photo Library",
+        "Google Translate Gallery",
+        "Spek Image / Photo Library"
+      ],
+      "outline": [
+        "Quick choice by screenshot type and supported language",
+        "Photos and Apple Translate steps",
+        "Gallery alternatives when the built-in path is unavailable",
+        "Missing Translate / Live Text troubleshooting, crop and legibility",
+        "What each method needs online and on-device"
+      ],
+      "evidenceBeforePublication": [
+        "Verify each photographed control on the current version or label it documentation-based.",
+        "Use owned non-private sample screenshots; record language, device/iOS, app version and chosen method.",
+        "Separate OCR support from translation-language support; do not promise all on-screen text will translate."
+      ],
+      "spekRole": "One clearly disclosed Photo Library option; no claim to overlay or automatically translate another running app.",
+      "competitionAssessment": "Apple support, videos and troubleshooting discussions already address this. The useful angle is an exact screenshot workflow with current limits, not a generic image article.",
+      "sourceIds": [
+        "apple-photos",
+        "apple-camera",
+        "apple-availability",
+        "google-images"
+      ],
+      "linksAtPublication": [
+        "/blog/translate-menu-iphone/",
+        "/#photo-translation"
+      ],
+      "laterLinks": [
+        "/blog/japanese-translator-iphone/"
+      ],
+      "priority": "First because it is an actionable cross-language guide and can be prepared without inventing dialect examples.",
+      "confidence": "Good product fit; modest exact iPhone phrase demand and weak Trends signal.",
+      "primaryDemand": {
+        "worldwide": "100 – 1K",
+        "unitedStates": "10 – 100"
+      }
+    },
+    {
+      "number": 4,
+      "proposedDate": "2026-10-22",
+      "title": "Mexican Spanish translator apps for iPhone: choosing the right Spanish",
+      "slug": "mexican-spanish-translator-iphone",
+      "primaryKeyword": "mexican spanish translator",
+      "secondaryKeywords": [
+        "english to mexican spanish",
+        "mexican spanish translator app"
+      ],
+      "intent": "Choose a translation workflow and understand country-specific versus general Spanish output.",
+      "reason": "Strongest measured broad translation demand among the selected language topics, including substantial US demand; supports the product's broad coverage.",
+      "distinctContribution": "Distinguish a Mexico output choice, Latin American dictionary labels and a playback-accent setting. Those are different capabilities.",
+      "alternatives": [
+        "Google Translate",
+        "Apple Translate",
+        "SpanishDictionary.com",
+        "Spek"
+      ],
+      "outline": [
+        "Quick choice for conversation, message wording or vocabulary lookup",
+        "Mexico versus a general Spanish label, without claiming other varieties are unusable",
+        "Feature comparison: country choice, voice, text, dictionary context and connectivity",
+        "How to select Mexico in Spek; ownership disclosure",
+        "When to check phrasing with a fluent Mexican Spanish speaker"
+      ],
+      "evidenceBeforePublication": [
+        "Verify Mexico selection in Spek and document which other apps expose regional output versus pronunciation settings.",
+        "Use matched test inputs only if showing outputs or declaring a winner; get fluent Mexican Spanish review for published examples.",
+        "Do not use the 10K–100K English-to-Mexican head term as the projected audience of an app-comparison article."
+      ],
+      "spekRole": "Explicit Mexico / Spanish (Mexican) country choice, with its actual hold-to-speak workflow.",
+      "competitionAssessment": "Broad terms often expect an instant translator or dictionary, not a blog article. Explicit app-shopping phrases are much smaller; no easy organic win is assumed.",
+      "sourceIds": [
+        "apple-availability",
+        "google-speech",
+        "spanishdict-regions",
+        "spanishdict-audio"
+      ],
+      "linksAtPublication": [
+        "/blog/translate-screenshot-iphone/",
+        "/#dialect-choices"
+      ],
+      "laterLinks": [
+        "/blog/translate-conversation-iphone/"
+      ],
+      "priority": "Second to demonstrate non-Arabic regional coverage with real demand.",
+      "confidence": "Strong broad demand and product fit; lower confidence about how much of that demand wants an app comparison.",
+      "primaryDemand": {
+        "worldwide": "1K – 10K",
+        "unitedStates": "1K – 10K"
+      }
+    },
+    {
+      "number": 5,
+      "proposedDate": "2026-10-23",
+      "title": "European Portuguese translator apps for iPhone: choosing Portuguese for Portugal",
+      "slug": "european-portuguese-translator-iphone",
+      "primaryKeyword": "european portuguese translator",
+      "secondaryKeywords": [
+        "english to european portuguese",
+        "european portuguese translator app",
+        "portuguese portugal translator"
+      ],
+      "intent": "Choose translation for Portugal and understand the distinction between output variety and spoken playback.",
+      "reason": "Smaller but specific task, aligned with Spek's Portugal and Brazil choices. The current Apple Translate availability labels provide a concrete issue to explain.",
+      "distinctContribution": "Make the European/Brazilian output and pronunciation distinction explicit; include DeepL as a credible alternative, not only Apple/Google/Spek.",
+      "alternatives": [
+        "DeepL",
+        "Google Translate",
+        "Apple Translate",
+        "Spek"
+      ],
+      "outline": [
+        "What to choose for Portugal: text, voice or photo task",
+        "Where Portuguese variety is explicitly selectable",
+        "Comparison of output label, playback, dictation, photo handling and purchases",
+        "Selecting Portugal in Spek",
+        "When a native speaker or human translator is needed"
+      ],
+      "evidenceBeforePublication": [
+        "Check current DeepL iPhone language picker and Portuguese variety choices for text, dictation and playback separately.",
+        "Confirm the current Apple availability list at writing time; absence of a separate Portugal label is not an accuracy test.",
+        "Have a fluent European Portuguese reviewer validate any examples; otherwise keep the comparison documentation-based."
+      ],
+      "spekRole": "Portugal / Portuguese (European) alongside Brazil / Portuguese (Brazilian); do not claim a universal quality advantage.",
+      "competitionAssessment": "Existing commercial Portuguese comparisons and learning-app results overlap. Make this about translation choices for Portugal, not another general language-learning list.",
+      "sourceIds": [
+        "apple-availability",
+        "deepl-mobile",
+        "deepl-store",
+        "google-speech"
+      ],
+      "linksAtPublication": [
+        "/blog/translate-screenshot-iphone/",
+        "/blog/translate-menu-iphone/",
+        "/#dialect-choices"
+      ],
+      "laterLinks": [
+        "/blog/translate-conversation-iphone/"
+      ],
+      "priority": "Third: a smaller niche with a concrete product distinction, balanced against the larger Spanish topic.",
+      "confidence": "Good fit and specific intent; low Trends signal and tiny exact app phrase.",
+      "primaryDemand": {
+        "worldwide": "100 – 1K",
+        "unitedStates": "100 – 1K"
+      }
+    },
+    {
+      "number": 6,
+      "proposedDate": "2026-10-24",
+      "title": "How to translate an in-person conversation on iPhone",
+      "slug": "translate-conversation-iphone",
+      "primaryKeyword": "voice translator iphone",
+      "secondaryKeywords": [
+        "translate conversation iphone"
+      ],
+      "excludedPrimaryKeywords": [
+        "live translation iphone"
+      ],
+      "intent": "Two people taking turns on one phone, rather than phone-call, FaceTime or AirPods translation.",
+      "reason": "Covers voice separately from photo translation and creates a practical parent guide for language-specific choices.",
+      "distinctContribution": "Separate Apple's Conversation mode, Google live or conversation features, and Spek's manual hold-and-release turns. Show exact requirements rather than calling every option real time.",
+      "alternatives": [
+        "Apple Translate Conversation",
+        "Google Translate",
+        "Spek"
+      ],
+      "outline": [
+        "Quick setup for two people sharing one phone",
+        "Apple Conversation and face-to-face options",
+        "Google's current iPhone conversation and live feature availability",
+        "Spek hold, release, review and swap workflow",
+        "Noise, names, short turns and offline preparation",
+        "Separate note on calls, FaceTime and AirPods requirements"
+      ],
+      "evidenceBeforePublication": [
+        "Check current iPhone UI and region requirements, especially Google features announced in September 2026.",
+        "Document turn-taking and audio playback with a non-private sample exchange.",
+        "Do not imply Spek translates phone calls, runs continuous background interpretation, or works offline."
+      ],
+      "spekRole": "A deliberate turn-by-turn voice option with country choices, with internet and in-app purchase requirements clear.",
+      "competitionAssessment": "Apple support and many app vendors already serve this intent. The broader live-translation phrase mixes hardware and calling needs and is excluded from the primary demand estimate.",
+      "sourceIds": [
+        "apple-conversation",
+        "apple-live",
+        "google-live",
+        "google-speech"
+      ],
+      "linksAtPublication": [
+        "/blog/egyptian-arabic-translator-iphone/",
+        "/blog/mexican-spanish-translator-iphone/",
+        "/blog/european-portuguese-translator-iphone/",
+        "/#features"
+      ],
+      "laterLinks": [
+        "/blog/japanese-translator-iphone/"
+      ],
+      "priority": "Fourth, after two additional regional guides are available to link to.",
+      "confidence": "Strong product fit; modest exact iPhone keyword volume. Relative Trends interest was higher late in the window, without a causal or traffic forecast.",
+      "primaryDemand": {
+        "worldwide": "100 – 1K",
+        "unitedStates": "10 – 100"
+      }
+    },
+    {
+      "number": 7,
+      "proposedDate": "2026-10-25",
+      "title": "Japanese translator apps for iPhone: menus, signs, and conversations",
+      "slug": "japanese-translator-iphone",
+      "primaryKeyword": "best japanese translator app",
+      "secondaryKeywords": [
+        "japanese translator app",
+        "japanese voice translator"
+      ],
+      "intent": "Select a Japan travel toolkit for reading and short exchanges, including a real offline fallback.",
+      "reason": "Adds another writing system and a practical travel decision. Exact app-comparison demand is measured, unlike the broader regional terms.",
+      "distinctContribution": "Compare by task rather than self-awarded overall accuracy. Include the free NICT VoiceTra option for travel speech and a supported offline fallback.",
+      "alternatives": [
+        "Apple Translate",
+        "Google Translate",
+        "NICT VoiceTra",
+        "Spek"
+      ],
+      "outline": [
+        "Quick choices for signs, menus and conversations",
+        "Task matrix: camera, saved image, spoken turn, offline preparation",
+        "VoiceTra's travel and network limits",
+        "Where a connected voice/photo workflow such as Spek fits",
+        "Before departure: language downloads and an airplane-mode check",
+        "Handling unclear place names and important details"
+      ],
+      "evidenceBeforePublication": [
+        "Recheck current VoiceTra supported version, requirements, purpose and internet dependence.",
+        "Use readable owned Japanese text samples; fluent Japanese review is required for any published output-quality comparisons.",
+        "Link to the menu, screenshot and conversation guides instead of repeating their entire instructions.",
+        "Do not imply current travel seasonality or claim an overall winner without tests."
+      ],
+      "spekRole": "One disclosed connected photo and voice option; an offline recommendation must come from a tool that actually supports the required method.",
+      "competitionAssessment": "Most competitive selected comparison: established travel publishers and translator vendors already target it. Trends for the exact best phrase was sparse recently; this is an evergreen coverage test, not an urgent rising-trend play.",
+      "sourceIds": [
+        "apple-availability",
+        "google-images",
+        "google-speech",
+        "voicetra",
+        "voicetra-faq"
+      ],
+      "linksAtPublication": [
+        "/blog/translate-menu-iphone/",
+        "/blog/translate-screenshot-iphone/",
+        "/blog/translate-conversation-iphone/",
+        "/#photo-translation"
+      ],
+      "laterLinks": [],
+      "priority": "Last because the competition and evidence needed are higher, with no convincing seasonal reason to rush.",
+      "confidence": "Measured app intent and broad product fit, but high qualitative competition and weak recent exact-term Trends signal.",
+      "primaryDemand": {
+        "worldwide": "1K – 10K",
+        "unitedStates": "100 – 1K"
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "cluster": "Offline translator roundup",
+      "keywords": [
+        "best offline translator app",
+        "offline translator iphone",
+        "offline voice translator"
+      ],
+      "reason": "A real reader need, but Spek requires internet. Cover offline fallbacks honestly inside relevant guides; do not make this a Spek acquisition priority."
+    },
+    {
+      "cluster": "WhatsApp messages and voice notes",
+      "keywords": [
+        "translate whatsapp messages iphone",
+        "translate whatsapp voice message",
+        "whatsapp translator"
+      ],
+      "reason": "Existing native message translation must come first. Spek has no verified direct WhatsApp integration or voice-note import; manual copy/screenshot handling alone is a weaker distinctive article for the first seven."
+    },
+    {
+      "cluster": "Darija / Moroccan Arabic",
+      "keywords": [
+        "darija translator",
+        "moroccan arabic translator",
+        "english to darija"
+      ],
+      "reason": "Substantial broad tool demand but the worldwide head-term bucket showed -90% quarterly and yearly change. Save for a later, separately evidenced guide; avoid immediately repeating the Egyptian template while establishing multilingual breadth."
+    },
+    {
+      "cluster": "Arabic image translation / OCR",
+      "keywords": [
+        "arabic image to english translation",
+        "translate arabic image to english",
+        "arabic ocr"
+      ],
+      "reason": "Potential later topic; one early Search Console impression is weak evidence. Cover language-recognition limitations in the screenshot guide first and avoid duplicating two generic image workflows. Pure OCR and document extraction also differ from translation."
+    },
+    {
+      "cluster": "Broad best AI translator / best iPhone translator",
+      "keywords": [
+        "best ai translation app",
+        "best translator app for iphone",
+        "google translate alternatives"
+      ],
+      "reason": "Broad, heavily served selection intent. First establish useful task guides and specific comparisons; do not infer that a generic best-app list earns LLM recommendations."
+    },
+    {
+      "cluster": "Separate Mexico-versus-Spain explainer",
+      "keywords": [
+        "mexican spanish vs spanish"
+      ],
+      "reason": "The measured exact phrase was only 10–100 worldwide and the needed distinction fits the Mexican translator guide. Do not split overlapping intent into another page."
+    }
+  ],
+  "comparisonPolicy": [
+    "Answer the task before promoting Spek; disclose that Spek publishes the article.",
+    "Built-in and competing apps may be the appropriate choice for a reader.",
+    "Use best-for-task recommendations only when supported; no fabricated scores, tests, native review, or accuracy claims.",
+    "Record app version, iOS, language choices, connectivity and date for any real workflow demonstration.",
+    "Keep recognition, translation output, playback accent, dictionary region labels and offline support separate.",
+    "Do not create five country-name substitutions of one template.",
+    "Use consistent brand name Spek, supported country choices and the country-neutral App Store link."
+  ],
+  "internalLinkPolicy": [
+    "Link each article from the existing guides hub and contextual relevant feature sections.",
+    "Use existing menu and Egyptian articles where genuinely relevant.",
+    "Only add links to future guides in the PR that makes those destinations live.",
+    "The voice guide can connect regional-choice guides; the Japan guide can route readers to menu, screenshot and voice instructions.",
+    "Do not bump editorial updated dates for cosmetic links alone."
+  ],
+  "measurement": [
+    {
+      "when": "After each deployment",
+      "check": "Confirm HTTPS 200, correct canonical, contextual links, image loading, sitemap and RSS inclusion; then inspect Search Console when crawl data is available."
+    },
+    {
+      "when": "Around seven days after each publication",
+      "check": "Review index/crawl status and early page/query impressions; diagnose technical problems, not article success from sparse counts."
+    },
+    {
+      "when": "After at least 28 days of observations",
+      "check": "Compare non-brand impressions, relevant queries, clicks and CTR by page and intent. Improve coverage and snippets based on sufficient evidence; do not generate more pages merely to hit a quota."
+    },
+    {
+      "when": "If product acquisition needs measuring",
+      "check": "Instrument an approved App Store CTA-click and attribution approach first. Search Console clicks are website search clicks, not App Store downloads; analytics is not implemented in this plan."
+    },
+    {
+      "when": "For an eventual LLM visibility pilot",
+      "check": "Keep a fixed, balanced set of recommendation prompts, model/date/location settings and repeated runs; log recommendation and source-citation separately. Search volume is not LLM visibility."
+    }
+  ],
+  "evidenceLocalDirectory": "/Users/mahmoud/.codex/visualizations/2026/10/20/spek-seven-article-plan",
+  "sources": [
+    {
+      "id": "google-content",
+      "title": "Google Search: generative AI content guidance",
+      "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content/",
+      "finding": "Focus on accuracy, relevance and reader value, with manual review; it does not prescribe one article per day."
+    },
+    {
+      "id": "google-spam",
+      "title": "Google Search spam policies",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "finding": "Scaled content and substantially similar doorway pages are risks; daily cadence is not a substitute for useful original work."
+    },
+    {
+      "id": "google-ai",
+      "title": "Google Search AI features and your website",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "finding": "Normal indexing and SEO fundamentals apply. This is guidance about Google's AI search, not evidence of ChatGPT/Claude recommendation rankings."
+    },
+    {
+      "id": "keyword-definition",
+      "title": "Google Keyword Planner historical metrics definitions",
+      "url": "https://support.google.com/google-ads/answer/3022575?hl=en",
+      "finding": "Ranges include close variants; advertiser competition is not organic difficulty; do not add overlapping keyword volumes."
+    },
+    {
+      "id": "trends-definition",
+      "title": "Google Trends data FAQ",
+      "url": "https://support.google.com/trends/answer/4365533?hl=en",
+      "finding": "Sampled, normalized relative interest; zeros can reflect insufficient data. The FAQ was read earlier in this conversation; a later refresh returned an access error."
+    },
+    {
+      "id": "apple-photos",
+      "title": "Apple: Copy and translate text from photos",
+      "url": "https://support.apple.com/en-us/120004",
+      "finding": "Photos and Live Text provide a built-in path on supported devices and languages."
+    },
+    {
+      "id": "apple-camera",
+      "title": "Apple: camera and Photo Library translation",
+      "url": "https://support.apple.com/guide/iphone/translate-with-the-camera-iphea8b95631/ios",
+      "finding": "The Translate app can use Camera or a Photo Library image."
+    },
+    {
+      "id": "apple-availability",
+      "title": "Apple iOS feature availability",
+      "url": "https://www.apple.com/ios/feature-availability/",
+      "finding": "The Translate App section lists Portuguese (Brazil) and Spanish (Spain). It does not separately list Portuguese (Portugal) or Spanish (Mexico) there. This is a language-label distinction, not an accuracy test."
+    },
+    {
+      "id": "google-images",
+      "title": "Google Translate: images on iPhone",
+      "url": "https://support.google.com/translate/answer/6142483?co=GENIE.Platform%3DiOS&hl=en",
+      "finding": "Camera and Gallery workflows, clarity limitations, and downloadable languages where available."
+    },
+    {
+      "id": "apple-conversation",
+      "title": "Apple: translate in-person conversations",
+      "url": "https://support.apple.com/en-euro/guide/iphone/n4pjjxr31uel/ios",
+      "finding": "Conversation and face-to-face views are documented separately from AirPods Live Translation."
+    },
+    {
+      "id": "apple-live",
+      "title": "Apple: Live Translation on iPhone",
+      "url": "https://support.apple.com/en-us/123720",
+      "finding": "Messages, Phone, FaceTime and AirPods paths have their own requirements and should not be conflated with any generic voice translator."
+    },
+    {
+      "id": "google-live",
+      "title": "Google Translate iOS and Android upgrades, 4 September 2026",
+      "url": "https://blog.google/products-and-platforms/products/translate/google-translate-ios-android-upgrades/",
+      "finding": "Google announced iOS earpiece playback worldwide; background live translation was Android-only with iOS coming later at that announcement. Recheck before giving device-specific instructions."
+    },
+    {
+      "id": "google-speech",
+      "title": "Google Translate: speech and speech-region settings",
+      "url": "https://support.google.com/translate/answer/6142468?co=GENIE.Platform%3DiOS&hl=en",
+      "finding": "Speech-region choices exist for some languages; recognition settings do not establish translated-output register or comparative accuracy."
+    },
+    {
+      "id": "spanishdict-regions",
+      "title": "SpanishDictionary.com: what type of Spanish it uses",
+      "url": "https://help.spanishdict.com/article/105-what-type-of-spanish-does-spanishdictionarycom-use",
+      "finding": "Dictionary entries can carry country labels; machine-translation output is described as neutral Latin American Spanish."
+    },
+    {
+      "id": "spanishdict-audio",
+      "title": "SpanishDictionary.com: regional audio pronunciations",
+      "url": "https://help.spanishdict.com/article/146-regional-audio-pronunciations",
+      "finding": "Its iPhone/iPad pronunciation choices distinguish Latin America and Spain, not an accuracy ranking for Mexican output."
+    },
+    {
+      "id": "deepl-mobile",
+      "title": "DeepL mobile apps",
+      "url": "https://support.deepl.com/hc/en-us/articles/360020662260-DeepL-mobile-apps",
+      "finding": "Official mobile support links document dictation, images and cross-app workflows."
+    },
+    {
+      "id": "deepl-store",
+      "title": "DeepL iPhone App Store listing",
+      "url": "https://apps.apple.com/app/id1552407475",
+      "finding": "Developer lists Portuguese and Portuguese (Brazilian), dictation, photo translation and text-to-speech. Verify current iPhone variety choices per input method before writing step-by-step directions."
+    },
+    {
+      "id": "voicetra",
+      "title": "VoiceTra official NICT site",
+      "url": "https://voicetra.nict.go.jp/en/",
+      "finding": "Free speech translation, internet required, and a current-version requirement; useful credible alternative in a Japan travel comparison."
+    },
+    {
+      "id": "voicetra-faq",
+      "title": "VoiceTra official FAQ",
+      "url": "https://voicetra.nict.go.jp/en/faq.html",
+      "finding": "Designed for travel conversation one sentence at a time; feature and offline limits should be compared explicitly."
+    },
+    {
+      "id": "whatsapp",
+      "title": "WhatsApp: introducing message translations",
+      "url": "https://blog.whatsapp.com/introducing-message-translations",
+      "finding": "Long-press Translate with on-device processing was announced for iPhone. Whole-chat automatic translation in that announcement applied to Android; recheck current availability before writing."
+    },
+    {
+      "id": "serp-portuguese",
+      "title": "Observed Portuguese comparison result",
+      "url": "https://preply.com/en/blog/best-portuguese-translation-app/",
+      "finding": "A current commercial comparison already covers multiple apps and varieties. Used only as a result-type/competition observation, not as proof of app features or ranking difficulty."
+    },
+    {
+      "id": "serp-japanese",
+      "title": "Observed Japan travel comparison result",
+      "url": "https://www.insidekyoto.com/best-japanese-translation-apps-for-japan-travel",
+      "finding": "An established destination guide covers this intent. Used as a qualitative competition observation, not a controlled Google ranking or backlink audit."
+    },
+    {
+      "id": "serp-japanese-vendor",
+      "title": "Observed app-vendor Japanese comparison",
+      "url": "https://airapps.co/blog/best-japanese-translator-app-for-travel",
+      "finding": "Vendor comparison content also targets this intent. A Spek article needs transparent ownership and evidence rather than a self-awarded winner."
+    },
+    {
+      "id": "serp-mexican",
+      "title": "Observed Mexican Spanish app-directory result",
+      "url": "https://appshunter.io/ios/topics/translate-mexican-spanish",
+      "finding": "The search snapshot includes generic app-directory results. This does not establish an easy ranking opportunity."
+    }
+  ]
+}
