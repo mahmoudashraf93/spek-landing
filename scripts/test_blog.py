@@ -59,7 +59,11 @@ class SiteChecks(unittest.TestCase):
     def test_published_related_content_and_draft_boundaries(self):
         source = Path(self.temp.name) / "source"
         shutil.copytree(PROJECT, source, ignore=shutil.ignore_patterns(".git", "_site", "_preview", "vendor", ".bundle", "docs"))
-        template = (source / "_posts/2026-10-19-translate-menu-iphone.md").read_text()
+        target = source / "_posts/2026-10-19-translate-menu-iphone.md"
+        # Isolate related-item eligibility from the growing real article archive.
+        # Otherwise two newer real posts can fill both slots before this fixture.
+        template = re.sub(r"^tags:.*$", "tags: [publication-boundary-fixture]", target.read_text(), count=1, flags=re.M)
+        target.write_text(template)
         def fixture(title, date, extra=""):
             # Fixture metadata must stay distinct when the real article copy changes.
             data = re.sub(r"^title:.*$", f"title: {title}", template, count=1, flags=re.M)

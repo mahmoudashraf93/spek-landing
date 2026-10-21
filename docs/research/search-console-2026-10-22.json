@@ -1,0 +1,154 @@
+{
+  "checkedOn": "2026-10-22",
+  "timezone": "Africa/Cairo",
+  "source": "Gum CLI 2.3.1; existing jobhunter profile; Search Console reads only. No credentials, scopes, billing or auth configuration changed.",
+  "property": "sc-domain:usespek.com",
+  "period": {
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-21",
+    "dataState": "all",
+    "firstIncompleteDate": "2026-10-20"
+  },
+  "totals": {
+    "impressions": 26,
+    "clicks": 0,
+    "ctr": 0,
+    "position": 7.384615384615385
+  },
+  "daily": [
+    {
+      "date": "2026-10-17",
+      "impressions": 0
+    },
+    {
+      "date": "2026-10-18",
+      "impressions": 2,
+      "position": 8
+    },
+    {
+      "date": "2026-10-19",
+      "impressions": 8,
+      "position": 5.5
+    },
+    {
+      "date": "2026-10-20",
+      "impressions": 12,
+      "position": 8.6666666667
+    },
+    {
+      "date": "2026-10-21",
+      "impressions": 4,
+      "position": 7
+    }
+  ],
+  "pages": [
+    {
+      "url": "http://usespek.com/",
+      "impressions": 4,
+      "clicks": 0,
+      "position": 9
+    },
+    {
+      "url": "https://usespek.com/",
+      "impressions": 17,
+      "clicks": 0,
+      "position": 6.647058823529412
+    },
+    {
+      "url": "https://usespek.com/blog/egyptian-arabic-translator-iphone/",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 4
+    },
+    {
+      "url": "https://usespek.com/blog/translate-menu-iphone/",
+      "impressions": 4,
+      "clicks": 0,
+      "position": 9.75
+    }
+  ],
+  "disclosedQueries": [
+    {
+      "query": "arabic image to english translation",
+      "impressions": 1,
+      "position": 7
+    },
+    {
+      "query": "i spek",
+      "impressions": 1,
+      "position": 5
+    },
+    {
+      "query": "spek in english",
+      "impressions": 1,
+      "position": 9
+    },
+    {
+      "query": "spek tradução",
+      "impressions": 3,
+      "position": 11
+    },
+    {
+      "query": "spek translate",
+      "impressions": 3,
+      "position": 8.3333333333
+    },
+    {
+      "query": "translate speek",
+      "impressions": 1,
+      "position": 9
+    }
+  ],
+  "queryPageObservation": "All disclosed query-plus-page rows are for the homepage. Article impressions exist but no article query strings were disclosed.",
+  "inspections": [
+    {
+      "url": "https://usespek.com/blog/translate-menu-iphone/",
+      "lastCrawlTime": "2026-10-19T11:22:26Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "crawledAs": "MOBILE",
+      "googleCanonical": "https://usespek.com/blog/translate-menu-iphone/",
+      "userCanonical": "https://usespek.com/blog/translate-menu-iphone/"
+    },
+    {
+      "url": "https://usespek.com/blog/egyptian-arabic-translator-iphone/",
+      "lastCrawlTime": "2026-10-20T23:19:52Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "crawledAs": "MOBILE",
+      "googleCanonical": "https://usespek.com/blog/egyptian-arabic-translator-iphone/",
+      "userCanonical": "https://usespek.com/blog/egyptian-arabic-translator-iphone/"
+    },
+    {
+      "url": "https://usespek.com/blog/",
+      "lastCrawlTime": "2026-10-20T08:29:35Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "crawledAs": "MOBILE",
+      "googleCanonical": "https://usespek.com/blog/",
+      "userCanonical": "https://usespek.com/blog/"
+    }
+  ],
+  "limitations": [
+    "October 20–21 are preliminary.",
+    "The October 20 snapshot had eight preliminary impressions over an earlier available window; newer data and backfill prevent a like-for-like growth percentage.",
+    "Small samples cannot establish stable article rankings or topic success.",
+    "Disclosed queries do not sum to all impressions; omitted queries must not be invented.",
+    "This measures website search exposure and clicks, not App Store CTA clicks, downloads or LLM recommendations.",
+    "The newly published Mexican Spanish article has not been inspected yet."
+  ],
+  "operations": [
+    "searchconsole.searchanalytics.query",
+    "searchconsole.urlInspection.index.inspect"
+  ],
+  "operationInspection": "gum describe was read before either operation was called."
+}

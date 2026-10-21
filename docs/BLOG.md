@@ -52,9 +52,11 @@ For a private draft preview, use a separate destination (`jekyll serve --drafts 
 
 `assets/blog/cairo-conversation.webp` is an AI-generated editorial illustration for the Egyptian Arabic article, optimized from a 1448×1086 PNG using WebP quality 80. It is not a real customer photograph, location record, or product test. Its caption discloses generation; its exact prompt and built-in imagegen mode are recorded in the research JSON.
 
+`assets/blog/mexico-city-conversation.webp` follows the same disclosure and encoding approach for the 22 October Mexican Spanish guide. Its sources, source-code checks, exact cover prompt, and keyword evidence are in [the article research record](research/mexican-spanish-2026-10-22.json). The comparison distinguishes country-specific wording, speech/playback settings, and regional dictionary labels; it does not rank translation accuracy.
+
 ## Seven-article plan — researched 20 October 2026
 
-Two articles are live: the menu guide (19 October) and the Egyptian Arabic comparison (20 October). Five additional guides would bring the total to seven. This plan covers English-language content for international iPhone users and deliberately expands beyond Arabic. It proposes publication at **14:30 Africa/Cairo, 21–25 October**, after editorial approval, with a maximum of one approved article per local day. These are targets, not scheduled jobs. If an article is not ready, move its date; do not publish two the next day to catch up.
+The original 20 October plan started with two live articles: the menu guide (19 October) and the Egyptian Arabic comparison (20 October). Five additional guides would bring the total to seven. This plan covers English-language content for international iPhone users and deliberately expands beyond Arabic. The original 21–25 October dates were proposed targets, not scheduled jobs. No article shipped on 21 October. The user's 22 October publication request moves the Mexican Spanish guide into the third publication slot, leaving four proposed guides. Publish at most one approved article per Cairo day; do not catch up by publishing two.
 
 One-per-day is an editorial pace, not a Google safety threshold. Google's [generative-content guidance](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content/) and [spam policies](https://developers.google.com/search/docs/essentials/spam-policies) focus on reader value, accuracy, and the purpose of the content. Avoid five near-identical country substitutions, even at one per day.
 
@@ -70,19 +72,19 @@ Local screenshots and raw accessible tables remain under `/Users/mahmoud/.codex/
 
 ### Calendar and measured primary keywords
 
-The two published entries are unchanged. New rows below use the exact measured primary phrase; related phrases have their own ranges in the research JSON.
+The calendar below reflects the 22 October publication. Remaining dates are proposals and require editorial work and approval; no scheduler is installed. Rows use the measured primary phrase; related phrases have their own ranges in the original research JSON.
 
 | # | Date / status | Proposed article | Measured primary phrase | Worldwide / month | US / month |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 19 Oct — live | How to translate a menu on your iPhone | Existing guide | — | — |
 | 2 | 20 Oct — live | Egyptian Arabic translator apps for iPhone: what to choose | Earlier research retained separately | — | — |
-| 3 | 21 Oct — proposed | How to translate a screenshot on your iPhone | `translate screenshot iphone` | 100–1K | 10–100 |
-| 4 | 22 Oct — proposed | Mexican Spanish translator apps for iPhone: choosing the right Spanish | `mexican spanish translator` | 1K–10K | 1K–10K |
-| 5 | 23 Oct — proposed | European Portuguese translator apps for iPhone: choosing Portuguese for Portugal | `european portuguese translator` | 100–1K | 100–1K |
-| 6 | 24 Oct — proposed | How to translate an in-person conversation on iPhone | `voice translator iphone` | 100–1K | 10–100 |
-| 7 | 25 Oct — proposed | Japanese translator apps for iPhone: menus, signs, and conversations | `best japanese translator app` | 1K–10K | 100–1K |
+| 3 | 22 Oct — published in this release | Mexican Spanish translator apps for iPhone | `mexican spanish translator` | 1K–10K | 1K–10K |
+| 4 | 23 Oct — proposed | How to translate a screenshot on your iPhone | `translate screenshot iphone` | 100–1K | 10–100 |
+| 5 | 24 Oct — proposed | European Portuguese translator apps for iPhone: choosing Portuguese for Portugal | `european portuguese translator` | 100–1K | 100–1K |
+| 6 | 25 Oct — proposed | How to translate an in-person conversation on iPhone | `voice translator iphone` | 100–1K | 10–100 |
+| 7 | 26 Oct — proposed | Japanese translator apps for iPhone: menus, signs, and conversations | `best japanese translator app` | 1K–10K | 100–1K |
 
-### Article 3: screenshot translation
+### Screenshot translation brief — now proposed fourth
 
 This is a saved-screen task across languages, not another restaurant-camera tutorial. Start with Photos / Live Text and Apple Translate's Photo Library path, then show Google Translate Gallery and Spek Photo Library as alternatives. Explain missing Translate controls, text recognition versus translation-language support, legibility, and what each path needs online. `how to translate a screenshot` also showed 100–1K worldwide and in the US, but overlaps the primary phrase and is not additive.
 
@@ -90,13 +92,13 @@ The useful original contribution is a current, demonstrated screenshot workflow 
 
 Primary references: [Apple Photos / Live Text](https://support.apple.com/en-us/120004), [Apple Translate Camera and Photo Library](https://support.apple.com/guide/iphone/translate-with-the-camera-iphea8b95631/ios), [Apple availability](https://www.apple.com/ios/feature-availability/), and [Google image translation](https://support.google.com/translate/answer/6142483?co=GENIE.Platform%3DiOS&hl=en). Apple support and existing tutorials make this competitive; the recommendation rests on task clarity and fit, not presumed easy rankings.
 
-### Article 4: Mexican Spanish choices
+### Mexican Spanish brief — published third on 22 October
 
 Compare Google Translate, Apple Translate, SpanishDictionary.com and Spek for a concrete choice: conversation, message wording or vocabulary lookup. Explain how a Mexico output choice differs from a Latin American dictionary label or a playback-accent setting. Spek's country list contains Mexico / Spanish (Mexican). Apple's current Translate App availability list names Spanish (Spain), which is a label distinction, not evidence that it cannot handle Mexican speech.
 
 The related `english to mexican spanish` phrase showed 10K–100K worldwide and in the US, but much of that intent can be an instant translation task. The explicit `mexican spanish translator app` phrase was only 10–100 in both markets. Do not present the large head-term range as the potential audience or traffic of the comparison.
 
-Verify regional controls for each input method before giving steps. Published translated examples or quality claims require matched inputs and fluent Mexican Spanish review. Start with a documentation-based task comparison if that evidence is unavailable. Initially link to the screenshot guide for text that cannot be selected, and to `/#dialect-choices`. When article 6 ships, add a useful conversation-guide link.
+Verify regional controls for each input method before giving steps. Published translated examples or quality claims require matched inputs and fluent Mexican Spanish review. The 22 October article uses a documentation-based task comparison. It links to the existing menu guide and `/#dialect-choices`; the screenshot guide is not live yet. Add screenshot and conversation links when those destinations exist.
 
 Primary references: [SpanishDictionary's regional coverage](https://help.spanishdict.com/article/105-what-type-of-spanish-does-spanishdictionarycom-use), [regional pronunciations](https://help.spanishdict.com/article/146-regional-audio-pronunciations), [Google speech settings](https://support.google.com/translate/answer/6142468?co=GENIE.Platform%3DiOS&hl=en), and [Apple availability](https://www.apple.com/ios/feature-availability/). The observed search snapshot mixed generic app directories and dictionary/translator intent; it did not establish low organic competition.
 
@@ -147,3 +149,9 @@ Add contextual links when the destination becomes live; do not publish dead link
 Review indexing and early query relevance around seven days after each publication. Use at least 28 days of observations before judging acquisition performance, with longer observation if counts remain tiny. Distinguish non-brand impressions, website clicks, App Store CTA clicks and downloads; Search Console does not measure downloads. CTA analytics and attribution would need separate implementation.
 
 For LLM visibility, use a fixed balanced prompt set, consistent model/date/location settings and repeated samples, tracking recommendations and source citations separately. Search volumes and publishing cadence do not demonstrate ChatGPT or Claude visibility. Google's [AI-search guidance](https://developers.google.com/search/docs/appearance/ai-features) supports ordinary discoverability and helpful content, not a special best-list or schema shortcut.
+
+### Search Console update — 22 October 2026
+
+Gum reads for 1–21 October returned **26 impressions and 0 clicks** with `dataState: all`, compared with 8 preliminary impressions recorded on 20 October. This includes newer data and backfill, so it is not a like-for-like growth rate. Google marks 20 October as the first incomplete date; 20–21 October remain preliminary. The menu guide has 4 impressions, the Egyptian guide 1, and the homepage 21 across its reported HTTP/HTTPS rows. All disclosed query rows belong to the homepage; no article keyword ranking can be inferred from them.
+
+URL Inspection confirms the two older articles and the blog hub are indexed, fetch successfully, allow crawling and indexing, and use the expected HTTPS Google canonical. The new Mexican Spanish guide has not yet been inspected after publication. Search Console does not measure App Store downloads. The dated metrics and inspection results are saved in [the update record](research/search-console-2026-10-22.json). The original plan JSON remains an unchanged historical snapshot.
