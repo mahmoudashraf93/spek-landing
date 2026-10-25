@@ -1,0 +1,79 @@
+{
+  "checked": "2026-10-26",
+  "timezone": "Africa/Cairo",
+  "decision": "Publish the queued screenshot guide as the fourth article, per the user's explicit request to prepare and publish the next article. Only one article is being published today. Remaining publication dates are proposals, not scheduled jobs.",
+  "article": {
+    "title": "How to translate a screenshot on your iPhone",
+    "url": "https://usespek.com/blog/translate-screenshot-iphone/",
+    "method": "Documentation-based instructions with ownership disclosure. No new device test, actual translation output, native review, or accuracy ranking claimed."
+  },
+  "keywordEvidence": {
+    "researchedOn": "2026-10-20",
+    "record": "seven-article-plan-2026-10-20.json",
+    "source": "Existing Google Keyword Planner research; not refreshed for this release",
+    "keyword": "translate screenshot iphone",
+    "worldwide": "100–1K",
+    "unitedStates": "10–100",
+    "settings": "Google Search; All languages; October 2025–September 2026.",
+    "limits": "Rounded ranges include close variants, not traffic forecasts. Do not sum overlapping terms."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://support.apple.com/en-us/120004",
+      "supports": "Photos Live Text → Translate, language prompts, iPhone XS/XR or later and iOS 15 or later, Settings → General → Language & Region."
+    },
+    {
+      "url": "https://support.apple.com/guide/iphone/take-a-screenshot-iphc872c0115/ios",
+      "supports": "Screenshot hardware controls, saved captures in Photos, full-page capture; current documentation distinguishes full-screen and thumbnail capture settings."
+    },
+    {
+      "url": "https://support.apple.com/guide/iphone/translate-with-the-camera-iphea8b95631/ios",
+      "supports": "Translate → Camera → Photo Library; switch languages and share translated image."
+    },
+    {
+      "url": "https://support.apple.com/guide/iphone/translate-words-and-phrases-iphd74cb450f/ios",
+      "supports": "Downloaded language translation. Article advises testing the exact saved-image task, without claiming all image features work offline."
+    },
+    {
+      "url": "https://www.apple.com/ios/feature-availability/",
+      "supports": "Live Text and Translate App use separate availability lists. Article makes no exhaustive language claims."
+    },
+    {
+      "url": "https://support.google.com/translate/answer/6142483?co=GENIE.Platform%3DiOS&hl=en",
+      "supports": "iPhone Camera → Gallery; input/output language controls; small/stylized/unclear text limitations; available offline camera language downloads."
+    }
+  ],
+  "spekSourceChecks": [
+    "ios/Spek/Spek/Features/ImageTranslation/Views/ImageTranslationView.swift: Image Translation, Select Image → Photo Library, source/target choices, preview, Translate Image / Analyzing... controls.",
+    "ios/Spek/Spek/Features/ImageTranslation/ViewModels/ImageTranslationViewModel.swift: selected image required, differing source and target required, conversion to image data and translationService call.",
+    "ios/Spek/Spek/Core/Helpers/ImagePicker.swift: photoLibrary source and editing-enabled image picker; no direct integration with other running apps claimed.",
+    "ios/Spek/Spek/Core/Network/APIClient.swift and TranslationService.swift: image translation requests use the remote API; article discloses sending imported image to translation service."
+  ],
+  "searchConsole": {
+    "attemptedOn": "2026-10-26",
+    "profile": "jobhunter",
+    "period": {
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-25"
+    },
+    "status": "unavailable",
+    "errorCode": "AUTH_REFRESH_FAILED",
+    "description": "Read attempts for overall, date, and page analytics failed because Google OAuth refresh token was revoked or expired. No credentials or scopes modified; no fresh metrics asserted."
+  },
+  "cover": {
+    "tool": "Built-in image_gen__imagegen",
+    "original": "/Users/mahmoud/.codex/generated_images/01a1750f-ed0b-79b0-9cd2-ae1e4b959373/exec-0d639491-1bef-4462-8c0b-c0e51d88f5c3.png",
+    "path": "assets/blog/screenshot-travel-notes.webp",
+    "width": 1448,
+    "height": 1086,
+    "encoding": "cwebp -q 82; 146498 bytes",
+    "prompt": "Use case: photorealistic-natural. Asset type: 4:3 landscape editorial cover for Spek's Field Notes guide 'How to translate a screenshot on your iPhone'. Create a quiet, premium travel editorial still life: a modern dark smartphone resting face down beside an open cream notebook and a simple cobalt-blue pen on a pale stone cafe table, with a folded blank pale paper slip. The phone is face down so absolutely no screen or interface is visible. A softly blurred sunlit urban courtyard beyond the table. Natural linen and stone textures, muted sage and warm ivory palette with restrained deep blue accent, soft morning side light, subtle film grain, inviting unforced realism, carefully composed close photograph with breathing room. Landscape 4:3 composition. No lettering, no logos, no watermark, no visible phone screen, no fake translation interface, no people or hands. This is an editorial illustration about pausing to read a saved travel message, not a product demonstration.",
+    "disclosure": "AI-generated editorial illustration; face-down phone, no UI or claimed translation result."
+  },
+  "validation": {
+    "draft": "Draft excluded from production build: 7 pages and 3 articles. Existing 5 regression tests passed.",
+    "visual": "Reviewed at 1440px desktop and 390px mobile; 320px width fit checked with no horizontal overflow. Mobile troubleshooting jump confirmed. Review screenshots in docs/review/screenshot-translation/.",
+    "publication": "Production Jekyll build passed: 8 pages and 4 articles; all internal links, anchors, canonicals, metadata, schema, sitemap and RSS validated; all 5 regression tests and git diff --check passed. GitHub CI must pass before merge; live page, cover, sitemap, feed, and hub will be checked after deployment."
+  },
+  "next": "European Portuguese translator apps for iPhone; next date proposed 2026-10-27, no automatic schedule."
+}

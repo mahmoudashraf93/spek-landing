@@ -79,6 +79,8 @@ Use this for a menu photo you took earlier or a screenshot someone sent you.
 
 You can also select specific words when you only need one dish explained. Apple lists an **iPhone XS, iPhone XR, or later with iOS 15 or later** for Live Text. Its [Photos guide](https://support.apple.com/en-us/120004) includes the requirements and steps.
 
+For a saved app screen or a message image, our [screenshot translation guide]({{ '/blog/translate-screenshot-iphone/' | relative_url }}) covers image import and fixes for missing controls or unreadable text.
+
 <h3 id="apple-translate">3. Use the camera in Apple Translate</h3>
 
 If you prefer translations displayed over the menu image, try Apple’s **Translate** app.

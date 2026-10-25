@@ -56,7 +56,7 @@ For a private draft preview, use a separate destination (`jekyll serve --drafts 
 
 ## Seven-article plan — researched 20 October 2026
 
-The original 20 October plan started with two live articles: the menu guide (19 October) and the Egyptian Arabic comparison (20 October). Five additional guides would bring the total to seven. This plan covers English-language content for international iPhone users and deliberately expands beyond Arabic. The original 21–25 October dates were proposed targets, not scheduled jobs. No article shipped on 21 October. The user's 22 October publication request moves the Mexican Spanish guide into the third publication slot, leaving four proposed guides. Publish at most one approved article per Cairo day; do not catch up by publishing two.
+The original 20 October plan started with two live articles: the menu guide (19 October) and the Egyptian Arabic comparison (20 October). Five additional guides would bring the total to seven. This plan covers English-language content for international iPhone users and deliberately expands beyond Arabic. The original 21–25 October dates were proposed targets, not scheduled jobs. No article shipped on 21 October. The Mexican Spanish guide shipped third on 22 October; the user's next publication request ships the queued screenshot guide fourth on 26 October, leaving three proposed guides. Publish at most one approved article per Cairo day; do not catch up by publishing two.
 
 One-per-day is an editorial pace, not a Google safety threshold. Google's [generative-content guidance](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content/) and [spam policies](https://developers.google.com/search/docs/essentials/spam-policies) focus on reader value, accuracy, and the purpose of the content. Avoid five near-identical country substitutions, even at one per day.
 
@@ -72,25 +72,27 @@ Local screenshots and raw accessible tables remain under `/Users/mahmoud/.codex/
 
 ### Calendar and measured primary keywords
 
-The calendar below reflects the 22 October publication. Remaining dates are proposals and require editorial work and approval; no scheduler is installed. Rows use the measured primary phrase; related phrases have their own ranges in the original research JSON.
+The calendar below reflects the 26 October publication. Remaining dates are earliest proposals and require editorial work and approval; no scheduler is installed. Rows use the measured primary phrase; related phrases have their own ranges in the original research JSON.
 
 | # | Date / status | Proposed article | Measured primary phrase | Worldwide / month | US / month |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 19 Oct — live | How to translate a menu on your iPhone | Existing guide | — | — |
 | 2 | 20 Oct — live | Egyptian Arabic translator apps for iPhone: what to choose | Earlier research retained separately | — | — |
-| 3 | 22 Oct — published in this release | Mexican Spanish translator apps for iPhone | `mexican spanish translator` | 1K–10K | 1K–10K |
-| 4 | 23 Oct — proposed | How to translate a screenshot on your iPhone | `translate screenshot iphone` | 100–1K | 10–100 |
-| 5 | 24 Oct — proposed | European Portuguese translator apps for iPhone: choosing Portuguese for Portugal | `european portuguese translator` | 100–1K | 100–1K |
-| 6 | 25 Oct — proposed | How to translate an in-person conversation on iPhone | `voice translator iphone` | 100–1K | 10–100 |
-| 7 | 26 Oct — proposed | Japanese translator apps for iPhone: menus, signs, and conversations | `best japanese translator app` | 1K–10K | 100–1K |
+| 3 | 22 Oct — live | Mexican Spanish translator apps for iPhone | `mexican spanish translator` | 1K–10K | 1K–10K |
+| 4 | 26 Oct — published in this release | How to translate a screenshot on your iPhone | `translate screenshot iphone` | 100–1K | 10–100 |
+| 5 | 27 Oct — proposed | European Portuguese translator apps for iPhone: choosing Portuguese for Portugal | `european portuguese translator` | 100–1K | 100–1K |
+| 6 | 28 Oct — proposed | How to translate an in-person conversation on iPhone | `voice translator iphone` | 100–1K | 10–100 |
+| 7 | 29 Oct — proposed | Japanese translator apps for iPhone: menus, signs, and conversations | `best japanese translator app` | 1K–10K | 100–1K |
 
-### Screenshot translation brief — now proposed fourth
+### Screenshot translation brief — published fourth on 26 October
 
 This is a saved-screen task across languages, not another restaurant-camera tutorial. Start with Photos / Live Text and Apple Translate's Photo Library path, then show Google Translate Gallery and Spek Photo Library as alternatives. Explain missing Translate controls, text recognition versus translation-language support, legibility, and what each path needs online. `how to translate a screenshot` also showed 100–1K worldwide and in the US, but overlaps the primary phrase and is not additive.
 
 The useful original contribution is a current, demonstrated screenshot workflow with troubleshooting, using owned non-private sample screens. Record device/iOS, app version, language and method for real demonstrations; otherwise label instructions documentation-based. Spek can import an image; do not imply it automatically translates another running app. Link to the existing menu guide for restaurant tasks and `/#photo-translation`; add the Japanese guide only after it exists.
 
 Primary references: [Apple Photos / Live Text](https://support.apple.com/en-us/120004), [Apple Translate Camera and Photo Library](https://support.apple.com/guide/iphone/translate-with-the-camera-iphea8b95631/ios), [Apple availability](https://www.apple.com/ios/feature-availability/), and [Google image translation](https://support.google.com/translate/answer/6142483?co=GENIE.Platform%3DiOS&hl=en). Apple support and existing tutorials make this competitive; the recommendation rests on task clarity and fit, not presumed easy rankings.
+
+The published guide uses documentation-based instructions, clearly disclosed in its product note; no fresh device demonstration or translated-output comparison is claimed. It adds troubleshooting for mixed-language screens, missing controls, low-resolution captures, PDF-versus-image imports, and offline expectations. The cover is generated editorial imagery, not an app screenshot. Primary sources, Spek source checks, the exact cover prompt, and validation evidence are recorded in [the 26 October research record](research/screenshot-translation-2026-10-26.json). The menu article links to it without changing the menu article's substantive update date. Gum's Search Console refresh failed with `AUTH_REFRESH_FAILED`; no new performance counts or indexing claims are reported, and shared Google credentials were not changed.
 
 ### Mexican Spanish brief — published third on 22 October
 
