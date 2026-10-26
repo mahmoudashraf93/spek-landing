@@ -56,7 +56,7 @@ For a private draft preview, use a separate destination (`jekyll serve --drafts 
 
 ## Seven-article plan — researched 20 October 2026
 
-The original 20 October plan started with two live articles: the menu guide (19 October) and the Egyptian Arabic comparison (20 October). Five additional guides would bring the total to seven. This plan covers English-language content for international iPhone users and deliberately expands beyond Arabic. The original 21–25 October dates were proposed targets, not scheduled jobs. No article shipped on 21 October. The Mexican Spanish guide shipped third on 22 October; the user's next publication request ships the queued screenshot guide fourth on 26 October, leaving three proposed guides. Publish at most one approved article per Cairo day; do not catch up by publishing two.
+The original 20 October plan started with two live articles: the menu guide (19 October) and the Egyptian Arabic comparison (20 October). Five additional guides would bring the total to seven. This plan covers English-language content for international iPhone users and deliberately expands beyond Arabic. The original 21–25 October dates were proposed targets, not scheduled jobs. No article shipped on 21 October. The Mexican Spanish guide shipped third on 22 October and the screenshot guide fourth on 26 October. The user's 27 October publication request ships the European Portuguese guide fifth, leaving two proposed guides. Publish at most one approved article per Cairo day; do not catch up by publishing two.
 
 One-per-day is an editorial pace, not a Google safety threshold. Google's [generative-content guidance](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content/) and [spam policies](https://developers.google.com/search/docs/essentials/spam-policies) focus on reader value, accuracy, and the purpose of the content. Avoid five near-identical country substitutions, even at one per day.
 
@@ -72,15 +72,15 @@ Local screenshots and raw accessible tables remain under `/Users/mahmoud/.codex/
 
 ### Calendar and measured primary keywords
 
-The calendar below reflects the 26 October publication. Remaining dates are earliest proposals and require editorial work and approval; no scheduler is installed. Rows use the measured primary phrase; related phrases have their own ranges in the original research JSON.
+The calendar below reflects the 27 October publication. Remaining dates are earliest proposals and require editorial work and approval; no scheduler is installed. Rows use the measured primary phrase; related phrases have their own ranges in the original research JSON.
 
 | # | Date / status | Proposed article | Measured primary phrase | Worldwide / month | US / month |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 19 Oct — live | How to translate a menu on your iPhone | Existing guide | — | — |
 | 2 | 20 Oct — live | Egyptian Arabic translator apps for iPhone: what to choose | Earlier research retained separately | — | — |
 | 3 | 22 Oct — live | Mexican Spanish translator apps for iPhone | `mexican spanish translator` | 1K–10K | 1K–10K |
-| 4 | 26 Oct — published in this release | How to translate a screenshot on your iPhone | `translate screenshot iphone` | 100–1K | 10–100 |
-| 5 | 27 Oct — proposed | European Portuguese translator apps for iPhone: choosing Portuguese for Portugal | `european portuguese translator` | 100–1K | 100–1K |
+| 4 | 26 Oct — live | How to translate a screenshot on your iPhone | `translate screenshot iphone` | 100–1K | 10–100 |
+| 5 | 27 Oct — published in this release | European Portuguese translator apps for iPhone | `european portuguese translator` | 100–1K | 100–1K |
 | 6 | 28 Oct — proposed | How to translate an in-person conversation on iPhone | `voice translator iphone` | 100–1K | 10–100 |
 | 7 | 29 Oct — proposed | Japanese translator apps for iPhone: menus, signs, and conversations | `best japanese translator app` | 1K–10K | 100–1K |
 
@@ -104,7 +104,7 @@ Verify regional controls for each input method before giving steps. Published tr
 
 Primary references: [SpanishDictionary's regional coverage](https://help.spanishdict.com/article/105-what-type-of-spanish-does-spanishdictionarycom-use), [regional pronunciations](https://help.spanishdict.com/article/146-regional-audio-pronunciations), [Google speech settings](https://support.google.com/translate/answer/6142468?co=GENIE.Platform%3DiOS&hl=en), and [Apple availability](https://www.apple.com/ios/feature-availability/). The observed search snapshot mixed generic app directories and dictionary/translator intent; it did not establish low organic competition.
 
-### Article 5: Portuguese for Portugal
+### Article 5: Portuguese for Portugal — published 27 October
 
 Compare DeepL, Google Translate, Apple Translate and Spek for users who specifically want Portuguese for Portugal. The decision is about output variety, playback and input method, not an argument that one country's Portuguese is universally unusable elsewhere. Explain Spek's separate Portugal / Portuguese (European) and Brazil / Portuguese (Brazilian) choices. Include DeepL as a credible alternative rather than reducing the article to a promotion.
 
@@ -113,6 +113,8 @@ Compare DeepL, Google Translate, Apple Translate and Spek for users who specific
 Any example comparison needs fluent European Portuguese review. Link to the screenshot and menu guides where those tasks arise, and to `/#dialect-choices`; add article 6 when live. Keep the scope translation for Portugal, rather than another list of language-learning courses.
 
 Primary references: [Apple availability](https://www.apple.com/ios/feature-availability/), [DeepL mobile help](https://support.deepl.com/hc/en-us/articles/360020662260-DeepL-mobile-apps), [DeepL's developer listing](https://apps.apple.com/app/id1552407475), and [Google speech settings](https://support.google.com/translate/answer/6142468?co=GENIE.Platform%3DiOS&hl=en). Existing commercial Portuguese comparisons already cover this space; smaller volume does not imply easy ranking.
+
+The published article compares written messages, spoken turns, photo tasks, and offline preparation. Current DeepL consumer language documentation distinguishes non-Brazilian Portuguese output from Portuguese (Brazilian), with unspecified input variety; its iPhone listing names both. This does not establish a Portugal-only output mode or a European Portuguese playback voice in every feature. The current iPhone picker and playback were not independently tested, so the article gives no unverified per-mode regional control instructions or accuracy ranking. Apple's Translate App list still names Portuguese (Brazil); Google's speech-region settings are treated separately from translated wording. Spek's PT/BR selectors and country-code requests were checked in source. No translated examples or fluent-speaker review are claimed. See [the dated research record](research/european-portuguese-2026-10-27.json) for source checks, limitations, cover prompt, and review evidence. The cover is a disclosed AI-generated Lisbon illustration, not a product test. Existing article update dates are unchanged.
 
 ### Article 6: in-person conversations
 
