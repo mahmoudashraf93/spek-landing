@@ -1,0 +1,104 @@
+{
+  "checked": "2026-10-27",
+  "timezone": "Africa/Cairo",
+  "decision": "Publish the European Portuguese guide as article five, following the user's explicit request to move forward and publish the next article. One publication today; the in-person conversation guide is next. Proposed future dates are not scheduled jobs.",
+  "article": {
+    "title": "European Portuguese translator apps for iPhone",
+    "url": "https://usespek.com/blog/european-portuguese-translator-iphone/",
+    "method": "Documentation-based task comparison; no new device demonstration, translated output examples, native-speaker review, or comparative accuracy claim."
+  },
+  "keywordEvidence": {
+    "researchedOn": "2026-10-20",
+    "record": "seven-article-plan-2026-10-20.json",
+    "source": "Existing Google Keyword Planner research; not refreshed for this release",
+    "primary": {
+      "keyword": "european portuguese translator",
+      "worldwide": "100–1K",
+      "unitedStates": "100–1K"
+    },
+    "secondary": [
+      {
+        "keyword": "english to european portuguese",
+        "worldwide": "1K–10K",
+        "unitedStates": "100–1K"
+      },
+      {
+        "keyword": "european portuguese translator app",
+        "worldwide": "10–100",
+        "unitedStates": "10–100"
+      }
+    ],
+    "settings": "Google Search, all languages, October 2025–September 2026.",
+    "limits": "Rounded ranges include close variants; do not sum overlapping phrases. Not traffic forecasts, organic difficulty scores, or LLM demand measurements."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://support.deepl.com/hc/en-us/articles/360019925219-DeepL-Translator-languages",
+      "supports": "Current consumer documentation: Portuguese input is not split by variety; output is Portuguese covering non-Brazilian varieties or Portuguese (Brazilian). Not a Portugal-only label."
+    },
+    {
+      "url": "https://apps.apple.com/app/id1552407475",
+      "supports": "Developer's iPhone listing names Portuguese and Portuguese (Brazilian), photos, dictation, text-to-speech, free download, in-app purchases, paid feature limits. Marketing accuracy claims not repeated."
+    },
+    {
+      "url": "https://support.deepl.com/hc/en-us/articles/5859102910876-Use-the-dictation-feature-in-DeepL-mobile-apps",
+      "supports": "Dictation uses device speech recognition; supported languages vary with device. No claim that text variety selection controls audio voice."
+    },
+    {
+      "url": "https://support.deepl.com/hc/en-us/articles/4408415322130-Translate-text-from-an-image-in-the-mobile-apps",
+      "supports": "iOS source/target selection, Image button under source field, camera roll import. Clarity limits."
+    },
+    {
+      "url": "https://support.google.com/translate/answer/6142478/?co=GENIE.Platform%3DiOS&hl=en",
+      "supports": "Text input, complete-sentence context, Listen playback, Settings > Speech region for accents."
+    },
+    {
+      "url": "https://support.google.com/translate/answer/6142468?co=GENIE.Platform%3DiOS&hl=en",
+      "supports": "Dictation and Profile > Settings > Speech region; regional choices for some languages. English page initially returned 429, then loaded successfully."
+    },
+    {
+      "url": "https://support.google.com/translate/answer/6142483?co=GENIE.Platform%3DiOS&hl=en",
+      "supports": "Camera > Gallery, clarity limits, available offline camera language downloads."
+    },
+    {
+      "url": "https://www.apple.com/ios/feature-availability/",
+      "supports": "Translate App section explicitly lists Portuguese (Brazil); no separate Portuguese (Portugal) there. No inference that Apple cannot understand people in Portugal."
+    },
+    {
+      "url": "https://support.apple.com/guide/iphone/translate-words-and-phrases-iphd74cb450f/ios",
+      "supports": "Text or Listen input, Play output, language downloads; no blanket offline image/voice guarantee."
+    }
+  ],
+  "spekSourceChecks": [
+    "ios/Spek/Spek/Models/Language.swift: Country PT / Portugal / Portuguese (European) and BR / Brazil / Portuguese (Brazilian), separate ISO country codes.",
+    "ios/Spek/Spek/Features/AudioTranslation/Views/AudioTranslationView.swift: tap language header, source/target selector, hold-and-release microphone, swap.",
+    "ios/Spek/Spek/Features/AudioTranslation/ViewModels/AudioTranslationViewModel.swift: sourceLanguage.code and targetLanguage.code passed as sourceCountry and targetCountry.",
+    "ios/Spek/Spek/Core/Network/APIClient.swift: source_country and target_country request fields.",
+    "ios/Spek/Spek/Features/ImageTranslation/Views/ImageTranslationView.swift: Image Translation, Select Image, Photo Library, Translate Image.",
+    "ios/Spek/Spek/Core/Network/TranslationService.swift: requires connectivity for remote image translation."
+  ],
+  "limits": [
+    "No new iPhone test or app installation performed. DeepL's exact current mobile variety picker and regional playback voice remain unverified.",
+    "Consumer documentation and developer listing, not DeepL API language availability, support the text variety description.",
+    "No translated Portuguese examples or superiority claim; fluent European Portuguese review would be required for quality comparisons.",
+    "Google speech-region docs do not verify a particular Portuguese region in every installed version or control translated wording.",
+    "Offline preparation is conditional on actual tool, language pair, and input mode; Spek requires internet."
+  ],
+  "cover": {
+    "tool": "Built-in image_gen__imagegen",
+    "original": "/Users/mahmoud/.codex/generated_images/01a1750f-ed0b-79b0-9cd2-ae1e4b959373/exec-04efd631-71db-492c-9356-5e0af50a82be.png",
+    "path": "assets/blog/lisbon-portuguese.webp",
+    "width": 1448,
+    "height": 1086,
+    "encoding": "cwebp -q 82; 345182 bytes",
+    "prompt": "Use case: photorealistic-natural. Asset type: 4:3 landscape editorial cover for Spek Field Notes guide about European Portuguese translation on iPhone for travel in Portugal. Create a premium, quiet editorial photograph-like illustration of a Lisbon neighborhood in soft early morning light: a gently sloping cobblestone street, old cream and pale ochre buildings, a richly textured blue and white tiled facade at one side, a small green shutter and a sunlit doorway, subtle glimpse of an ordinary yellow tram in the background without any visible route lettering or logos. Intimate human-scale street composition, restrained warm ivory, muted blue and sage palette, tactile old plaster and stone, natural soft shadows, realistic proportions, subtle film grain, no people, no phones or interfaces, no text, no watermarks, no advertising. Landscape 4:3 composition, useful calm scene-setting cover, not a product demonstration.",
+    "disclosure": "AI-generated imagined Lisbon morning; not a customer photograph, location record, product interface, or translation test."
+  },
+  "review": {
+    "desktop": "1440 × 1000 viewport; screenshot docs/review/european-portuguese/desktop.png",
+    "mobile": "390 × 844 viewport; screenshot docs/review/european-portuguese/mobile.png",
+    "narrow": "320px layout checked: no horizontal page overflow; section navigation changes URL to #spek.",
+    "validation": "Production Jekyll build passed: 9 pages and 5 articles validated for links, anchors, reachability, metadata, JSON-LD, sitemap and RSS. All 5 regression tests and git diff --check passed. Hub, sitemap and feed inclusion confirmed; docs excluded. GitHub CI must pass before merge; live page, cover, hub, sitemap, RSS and App Store CTA checked after deployment."
+  },
+  "next": "How to translate an in-person conversation on iPhone; proposed 2026-10-28, not scheduled."
+}
