@@ -56,7 +56,7 @@ For a private draft preview, use a separate destination (`jekyll serve --drafts 
 
 ## Seven-article plan — researched 20 October 2026
 
-The original 20 October plan started with two live articles: the menu guide (19 October) and the Egyptian Arabic comparison (20 October). Five additional guides would bring the total to seven. This plan covers English-language content for international iPhone users and deliberately expands beyond Arabic. The original 21–25 October dates were proposed targets, not scheduled jobs. No article shipped on 21 October. The Mexican Spanish guide shipped third on 22 October and the screenshot guide fourth on 26 October. The user's 27 October publication request ships the European Portuguese guide fifth, leaving two proposed guides. Publish at most one approved article per Cairo day; do not catch up by publishing two.
+The original 20 October plan started with two live articles: the menu guide (19 October) and the Egyptian Arabic comparison (20 October). Five additional guides would bring the total to seven. This plan covers English-language content for international iPhone users and deliberately expands beyond Arabic. The original 21–25 October dates were proposed targets, not scheduled jobs. No article shipped on 21 October. The Mexican Spanish guide shipped third on 22 October, the screenshot guide fourth on 26 October, and European Portuguese fifth on 27 October. The user's 29 October publication request ships the in-person conversation guide sixth, leaving the Japanese guide. No article shipped on 28 October. Publish at most one approved article per Cairo day; do not catch up by publishing two.
 
 One-per-day is an editorial pace, not a Google safety threshold. Google's [generative-content guidance](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content/) and [spam policies](https://developers.google.com/search/docs/essentials/spam-policies) focus on reader value, accuracy, and the purpose of the content. Avoid five near-identical country substitutions, even at one per day.
 
@@ -72,7 +72,7 @@ Local screenshots and raw accessible tables remain under `/Users/mahmoud/.codex/
 
 ### Calendar and measured primary keywords
 
-The calendar below reflects the 27 October publication. Remaining dates are earliest proposals and require editorial work and approval; no scheduler is installed. Rows use the measured primary phrase; related phrases have their own ranges in the original research JSON.
+The calendar below reflects the 29 October publication. The remaining date is an earliest proposal and requires editorial work and approval; no scheduler is installed. Rows use the measured primary phrase; related phrases have their own ranges in the original research JSON.
 
 | # | Date / status | Proposed article | Measured primary phrase | Worldwide / month | US / month |
 | --- | --- | --- | --- | --- | --- |
@@ -80,9 +80,9 @@ The calendar below reflects the 27 October publication. Remaining dates are earl
 | 2 | 20 Oct — live | Egyptian Arabic translator apps for iPhone: what to choose | Earlier research retained separately | — | — |
 | 3 | 22 Oct — live | Mexican Spanish translator apps for iPhone | `mexican spanish translator` | 1K–10K | 1K–10K |
 | 4 | 26 Oct — live | How to translate a screenshot on your iPhone | `translate screenshot iphone` | 100–1K | 10–100 |
-| 5 | 27 Oct — published in this release | European Portuguese translator apps for iPhone | `european portuguese translator` | 100–1K | 100–1K |
-| 6 | 28 Oct — proposed | How to translate an in-person conversation on iPhone | `voice translator iphone` | 100–1K | 10–100 |
-| 7 | 29 Oct — proposed | Japanese translator apps for iPhone: menus, signs, and conversations | `best japanese translator app` | 1K–10K | 100–1K |
+| 5 | 27 Oct — live | European Portuguese translator apps for iPhone | `european portuguese translator` | 100–1K | 100–1K |
+| 6 | 29 Oct — published in this release | How to translate an in-person conversation on iPhone | `voice translator iphone` | 100–1K | 10–100 |
+| 7 | 30 Oct — proposed | Japanese translator apps for iPhone: menus, signs, and conversations | `best japanese translator app` | 1K–10K | 100–1K |
 
 ### Screenshot translation brief — published fourth on 26 October
 
@@ -116,7 +116,7 @@ Primary references: [Apple availability](https://www.apple.com/ios/feature-avail
 
 The published article compares written messages, spoken turns, photo tasks, and offline preparation. Current DeepL consumer language documentation distinguishes non-Brazilian Portuguese output from Portuguese (Brazilian), with unspecified input variety; its iPhone listing names both. This does not establish a Portugal-only output mode or a European Portuguese playback voice in every feature. The current iPhone picker and playback were not independently tested, so the article gives no unverified per-mode regional control instructions or accuracy ranking. Apple's Translate App list still names Portuguese (Brazil); Google's speech-region settings are treated separately from translated wording. Spek's PT/BR selectors and country-code requests were checked in source. No translated examples or fluent-speaker review are claimed. See [the dated research record](research/european-portuguese-2026-10-27.json) for source checks, limitations, cover prompt, and review evidence. The cover is a disclosed AI-generated Lisbon illustration, not a product test. Existing article update dates are unchanged.
 
-### Article 6: in-person conversations
+### Article 6: in-person conversations — published 29 October
 
 Cover two people taking turns on one phone. Compare Apple Translate Conversation / face-to-face, Google's current iPhone options, and Spek's hold, release, review and swap workflow. Address short turns, background noise, names and connectivity. Explicitly separate this from phone-call, FaceTime, continuous background or AirPods translation; those have different requirements.
 
@@ -125,6 +125,8 @@ Cover two people taking turns on one phone. Compare Apple Translate Conversation
 Use a non-private sample exchange if demonstrating the workflow, recording current versions and settings. Link to the already published Egyptian, Mexican and Portuguese guides where readers need a country choice, plus `/#features` for Spek's voice workflow. The homepage has no `#voice-translation` fragment.
 
 Primary references: [Apple in-person conversations](https://support.apple.com/en-euro/guide/iphone/n4pjjxr31uel/ios), [Apple Live Translation requirements](https://support.apple.com/en-us/123720), [Google's 4 September 2026 update](https://blog.google/products-and-platforms/products/translate/google-translate-ios-android-upgrades/), and [Google speech instructions](https://support.google.com/translate/answer/6142468?co=GENIE.Platform%3DiOS&hl=en).
+
+The published article uses current primary instructions, with a documentation-based product note and a suggested practice task explicitly identified as untested. Google's current iPhone help now documents Live translate with Conversation, Text only, and face-to-face controls; the older announcement is historical context. Apple's Conversation, Face to Face, Auto Translate, and downloaded-language options are distinguished from Phone/FaceTime and AirPods workflows. Spek's hold/release, manual swap, connection readiness, and conditional replay controls were checked in source; it is not described as offline, a call translator, or unattended background interpretation. No translated sample or comparative accuracy claim is published. The Portuguese article now links to this guide without changing its substantive update date. The cover is disclosed AI-generated editorial imagery. Source checks, limitations, prompt, and review evidence are in [the 29 October research record](research/conversation-2026-10-29.json).
 
 ### Article 7: Japan travel toolkit
 

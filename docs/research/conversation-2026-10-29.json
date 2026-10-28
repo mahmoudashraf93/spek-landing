@@ -1,0 +1,91 @@
+{
+  "checked": "2026-10-29",
+  "timezone": "Africa/Cairo",
+  "decision": "Publish the in-person conversation guide as article six following the user's explicit request to ship, publish and merge. One article today. Japanese is next, with October 30 an editorial proposal only.",
+  "article": {
+    "title": "How to translate an in-person conversation on iPhone",
+    "url": "https://usespek.com/blog/translate-conversation-iphone/",
+    "method": "Documentation-based instructions and Spek source review. Suggested non-private practice task, explicitly not an actual device demonstration or recorded translation. No translated output samples, native review, or accuracy comparison."
+  },
+  "keywordEvidence": {
+    "researchedOn": "2026-10-20",
+    "record": "seven-article-plan-2026-10-20.json",
+    "source": "Existing Google Keyword Planner research, not refreshed for this release",
+    "primary": {
+      "keyword": "voice translator iphone",
+      "worldwide": "100–1K",
+      "unitedStates": "10–100"
+    },
+    "secondary": {
+      "keyword": "translate conversation iphone",
+      "worldwide": "10–100",
+      "unitedStates": "10–100"
+    },
+    "excluded": "live translation iphone mixes calls, FaceTime, AirPods and other intents; not primary demand for this task.",
+    "settings": "Google Search; All languages; October 2025–September 2026.",
+    "limits": "Rounded ranges include close variants, not additive; not traffic or LLM visibility forecasts."
+  },
+  "sourceChecks": [
+    {
+      "url": "https://support.apple.com/en-euro/guide/iphone/n4pjjxr31uel/ios",
+      "supports": "Conversation, Listen / Enter text, Play, View > Face to Face, More Options > Auto Translate and Play translations; downloaded-language conversation. Current guide, not a device test."
+    },
+    {
+      "url": "https://support.apple.com/guide/iphone/translate-words-and-phrases-iphd74cb450f/ios",
+      "supports": "Language selection, text or speech, playback, and downloaded languages."
+    },
+    {
+      "url": "https://support.apple.com/en-euro/guide/iphone/iphddb6e7264/ios",
+      "supports": "Settings > Apps > Translate > Languages and On-Device Translation. Article advises exact-task airplane-mode test."
+    },
+    {
+      "url": "https://www.apple.com/ios/feature-availability/",
+      "supports": "Feature- and language-specific availability; no blanket all-languages claim."
+    },
+    {
+      "url": "https://support.google.com/translate/answer/6142474?co=GENIE.Platform%3DiOS&hl=en",
+      "supports": "Current iPhone Live translate: Conversation through speaker or headphones, Text only, Face to face, Speak pause/resume, Back exit, mode-dependent headphone requirements. Supersedes older September launch limitations."
+    },
+    {
+      "url": "https://support.google.com/translate/answer/6142468?co=GENIE.Platform%3DiOS&hl=en",
+      "supports": "Single-phrase Dictation; select languages and speak after tone; disabled control can indicate unavailable speech language."
+    },
+    {
+      "url": "https://support.apple.com/en-us/123720",
+      "supports": "Phone and FaceTime Live Translation have distinct controls and availability; separate from shared-phone conversation."
+    },
+    {
+      "url": "https://support.apple.com/en-euro/guide/airpods/dev9c215ca94/web",
+      "supports": "Compatible AirPods and Apple Intelligence-enabled iPhone, software/language/region requirements. Article directs readers to current requirements without an exhaustive model or regional claim."
+    }
+  ],
+  "spekSourceChecks": [
+    "ios/Spek/Spek/Features/AudioTranslation/Views/AudioTranslationView.swift: source/target header, swap, hold gesture, release-to-translate, connection gating, replay only where language.isTTSSupported.",
+    "ios/Spek/Spek/Features/AudioTranslation/ViewModels/AudioTranslationViewModel.swift: connectIfNeeded with sourceCountry / targetCountry; stopRecordingAndRequestTranslation requires captured audio, minimum buffer and speech level; explicit response request on release.",
+    "ios/Spek/Spek/Models/Language.swift: existing country-specific choices include Egypt, Mexico, Portugal and Brazil.",
+    "Instructions do not claim call translation, offline operation, or continuous background interpretation."
+  ],
+  "limits": [
+    "No new iPhone app run, recorded spoken exchange or native-speaker review performed.",
+    "Practical practice task is a suggestion, not measured evidence.",
+    "Current documentation controls can vary by app/iOS version, language or region.",
+    "No offline guarantee for every Google voice mode; Spek requires internet.",
+    "No claims of new Search Console metrics or Google indexing for this release."
+  ],
+  "cover": {
+    "tool": "Built-in image_gen__imagegen",
+    "original": "/Users/mahmoud/.codex/generated_images/01a1750f-ed0b-79b0-9cd2-ae1e4b959373/exec-e98b9e9f-a0d7-46b5-a555-5d33c02f52bd.png",
+    "path": "assets/blog/cafe-conversation.webp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 162052,
+    "encoding": "cwebp -q 82",
+    "prompt": "Use case: photorealistic-natural. Asset type: 4:3 landscape editorial cover for Spek Field Notes guide about two people translating an in-person conversation on one iPhone. Create a warm, candid, premium travel editorial illustration like a natural photograph: two adults in their thirties sitting opposite each other at a small outdoor cafe table in a leafy courtyard, smiling gently and listening with relaxed attentive expressions, one person holding a dark modern unbranded smartphone naturally at table height with the screen facing the holder and completely hidden from camera, the other person waiting to reply. Composition shows both people clearly in a medium-wide view, phone discreetly between them, ordinary ceramic coffee cups, warm stone and soft greenery, late morning natural light. Muted sage, warm ivory, deep blue clothing with a small terracotta accent; realistic anatomy and hands, tactile fabric, subtle film grain. Absolutely no visible phone display, no UI, no lettering, no logos, no watermark. Fictional editorial scene, not a product screenshot or demonstration. Landscape 4:3 framing.",
+    "disclosure": "AI-generated fictional editorial scene with hidden phone display, not a product demonstration."
+  },
+  "validation": {
+    "visual": "Desktop 1440px and mobile 390px reviewed; review captures under docs/review/conversation/. At 320px page width is 320px with no horizontal overflow. Mobile Prepare offline link confirmed with section top at 55px.",
+    "production": "Production Jekyll build passed: 10 pages and 6 articles validated for links, anchors, reachability, metadata, JSON-LD, sitemap and RSS. All 5 regression tests and git diff --check passed. Hub, feed, sitemap and contextual Portuguese link confirmed; docs excluded. GitHub CI must pass before merge; live page, cover, hub, sitemap, RSS and App Store CTA checked after deployment."
+  },
+  "next": "Japanese translator apps for iPhone: menus, signs, and conversations. Proposed October 30; no scheduler."
+}
