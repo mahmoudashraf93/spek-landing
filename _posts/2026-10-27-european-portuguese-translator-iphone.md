@@ -115,6 +115,8 @@ To request a translation into Portuguese for Portugal:
 4. Review the recognized words and the translated result.
 5. Swap the languages when you want to understand the other person’s reply.
 
+For setting up a complete shared-phone exchange, see our guide to [translating an in-person conversation on iPhone]({{ '/blog/translate-conversation-iphone/' | relative_url }}).
+
 Spek’s country selection requests that regional variety. It does not replace checking names, numbers, or whether the result suits the situation. No accuracy advantage over the other apps has been measured for this guide.
 
 **Use it for:** an explicit Portugal selection with deliberate spoken turns, or a separate photo translation task. Spek needs internet and offers in-app purchases; check its [App Store listing]({{ site.appstore_link }}) for current details.
