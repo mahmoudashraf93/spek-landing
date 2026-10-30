@@ -66,4 +66,7 @@ edge with the real hostname and certificate. robots.txt and RSS returned 200;
 the API reported ready; source/config/documentation paths returned 404. The
 workers.dev preview still returns noindex. Local DNS caches temporarily returned
 the previous GitHub addresses, so GitHub Pages remains available during
-propagation. Native GitHub build integration awaits GitHub passkey confirmation.
+propagation. After GitHub passkey confirmation and the user's explicit repository
+permission approval, native Workers Builds was connected to master with previews
+disabled and the existing build token. Its build command runs all 13 backend and
+publication tests plus site validation before deployment.

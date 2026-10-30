@@ -23,9 +23,10 @@ deployment during DNS propagation; it is removed from Cloudflare build output.
 The old apex A records are retained behind the proxied Worker route for rollback;
 the live Worker serves its own assets and does not fetch the GitHub origin.
 
-Deploy with `npm run deploy` after Wrangler authentication. Native GitHub →
-Cloudflare build integration is pending GitHub passkey reauthentication; until
-connected, GitHub pushes alone do not update the Cloudflare site.
+Pushing to `master` triggers Cloudflare's native GitHub build integration, which
+runs backend tests, publication regression checks and the validated Jekyll build
+before deploying. Other branches do not deploy. Manual deployment remains
+available with `npm run deploy` after Wrangler authentication.
 
 ## Local build
 

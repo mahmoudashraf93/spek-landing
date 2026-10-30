@@ -108,8 +108,25 @@ To roll back serving, remove the Worker route and return those records to
 DNS-only; leave all verification and mail-policy records in place. DNS caches
 can delay a rollback too. Do not disable GitHub Pages until propagation is over.
 
-Native GitHub build integration is awaiting GitHub passkey reauthentication.
-Until connected, deploy using the Wrangler command above. Existing GitHub Pages
-builds are not Cloudflare deployments. After connecting, verify an actual build
-and document its build/deploy commands. Search Console should discover the new
-translator URLs through the existing production sitemap; indexing is not instant.
+Native Workers Builds is connected to `mahmoudashraf93/spek-landing`, production
+branch `master`, with previews disabled. The user approved adding only this
+repository to the existing Cloudflare GitHub app. The connection reuses an
+existing Cloudflare build token; no new credential was created. Build caching is
+enabled, with `RUBY_VERSION=3.3.13` (the Ruby version that passed GitHub validation)
+and `NODE_VERSION=22.23.4`.
+
+Build command:
+```sh
+bundle install && npm test && python3 -m unittest discover -s scripts -p 'test_*.py' && npm run build
+```
+Deploy command:
+```sh
+WRANGLER_SEND_METRICS=false npx wrangler deploy
+```
+
+Cloudflare installs the npm dependencies from the lockfile before the custom
+build command. A failed test or site validation prevents deployment. No runtime
+translation secrets are copied into GitHub. Existing GitHub Pages builds are
+separate from Workers Builds and remain available during DNS propagation.
+Search Console should discover the new translator URLs through the existing
+production sitemap; indexing is not instant.
