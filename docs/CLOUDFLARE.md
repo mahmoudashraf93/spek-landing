@@ -79,11 +79,14 @@ claimed.
 
 ## Activation and later domain connection
 
-`TRANSLATION_ENABLED` remains false until the restricted Google API credential is
-installed, the provider quota is configured, and real translation is verified.
-Use Wrangler secrets for all private credentials. Never commit or paste keys
-into documents. Public `/api/health` reports `ready` only when required settings
-and credentials exist; it does not itself call Google.
+`TRANSLATION_ENABLED` is true. On October 30, 2026, the approved server key was
+created in Google project `spek-web-translator`, restricted to Cloud Translation
+API, and installed as encrypted `GOOGLE_TRANSLATE_API_KEY` in Cloudflare. The
+Google daily general-model quota is 30,000 characters. Real browser submissions
+verified English with Spanish, Arabic, and European Portuguese in both directions.
+Use Worker secrets for all private credentials. Never commit or paste keys into
+documents. Public `/api/health` reports `ready` only when required settings and
+credentials exist; it does not itself call Google.
 
 For the later domain cutover: verify the Cloudflare site against the current
 live site, add usespek.com to the Worker host allowlist and Turnstile widget,

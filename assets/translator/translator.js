@@ -32,6 +32,7 @@
     copy.disabled = true;
     copy.textContent = 'Copy translation';
     byId('output-label').textContent = 'Translation';
+    if (ready && !busy && !wasOverLimit) tell(token ? 'Ready when you are.' : 'Complete the security check, then translate your message.');
   }
   input.addEventListener('input', () => { invalidateOutput(); update(); });
   source.addEventListener('change', () => {
@@ -98,7 +99,7 @@
         try {
           widgetId = window.turnstile.render('#turnstile-container', {
             sitekey: config.siteKey, action: 'translate', theme: 'light', size: 'flexible',
-            callback(value) { token = value; if (!busy && !output.value) tell('Ready when you are.'); update(); },
+            callback(value) { token = value; if (!busy && !output.value && status.dataset.error !== 'true') tell('Ready when you are.'); update(); },
             'expired-callback'() { token = ''; update(); },
             'error-callback'() { token = ''; tell('The security check could not load. Check your connection and reload the page.', true); update(); },
           });

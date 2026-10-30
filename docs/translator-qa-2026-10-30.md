@@ -27,14 +27,28 @@ Review URL: https://spek-web.africanlord-apps.workers.dev/translate/
 - Google's daily general-model quota was successfully changed from zero to
   30,000 characters. Worker limits also enforce 30,000/day and 900,000/month.
 
-## Activation still required
+## Live activation
 
-The Google project initially contains no API keys. Creating the restricted
-server API key requires the specific browser confirmation requested in chat.
-Until the key is stored in Cloudflare, `TRANSLATION_ENABLED` is false and public
-health reports `setup`. Real Google translation and a real Turnstile-protected
-browser submission must be tested after activation; mocked backend tests are not
-a claim of live translation or translation quality.
+With the user's explicit approval, created the server key in Google project
+`spek-web-translator`, restricted it to Cloud Translation API, and stored it as
+encrypted `GOOGLE_TRANSLATE_API_KEY` in Cloudflare. No key value is stored in this
+repository. `TRANSLATION_ENABLED` is true and public health reports `ready`.
+
+Real Turnstile-protected browser submissions succeeded in all six directions:
+English ↔ Spanish, English ↔ Arabic, and English ↔ European Portuguese. Examples
+included “Hello, how are you?” → “¿Hola, cómo estás?” and “Where is the bus stop?”
+→ “Onde fica o ponto de autocarro?”. Copy displayed its successful “Copied” state.
+These are functional checks, not a translation-quality benchmark.
+
+The automated Chrome profile encountered Turnstile challenge error 300030. An
+independent browser passed the real widget automatically and completed the above
+requests; bot protection remains enabled. During a live burst check, a widget
+refresh could overwrite backend error text. The frontend now preserves error
+messages after a fresh challenge token arrives, clearing them on input changes.
+After deploying that fix, three consecutive real requests succeeded and the
+fourth displayed “Please wait a minute before translating again.” The message
+retained its error state after the real widget refreshed and the button became
+enabled again. The rejected request did not consume the remaining daily request.
 
 The preview is publicly reachable for review but is not yet the canonical SEO
 deployment. Connect usespek.com only in the later, separately requested cutover.

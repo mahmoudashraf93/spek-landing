@@ -18,7 +18,7 @@
   },
   "migrations": [{ "tag": "v1", "new_sqlite_classes": ["UsageLedger"] }],
   "vars": {
-    "TRANSLATION_ENABLED": "false",
+    "TRANSLATION_ENABLED": "true",
     "TURNSTILE_SITE_KEY": "0x4AAAAAAFs_EAvQRdLIvgIZ",
     "DAILY_CHAR_LIMIT": "30000",
     "MONTHLY_CHAR_LIMIT": "900000",
