@@ -1,0 +1,44 @@
+{
+  "preparedOn": "2026-10-30",
+  "status": "Unpublished draft; keep PR open. No automatic merge or publication.",
+  "article": "_drafts/spanish-phrases-for-travel-spain.md",
+  "primaryKeyword": "spanish phrases for travel",
+  "monthlySearchRange": "1K–10K",
+  "keywordEvidence": "travel-phrases-2026-10-30.json",
+  "keywordScope": {
+    "period": "October 2025–September 2026",
+    "geography": "Worldwide",
+    "network": "Google Search",
+    "language": "All languages (UI locked); manually supplied English seeds"
+  },
+  "limits": "Ranges include overlapping close variants. They are not a traffic forecast, organic difficulty score, or a measure of demand in China itself.",
+  "editorialAngle": "Billete versus admission tickets, set-menu wording, and regional recognition without slang imitation.",
+  "sources": [
+    "https://www.spanish.academy/blog/useful-travel-phrases-in-spanish-listen-and-practice/",
+    "https://www.spanishdict.com/translate/men%C3%BA",
+    "https://dle.rae.es/billete",
+    "https://dle.rae.es/zumo",
+    "https://www.fundeu.es/consulta/tu-vos-usted-49/"
+  ],
+  "productCheck": {
+    "setting": "Spain — Spanish (Spain)",
+    "source": "ios/Spek/Spek/Models/Language.swift",
+    "workflow": "Existing source-checked conversation guide; no new device test."
+  },
+  "cover": {
+    "file": "/assets/blog/cafe-conversation.webp",
+    "provenance": "Reuses existing disclosed AI-generated editorial asset; no new location photograph or user interaction claimed."
+  },
+  "validation": {
+    "production": "Draft excluded from normal HTML, hub, related links, sitemap and feed.",
+    "privatePreview": "All 8 drafts rendered together; validator passed 23 pages and 15 articles.",
+    "review": "Independent fluent-speaker review has not been performed. Check language examples and pronunciation before publication; required for the Egyptian dialect examples."
+  },
+  "publicationChecklist": [
+    "Keep this PR open and unpublished until selected for release.",
+    "Review final language examples and reading aids in context; do not claim native review without it.",
+    "Move the approved draft to a correctly dated _posts file and set actual date/updated with Cairo offset.",
+    "Rebuild and validate production; publish at most one approved article per Cairo day.",
+    "Confirm final production page, sitemap, RSS and canonical; request indexing as appropriate."
+  ]
+}
