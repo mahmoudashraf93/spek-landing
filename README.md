@@ -1,21 +1,31 @@
 # Spek landing page
 
 A Jekyll site for the Spek iPhone translator, with a free browser text translator
-on the Cloudflare review deployment. The site content is prebuilt HTML; a small
+on Cloudflare. The site content is prebuilt HTML; a small
 frontend script submits translation requests to a protected Worker. No marketing
 analytics, remote fonts, or runtime App Store lookups are added.
 
-The review deployment is https://spek-web.africanlord-apps.workers.dev/.
-See [Cloudflare deployment and operating notes](docs/CLOUDFLARE.md). The custom
-domain remains on the existing GitHub Pages site until the separate cutover.
+Production is https://usespek.com/. The review deployment is
+https://spek-web.africanlord-apps.workers.dev/ and remains excluded from search.
+See [Cloudflare deployment and operating notes](docs/CLOUDFLARE.md).
 
 ## Confirmed deployment
 
-GitHub Pages publishes `master` at repository root using Jekyll. The custom domain is:
+Cloudflare Workers Static Assets serves the prebuilt Jekyll site. The custom domain is:
 
 https://usespek.com/
 
-`CNAME` and `_config.yml` configure the domain and root paths. GoDaddy DNS points the apex to GitHub Pages and `www` to `mahmoudashraf93.github.io`. The previous GitHub Pages URL redirects to the custom domain. Pushing to `master` triggers the existing Pages deployment.
+GoDaddy remains the registrar; Cloudflare hosts DNS. The `usespek.com/*` Worker
+route serves the site and translation API. Cloudflare redirects HTTP to HTTPS and
+`www` to the canonical apex, retaining paths and query strings. `_config.yml`
+retains production canonicals. `CNAME` is retained for the old GitHub Pages
+deployment during DNS propagation; it is removed from Cloudflare build output.
+The old apex A records are retained behind the proxied Worker route for rollback;
+the live Worker serves its own assets and does not fetch the GitHub origin.
+
+Deploy with `npm run deploy` after Wrangler authentication. Native GitHub →
+Cloudflare build integration is pending GitHub passkey reauthentication; until
+connected, GitHub pushes alone do not update the Cloudflare site.
 
 ## Local build
 
@@ -28,7 +38,8 @@ python3 -m http.server 4173 --directory /tmp/spek-landing-site
 
 For a local preview, open http://127.0.0.1:4173/.
 
-`Gemfile.lock` pins the existing GitHub Pages dependency stack. `assets/spek/site.css` is the only stylesheet.
+`Gemfile.lock` pins the Jekyll dependency stack. `assets/spek/site.css` provides
+the shared styles; translator pages also load their dedicated CSS and JavaScript.
 
 ## Asset sources
 

@@ -6,6 +6,7 @@
   "compatibility_date": "2026-10-30",
   "workers_dev": true,
   "preview_urls": false,
+  "routes": [{ "pattern": "usespek.com/*", "zone_name": "usespek.com" }],
   "assets": {
     "directory": "./.cloudflare/site",
     "binding": "ASSETS",
@@ -22,7 +23,7 @@
     "TURNSTILE_SITE_KEY": "0x4AAAAAAFs_EAvQRdLIvgIZ",
     "DAILY_CHAR_LIMIT": "30000",
     "MONTHLY_CHAR_LIMIT": "900000",
-    "ALLOWED_HOSTS": "spek-web.africanlord-apps.workers.dev,localhost,127.0.0.1"
+    "ALLOWED_HOSTS": "usespek.com,spek-web.africanlord-apps.workers.dev,localhost,127.0.0.1"
   },
   "observability": { "enabled": false }
 }

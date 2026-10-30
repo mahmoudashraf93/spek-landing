@@ -1,8 +1,10 @@
-# Cloudflare review deployment
+# Cloudflare production deployment
 
-This branch deploys the Jekyll site and free text translator at
-https://spek-web.africanlord-apps.workers.dev/.
-The usespek.com DNS and existing GitHub Pages deployment are unchanged.
+The Jekyll site and free text translator are live at https://usespek.com/.
+The review address is https://spek-web.africanlord-apps.workers.dev/.
+On October 30, 2026, only usespek.com was changed at GoDaddy: its nameservers are
+`bristol.ns.cloudflare.com` and `clay.ns.cloudflare.com`. Registration, renewal,
+privacy settings and other domains are unchanged.
 
 ## Deployment shape
 
@@ -11,6 +13,10 @@ JavaScript. Only `/api/*` invokes `cloudflare/worker.mjs`. This is a single
 Wrangler deployment with the same frontend/backend origin, rather than a Pages
 project and a separately addressed Worker. Static asset requests do not consume
 Worker invocations. A SQLite-backed Durable Object coordinates usage counters.
+The production connection is the `usespek.com/*` zone route in wrangler.jsonc.
+This preserves the previous apex A records for rollback instead of deleting them
+to create a Worker Custom Domain. They are proxied and all matching paths are
+handled by spek-web; the Worker does not fetch the former GitHub origin.
 
 The Google API key, Turnstile secret, and IP hashing key are Cloudflare Worker
 secrets, never generated HTML or frontend JavaScript. Wrangler telemetry is
@@ -35,8 +41,9 @@ responses. Test credentials never reach the public deployment.
 
 The build validates site links, canonicals, sitemap coverage, metadata and draft
 exclusion before writing Cloudflare-only headers. Preview response headers set
-`X-Robots-Tag: noindex, nofollow` on all static pages; canonicals remain on
-usespek.com. The preview is a public review address, not password-protected.
+`X-Robots-Tag: noindex, nofollow` only on the workers.dev hostname; usespek.com
+pages are indexable. Canonicals remain on usespek.com. The preview is a public
+review address, not password-protected. API responses remain noindex everywhere.
 
 ## Limits and accounting
 
@@ -77,7 +84,7 @@ includes Google's required translation disclaimer and links to the provider's
 attribution requirements. No Google endorsement or comparative accuracy is
 claimed.
 
-## Activation and later domain connection
+## Production cutover
 
 `TRANSLATION_ENABLED` is true. On October 30, 2026, the approved server key was
 created in Google project `spek-web-translator`, restricted to Cloud Translation
@@ -88,10 +95,21 @@ Use Worker secrets for all private credentials. Never commit or paste keys into
 documents. Public `/api/health` reports `ready` only when required settings and
 credentials exist; it does not itself call Google.
 
-For the later domain cutover: verify the Cloudflare site against the current
-live site, add usespek.com to the Worker host allowlist and Turnstile widget,
-configure the custom domain, and test routing/HTTPS. Remove review-only noindex
-headers for the production hostname, retaining them on workers.dev. Preserve all
-existing URLs, canonical metadata, sitemap and RSS paths. Check the new translator
-pages in Search Console after the domain is connected. Do not change DNS as part
-of the preview deployment.
+usespek.com is allowed in both the Worker and Turnstile. Universal SSL is active,
+Always Use HTTPS is enabled, and a permanent Redirect Rule sends
+`https://www.usespek.com/*` to `https://usespek.com/${1}` with query preservation.
+The www CNAME points to usespek.com and is proxied. Existing TXT records for
+Google verification, GitHub verification and DMARC were preserved; the
+_domainconnect CNAME remains DNS-only. No MX records existed at GoDaddy.
+
+Keep GitHub Pages available while old DNS answers expire. The former apex
+records are 185.199.108.153, 185.199.109.153, 185.199.110.153 and 185.199.111.153.
+To roll back serving, remove the Worker route and return those records to
+DNS-only; leave all verification and mail-policy records in place. DNS caches
+can delay a rollback too. Do not disable GitHub Pages until propagation is over.
+
+Native GitHub build integration is awaiting GitHub passkey reauthentication.
+Until connected, deploy using the Wrangler command above. Existing GitHub Pages
+builds are not Cloudflare deployments. After connecting, verify an actual build
+and document its build/deploy commands. Search Console should discover the new
+translator URLs through the existing production sitemap; indexing is not instant.
