@@ -44,7 +44,7 @@ the shared styles; translator pages also load their dedicated CSS and JavaScript
 
 ## Asset sources
 
-App icon and current product-view captures come from `mahmoudashraf93/spek`, branch `codex/spek-marketing-p0-p1`, in `marketing/screenshots/raw/` and `MarketingCaptureView.swift`. They contain deterministic non-personal example results rendered through real product views, not a recorded live translation session. The photo capture is scrolled to the successful result. Do not claim these examples prove universal translation quality.
+App icon and current product-view captures come from `mahmoudashraf93/spek`, in `ios/app-store/campaigns/direct-blue-v2/captures/en-US/` and `MarketingCaptureView.swift`. They contain deterministic non-personal example results rendered through real product views, not a recorded live translation session. The image capture shows a Spanish pedestrian sign and an illustrative English result. Do not claim these examples prove universal translation quality.
 
 Use Pillow to resize those captures proportionally to 880px wide WebP (quality 86) for this site. Keep the untouched PNG sources in the app repository. Rebuild the editable Open Graph image with `python3 scripts/build-social.py` (Pillow).
 

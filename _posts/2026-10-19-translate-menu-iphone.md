@@ -112,8 +112,8 @@ Spek is our app. If you prefer to choose a photo and read the translated text al
 Spek requires an internet connection, and some features require an in-app purchase. Check its [language and dialect choices]({{ '/#dialect-choices' | relative_url }}) for your needs. You can [find Spek on the App Store]({{ site.appstore_link }}) if this workflow suits you.
 
 <figure class="article-example article-example-inline">
-  <img src="{{ '/assets/spek/photo.webp' | relative_url }}" alt="Spek’s image translation screen showing a French café menu and an English translation" width="880" height="1913" loading="lazy">
-  <figcaption>Spek’s menu photo workflow, shown with an illustrative translation.</figcaption>
+  <img src="{{ '/assets/spek/photo.webp' | relative_url }}" alt="Spek’s image translation screen showing a Spanish pedestrian sign and its English translation" width="880" height="1913" loading="lazy">
+  <figcaption>Spek’s image translation workflow, shown with an illustrative sign translation.</figcaption>
 </figure>
 
 <h2 id="clearer-results">When the result isn’t useful</h2>
