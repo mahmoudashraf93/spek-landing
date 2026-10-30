@@ -1,0 +1,42 @@
+{
+  "preparedOn": "2026-10-30",
+  "status": "Unpublished draft; keep PR open. No automatic merge or publication.",
+  "article": "_drafts/portuguese-phrases-for-travel-portugal.md",
+  "primaryKeyword": "portuguese phrases for travel",
+  "monthlySearchRange": "1K–10K",
+  "keywordEvidence": "travel-phrases-2026-10-30.json",
+  "keywordScope": {
+    "period": "October 2025–September 2026",
+    "geography": "Worldwide",
+    "network": "Google Search",
+    "language": "All languages (UI locked); manually supplied English seeds"
+  },
+  "limits": "Ranges include overlapping close variants. They are not a traffic forecast, organic difficulty score, or a measure of demand in China itself.",
+  "editorialAngle": "Comboio/autocarro, breakfast and hotel requests; speaker gender in thanks.",
+  "sources": [
+    "https://www.visitportugal.com/en/sobre-portugal/frases-uteis",
+    "https://www.instituto-camoes.pt/",
+    "https://ciberduvidas-ql.iscte-iul.pt/consultorio/perguntas/obrigadoa-e-obrigadosas/10643"
+  ],
+  "productCheck": {
+    "setting": "Portugal — Portuguese (European)",
+    "source": "ios/Spek/Spek/Models/Language.swift",
+    "workflow": "Existing source-checked conversation guide; no new device test."
+  },
+  "cover": {
+    "file": "/assets/blog/lisbon-portuguese.webp",
+    "provenance": "Reuses existing disclosed AI-generated editorial asset; no new location photograph or user interaction claimed."
+  },
+  "validation": {
+    "production": "Draft excluded from normal HTML, hub, related links, sitemap and feed.",
+    "privatePreview": "All 8 drafts rendered together; validator passed 23 pages and 15 articles.",
+    "review": "Independent fluent-speaker review has not been performed. Check language examples and pronunciation before publication; required for the Egyptian dialect examples."
+  },
+  "publicationChecklist": [
+    "Keep this PR open and unpublished until selected for release.",
+    "Review final language examples and reading aids in context; do not claim native review without it.",
+    "Move the approved draft to a correctly dated _posts file and set actual date/updated with Cairo offset.",
+    "Rebuild and validate production; publish at most one approved article per Cairo day.",
+    "Confirm final production page, sitemap, RSS and canonical; request indexing as appropriate."
+  ]
+}
