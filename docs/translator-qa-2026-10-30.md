@@ -50,5 +50,20 @@ fourth displayed “Please wait a minute before translating again.” The messag
 retained its error state after the real widget refreshed and the button became
 enabled again. The rejected request did not consume the remaining daily request.
 
-The preview is publicly reachable for review but is not yet the canonical SEO
-deployment. Connect usespek.com only in the later, separately requested cutover.
+## Production launch
+
+The user subsequently approved the domain cutover. GoDaddy's usespek.com page
+was verified before each nameserver edit; no other domain was changed. GoDaddy
+confirmed bristol.ns.cloudflare.com and clay.ns.cloudflare.com. Cloudflare's
+Universal SSL certificate is active, the usespek.com/* Worker route serves the
+site, and HTTPS plus the www-to-apex redirect preserve paths and query strings.
+The previous apex A records are retained behind the route for rollback.
+
+Chrome passed the real production Turnstile widget. Real usespek.com submissions
+returned Spanish, Arabic, and European Portuguese results. All 14 URLs in the
+new production sitemap returned 200 without noindex when checked at Cloudflare's
+edge with the real hostname and certificate. robots.txt and RSS returned 200;
+the API reported ready; source/config/documentation paths returned 404. The
+workers.dev preview still returns noindex. Local DNS caches temporarily returned
+the previous GitHub addresses, so GitHub Pages remains available during
+propagation. Native GitHub build integration awaits GitHub passkey confirmation.
