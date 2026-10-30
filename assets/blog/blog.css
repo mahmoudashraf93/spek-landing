@@ -39,6 +39,9 @@
 .article-copy>ol:not(.guide-steps)>li,.article-copy>ul>li{margin-block:8px;padding-left:4px}
 .article-copy p{margin-top:16px}
 .article-copy a{color:#9c4f00}
+.article-copy table{width:100%;border-collapse:collapse;margin-block:22px;font-size:.94em;text-align:left}
+.article-copy th,.article-copy td{padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}
+.article-copy th{font-weight:700}
 .article-body-text{display:block;max-width:760px}
 .article-example{max-width:420px;justify-self:stretch}
 .article-example>img{width:100%;border-radius:20px}

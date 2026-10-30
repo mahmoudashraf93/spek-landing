@@ -1,0 +1,198 @@
+{
+  "researchedOn": "2026-10-30",
+  "scope": "Follow-up to the original 55-seed travel-phrase research: China, Mandarin, Cantonese, Hong Kong and Taiwan.",
+  "keywordPlanner": {
+    "source": "https://ads.google.com/aw/keywordplanner/",
+    "locations": "All locations",
+    "languages": "All languages (UI locked); supplied queries in English",
+    "network": "Google Search",
+    "period": "October 2025–September 2026",
+    "requestedSeeds": 18,
+    "returnedRows": 18,
+    "rows": [
+      {
+        "keyword": "basic cantonese phrases",
+        "averageMonthlySearches": "100 – 1K",
+        "threeMonthChange": "+900%",
+        "yearOverYearChange": "+900%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "basic chinese phrases",
+        "averageMonthlySearches": "1K – 10K",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "basic mandarin phrases",
+        "averageMonthlySearches": "1K – 10K",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "cantonese phrases for travel",
+        "averageMonthlySearches": "10 – 100",
+        "threeMonthChange": "+900%",
+        "yearOverYearChange": "+900%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "chinese phrases for china",
+        "averageMonthlySearches": "—",
+        "threeMonthChange": "—",
+        "yearOverYearChange": "—",
+        "advertiserCompetition": "—"
+      },
+      {
+        "keyword": "chinese phrases for tourists",
+        "averageMonthlySearches": "100 – 1K",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "chinese phrases for travel",
+        "averageMonthlySearches": "10 – 100",
+        "threeMonthChange": "+900%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "chinese travel phrases",
+        "averageMonthlySearches": "100 – 1K",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "chinese words for travel",
+        "averageMonthlySearches": "10 – 100",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Medium"
+      },
+      {
+        "keyword": "essential chinese phrases",
+        "averageMonthlySearches": "10 – 100",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "hong kong travel phrases",
+        "averageMonthlySearches": "—",
+        "threeMonthChange": "—",
+        "yearOverYearChange": "—",
+        "advertiserCompetition": "—"
+      },
+      {
+        "keyword": "mandarin phrases for taiwan",
+        "averageMonthlySearches": "—",
+        "threeMonthChange": "—",
+        "yearOverYearChange": "—",
+        "advertiserCompetition": "—"
+      },
+      {
+        "keyword": "mandarin phrases for tourists",
+        "averageMonthlySearches": "100 – 1K",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "mandarin phrases for travel",
+        "averageMonthlySearches": "100 – 1K",
+        "threeMonthChange": "-90%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "mandarin travel phrases",
+        "averageMonthlySearches": "10 – 100",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "phrases for china",
+        "averageMonthlySearches": "—",
+        "threeMonthChange": "—",
+        "yearOverYearChange": "—",
+        "advertiserCompetition": "—"
+      },
+      {
+        "keyword": "taiwan travel phrases",
+        "averageMonthlySearches": "10 – 100",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      },
+      {
+        "keyword": "useful chinese phrases",
+        "averageMonthlySearches": "100 – 1K",
+        "threeMonthChange": "0%",
+        "yearOverYearChange": "0%",
+        "advertiserCompetition": "Low"
+      }
+    ]
+  },
+  "googleTrends": {
+    "source": "https://trends.google.com/trends/explore?date=today%2012-m&q=chinese%20phrases%20for%20travel,mandarin%20phrases%20for%20travel,japanese%20phrases%20for%20travel,italian%20phrases%20for%20travel,cantonese%20phrases%20for%20travel&hl=en",
+    "locations": "Worldwide",
+    "timeRange": "Past 12 months",
+    "category": "All categories",
+    "searchType": "Web Search",
+    "termsAre": "Search terms, not topics",
+    "displayedAverageInterestIndex": [
+      {
+        "term": "chinese phrases for travel",
+        "index": 9
+      },
+      {
+        "term": "mandarin phrases for travel",
+        "index": 0
+      },
+      {
+        "term": "japanese phrases for travel",
+        "index": 26
+      },
+      {
+        "term": "italian phrases for travel",
+        "index": 33
+      },
+      {
+        "term": "cantonese phrases for travel",
+        "index": 0
+      }
+    ],
+    "weeklyDataRows": 53,
+    "limitations": [
+      "Zero values indicate insufficient sampled search interest, not zero searches.",
+      "This comparison uses 'chinese phrases for travel', not the higher-volume 'chinese travel phrases' wording. Different keyword spellings and word order cannot be silently substituted.",
+      "Indices are relative within this comparison and are not monthly search counts."
+    ]
+  },
+  "recommendation": {
+    "includeChina": true,
+    "priority": "Second batch after the strongest travel-specific Italy/Japan/Spain opportunities; broader basic-phrase demand includes learning intent.",
+    "proposedTitle": "Chinese Travel Phrases for China: Mandarin with Pinyin",
+    "primaryKeyword": "chinese travel phrases",
+    "secondaryKeywords": [
+      "mandarin phrases for travel",
+      "chinese phrases for tourists",
+      "basic chinese phrases"
+    ],
+    "editorialScope": "Mainland-China Mandarin guide. Give Cantonese/Hong Kong and Taiwan their own appropriately reviewed usage and script coverage if pursued.",
+    "languageReview": "Fluent review is needed before publishing any examples."
+  },
+  "limitations": [
+    "Keyword Planner exposes broad ranges and close variants; overlapping variants must not be summed.",
+    "Displayed changes are coarse estimates; +900% can arise from small bases.",
+    "A dash means unavailable metrics, not zero demand.",
+    "Advertiser competition is not organic ranking difficulty.",
+    "English queries worldwide measure the proposed English-language guide audience, not domestic Chinese-language search demand.",
+    "This is research; no article or paid advertising campaign was published."
+  ]
+}
