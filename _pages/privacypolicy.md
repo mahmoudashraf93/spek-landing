@@ -5,7 +5,7 @@ description: How Spek handles your information, including translation data, acco
 ---
 # Privacy Policy
 
-Last updated: October 17, 2026
+Last updated: October 30, 2026
 
 Spek is provided by Mahmoud Ashraf. Contact [africanlord.apps@gmail.com](mailto:africanlord.apps@gmail.com) with privacy questions.
 
@@ -38,4 +38,12 @@ Spek includes Meta and TikTok SDKs for advertising measurement. Their data pract
 
 ## This website
 
-This landing page does not add analytics scripts, advertising pixels, third-party fonts, or cookies. GitHub Pages hosts the site and may process technical access information under [GitHub’s privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+The website does not add advertising pixels, third-party fonts, or marketing analytics. The original usespek.com site is hosted on GitHub Pages until the hosting migration is completed. The Cloudflare review deployment and its free translator are hosted by Cloudflare. Hosting providers may process technical access information under their own privacy terms: [GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) and [Cloudflare](https://www.cloudflare.com/privacypolicy/).
+
+## Free web translator
+
+When you press Translate on a free web translator page, your submitted text and selected language codes pass through Spek's Cloudflare backend to Google Cloud Translation. Google returns the translated text. Spek does not save submitted text or translated results, put them in analytics, or log request bodies. This does not describe Google's or Cloudflare's own processing and retention; see [Google Cloud Translation data usage](https://cloud.google.com/translate/data-usage) and [Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/).
+
+The translator uses Cloudflare Turnstile to check automated traffic. Turnstile processes browser, device, and network signals and receives your IP address for the security check. See the [Turnstile privacy information](https://www.cloudflare.com/privacypolicy/) for its data practices.
+
+A necessary first-party cookie, `spek_session`, contains a random session identifier and lasts up to seven days. It is used to apply the daily free allowance, not for advertising. The backend stores short-lived counts of requests and submitted characters, random request identifiers to prevent duplicate submissions, and a daily keyed hash derived from the connection's IP address. Spek's usage ledger does not store raw IP addresses. Session and IP counters are retained for up to three days; monthly aggregate character counts are retained for up to 33 days. These counters contain no submitted text or translated results. People sharing a connection may share an IP-based allowance. Clearing or blocking the session cookie can affect access to the translator.

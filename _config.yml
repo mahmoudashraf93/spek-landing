@@ -34,3 +34,7 @@ exclude:
   - package.json
   - package-lock.json
   - design-qa.md
+  - cloudflare
+  - wrangler.jsonc
+  - .cloudflare
+  - .wrangler

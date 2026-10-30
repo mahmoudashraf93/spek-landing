@@ -20,7 +20,8 @@
   <meta name="apple-itunes-app" content="app-id=6748774580">
   <meta name="theme-color" content="#141411">
   <link rel="icon" type="image/png" href="{{ '/assets/spek/icon.png' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/spek/site.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/spek/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% if page.translator %}<link rel="stylesheet" href="{{ '/assets/translator/translator.css' | relative_url }}?v={{ site.time | date: '%s' }}">{% endif %}
   <link rel="alternate" type="application/rss+xml" title="Spek guides" href="{{ '/feed.xml' | absolute_url }}">
   {% if page.blog %}<link rel="stylesheet" href="{{ '/assets/blog/blog.css' | relative_url }}">{% endif %}
 </head>

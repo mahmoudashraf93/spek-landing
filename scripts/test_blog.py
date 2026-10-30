@@ -58,7 +58,7 @@ class SiteChecks(unittest.TestCase):
 
     def test_published_related_content_and_draft_boundaries(self):
         source = Path(self.temp.name) / "source"
-        shutil.copytree(PROJECT, source, ignore=shutil.ignore_patterns(".git", "_site", "_preview", "vendor", ".bundle", "docs"))
+        shutil.copytree(PROJECT, source, ignore=shutil.ignore_patterns(".git", "_site", "_preview", "vendor", ".bundle", "docs", "node_modules", ".cloudflare", ".wrangler"))
         target = source / "_posts/2026-10-19-translate-menu-iphone.md"
         # Isolate related-item eligibility from the growing real article archive.
         # Otherwise two newer real posts can fill both slots before this fixture.

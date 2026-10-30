@@ -32,8 +32,12 @@ class Page(HTMLParser):
         if tag == "title":
             self._title = True
         if tag == "script":
-            assert attrs.get("type") == "application/ld+json" and not attrs.get("src"), "Executable script"
-            self._script, self._data = True, ""
+            if attrs.get("src"):
+                source = urlsplit(attrs["src"])
+                assert not source.netloc and source.path == "/assets/translator/translator.js" and "defer" in attrs, "Unexpected executable script"
+            else:
+                assert attrs.get("type") == "application/ld+json", "Unexpected inline executable script"
+                self._script, self._data = True, ""
 
     def handle_endtag(self, tag):
         if tag == "h1":

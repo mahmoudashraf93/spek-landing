@@ -1,0 +1,15 @@
+{
+  "name": "spek-web-translator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bundle exec jekyll build --destination .cloudflare/site && python3 scripts/validate-site.py .cloudflare/site && python3 scripts/prepare-cloudflare.py",
+    "test": "node --test cloudflare/*.test.mjs",
+    "dev": "wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "miniflare": "5.20261023.3-beta",
+    "wrangler": "4.156.0"
+  }
+}

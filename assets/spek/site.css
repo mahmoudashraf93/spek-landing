@@ -14,3 +14,4 @@
 
 .site-header .brand{flex-shrink:0}.site-header nav,.site-header nav a{white-space:nowrap;flex-shrink:0}
 @media(max-width:400px){.site-header .brand{font-size:22px}.site-header nav{font-size:12px;gap:10px}}
+@media(max-width:400px){.site-header .brand{font-size:20px;gap:6px}.site-header .brand img{width:28px;height:28px}.site-header nav{font-size:11px;gap:8px}.site-header nav .nav-download .link-icon{display:none}}
