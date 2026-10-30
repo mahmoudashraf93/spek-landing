@@ -5,6 +5,7 @@ description: Translate short messages between English and Spanish, Arabic, or Eu
 heading: Free online<br>text translator.
 intro: Translate the message, the question, the little things you want to say. Free online text translation between English and Spanish, Arabic, or European Portuguese.
 translator: true
+updated: 2026-10-30
 target: es
 ---
 ## How to translate your text

@@ -6,6 +6,7 @@ description: Translate English to European Portuguese online for free. Portugues
 heading: English to European<br>Portuguese translator.
 intro: A message for your stay in Lisbon, a question before your trip, a conversation with someone new. Translate English into Portuguese as used in Portugal.
 translator: true
+updated: 2026-10-30
 target: pt-PT
 ---
 ## Translate English to European Portuguese

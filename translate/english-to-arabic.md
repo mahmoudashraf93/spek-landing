@@ -6,6 +6,7 @@ description: Translate English to Arabic online for free, with right-to-left Ara
 heading: English to Arabic<br>translator.
 intro: Translate a short message into Arabic, or understand an Arabic reply in English. Free to use, with Arabic text displayed right to left.
 translator: true
+updated: 2026-10-30
 target: ar
 ---
 ## Translate English to Arabic

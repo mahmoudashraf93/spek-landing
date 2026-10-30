@@ -6,6 +6,7 @@ description: Translate English to Spanish online for free, or swap to Spanish to
 heading: English to Spanish<br>translator.
 intro: From a quick hello to a question on your travels. Translate short English messages into Spanish, or swap languages to understand the reply.
 translator: true
+updated: 2026-10-30
 target: es
 ---
 ## Translate English to Spanish online
