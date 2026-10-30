@@ -1,0 +1,41 @@
+{
+  "checkedOn": "2026-10-30",
+  "publicationApprovedByUser": true,
+  "scope": "Publish Italy; eight other destination guides remain separate open draft PRs.",
+  "primaryKeyword": "italian phrases for travel",
+  "keywordEvidence": {
+    "file": "travel-phrases-2026-10-30.json",
+    "range": "1K–10K",
+    "period": "October 2025–September 2026",
+    "scope": "Worldwide, Google Search, All languages; English seed",
+    "limits": "Close variants overlap; broad ranges are not predicted traffic or organic difficulty."
+  },
+  "sources": [
+    "https://resources.italiarail.com/doc/Italian_Phrases.pdf",
+    "https://blog.italotreno.com/en/train-world/how-to-to-italy/",
+    "https://www.treccani.it/enciclopedia/formule-di-saluto_%28La-grammatica-italiana%29/"
+  ],
+  "checks": [
+    "Phrase meanings cross-checked against Italian references; English pronunciation hints are approximate.",
+    "Country IT Italian exists in iOS Models/Language.swift.",
+    "Voice workflow follows existing source-checked in-person guide; no new device test.",
+    "No claim that the free web translator supports Italian."
+  ],
+  "cover": {
+    "file": "assets/blog/italy-travel-phrases.webp",
+    "mode": "Built-in imagegen",
+    "useCase": "photorealistic-natural",
+    "prompt": "Create a 4:3 landscape editorial travel illustration, warm photographic realism, for a practical Italian phrases guide. An imagined quiet Florence neighborhood café in morning light: small marble table with an espresso cup and a folded blank pocket notebook, ochre buildings, subtle view of Florence cathedral dome in background. Human-scale intimate composition, muted terracotta, cream and olive colors, soft natural light, premium independent travel journal. No readable text, no lettering, no logos, no phone interface, no collage, no borders. This is an editorial illustration not a documentary location record.",
+    "size": [
+      1448,
+      1086
+    ],
+    "encoding": "cwebp quality 80",
+    "disclosure": "AI-generated editorial illustration, imagined scene, not a location photograph."
+  },
+  "review": {
+    "desktopWidth": 1200,
+    "mobileWidth": 390,
+    "claims": "No independent native-speaker review or comparative accuracy test."
+  }
+}
