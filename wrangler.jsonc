@@ -1,0 +1,28 @@
+{
+  "$schema": "https://unpkg.com/wrangler@4/config-schema.json",
+  "name": "spek-web",
+  "main": "cloudflare/worker.mjs",
+  "account_id": "96b9391502b0ebd8587f12fb04a7b2ae",
+  "compatibility_date": "2026-10-30",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./.cloudflare/site",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"],
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "durable_objects": {
+    "bindings": [{ "name": "USAGE", "class_name": "UsageLedger" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["UsageLedger"] }],
+  "vars": {
+    "TRANSLATION_ENABLED": "false",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAFs_EAvQRdLIvgIZ",
+    "DAILY_CHAR_LIMIT": "30000",
+    "MONTHLY_CHAR_LIMIT": "900000",
+    "ALLOWED_HOSTS": "spek-web.africanlord-apps.workers.dev,localhost,127.0.0.1"
+  },
+  "observability": { "enabled": false }
+}

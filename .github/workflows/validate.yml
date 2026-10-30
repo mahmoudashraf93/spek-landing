@@ -15,3 +15,9 @@ jobs:
       - run: bundle exec jekyll build
       - run: python3 scripts/validate-site.py _site
       - run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm test

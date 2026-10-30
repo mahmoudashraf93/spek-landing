@@ -1,6 +1,13 @@
 # Spek landing page
 
-A static Jekyll site for the Spek iPhone translator. No client-side scripts, analytics, remote font requests or runtime App Store lookups.
+A Jekyll site for the Spek iPhone translator, with a free browser text translator
+on the Cloudflare review deployment. The site content is prebuilt HTML; a small
+frontend script submits translation requests to a protected Worker. No marketing
+analytics, remote fonts, or runtime App Store lookups are added.
+
+The review deployment is https://spek-web.africanlord-apps.workers.dev/.
+See [Cloudflare deployment and operating notes](docs/CLOUDFLARE.md). The custom
+domain remains on the existing GitHub Pages site until the separate cutover.
 
 ## Confirmed deployment
 
