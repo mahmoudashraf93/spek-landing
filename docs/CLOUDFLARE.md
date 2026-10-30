@@ -117,7 +117,7 @@ and `NODE_VERSION=22.23.4`.
 
 Build command:
 ```sh
-bundle install && npm test && python3 -m unittest discover -s scripts -p 'test_*.py' && npm run build
+bundle install && npm test && bundle exec jekyll build && python3 -m unittest discover -s scripts -p 'test_*.py' && npm run build
 ```
 Deploy command:
 ```sh
