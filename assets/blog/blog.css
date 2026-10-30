@@ -62,6 +62,7 @@
 .article-sources h2{font-size:14px;font-weight:700;letter-spacing:0}
 .article-sources p{margin-top:8px;max-width:75ch}
 .article-sources ul{padding:0;list-style:none;margin:6px 0 0}
+.article-sources li>a{display:inline-flex;align-items:center;min-height:44px;padding-block:8px}
 .guide-download{background:#f0e4ce url('/assets/blog/florence-banner.webp') center 54%/cover no-repeat;margin-top:20px;padding-block:24px;min-height:0}
 .guide-download h2{white-space:pre-line;font-size:clamp(30px,3.4vw,48px);line-height:1.05;max-width:710px}
 .guide-download .button{margin-top:16px;padding:13px 20px;min-height:48px;font-size:15px;border-radius:9px;gap:16px}
