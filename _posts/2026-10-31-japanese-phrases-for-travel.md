@@ -3,8 +3,8 @@ title: Japanese phrases for travel
 title_lines: [Japanese phrases, for travel]
 description: Useful Japanese phrases for travel, with Japanese script and romaji for greetings, prices, directions and getting help when you cannot follow the reply.
 subtitle: Start politely, keep the Japanese text handy, and ask one question at a time.
-date: 2026-10-30 22:55:00 +0200
-updated: 2026-10-30 22:55:00 +0200
+date: 2026-10-31 09:00:36 +0200
+updated: 2026-10-31 09:00:36 +0200
 reading_time: 5
 topic: Travel phrases
 feature: Japan
