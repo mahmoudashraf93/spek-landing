@@ -1,0 +1,41 @@
+{
+  "preparedOn": "2026-10-30",
+  "status": "Published to _posts/2026-10-31-japanese-phrases-for-travel.md on 2026-10-31; automated release authorized by the repository publication queue.",
+  "article": "_posts/2026-10-31-japanese-phrases-for-travel.md",
+  "primaryKeyword": "japanese phrases for travel",
+  "monthlySearchRange": "1K–10K",
+  "keywordEvidence": "travel-phrases-2026-10-30.json",
+  "keywordScope": {
+    "period": "October 2025–September 2026",
+    "geography": "Worldwide",
+    "network": "Google Search",
+    "language": "All languages (UI locked); manually supplied English seeds"
+  },
+  "limits": "Ranges include overlapping close variants. They are not a traffic forecast, organic difficulty score, or a measure of demand in China itself.",
+  "editorialAngle": "Japanese writing beside romaji; exact addresses and clear short exchanges.",
+  "sources": [
+    "https://www.japan.travel/en/plan/japanese-language/",
+    "https://minato-jf.jp/"
+  ],
+  "productCheck": {
+    "setting": "Japan — Japanese",
+    "source": "ios/Spek/Spek/Models/Language.swift",
+    "workflow": "Existing source-checked conversation guide; no new device test."
+  },
+  "cover": {
+    "file": "/assets/blog/cafe-conversation.webp",
+    "provenance": "Reuses existing disclosed AI-generated editorial asset; no new location photograph or user interaction claimed."
+  },
+  "validation": {
+    "production": "Draft excluded from normal HTML, hub, related links, sitemap and feed.",
+    "privatePreview": "All 8 drafts rendered together; validator passed 23 pages and 15 articles.",
+    "review": "Independent fluent-speaker review has not been performed. Check language examples and pronunciation before publication; required for the Egyptian dialect examples.",
+    "publication": "Promotion prepared on the PR branch for the 31 October 2026 Cairo release; latest-head GitHub Actions validation and production verification are required before the PR is merged."
+  },
+  "publicationChecklist": [
+    "Language and source review completed against JNTO and Japan Foundation sources on 2026-10-31; no native-speaker review or new device test claimed.",
+    "Promoted to _posts with the actual Cairo publication date and timestamps.",
+    "Await GitHub Actions validation on this promoted head before merge.",
+    "After merge, confirm the production page, sitemap, RSS, canonical, schema and indexing allowance."
+  ]
+}
