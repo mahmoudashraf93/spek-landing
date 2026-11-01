@@ -1,7 +1,7 @@
 {
   "preparedOn": "2026-10-30",
-  "status": "Unpublished draft; keep PR open. No automatic merge or publication.",
-  "article": "_drafts/spanish-phrases-for-travel-spain.md",
+  "status": "Published to _posts/2026-11-01-spanish-phrases-for-travel-spain.md on 2026-11-01; automated release authorized by the repository publication queue.",
+  "article": "_posts/2026-11-01-spanish-phrases-for-travel-spain.md",
   "primaryKeyword": "spanish phrases for travel",
   "monthlySearchRange": "1K–10K",
   "keywordEvidence": "travel-phrases-2026-10-30.json",
@@ -32,13 +32,13 @@
   "validation": {
     "production": "Draft excluded from normal HTML, hub, related links, sitemap and feed.",
     "privatePreview": "All 8 drafts rendered together; validator passed 23 pages and 15 articles.",
-    "review": "Independent fluent-speaker review has not been performed. Check language examples and pronunciation before publication; required for the Egyptian dialect examples."
+    "review": "Independent fluent-speaker review has not been performed. Check language examples and pronunciation before publication; required for the Egyptian dialect examples.",
+    "publication": "Promotion prepared on the PR branch for the 1 November 2026 Cairo release; latest-head GitHub Actions validation and production verification are required before the PR is merged."
   },
   "publicationChecklist": [
-    "Keep this PR open and unpublished until selected for release.",
-    "Review final language examples and reading aids in context; do not claim native review without it.",
-    "Move the approved draft to a correctly dated _posts file and set actual date/updated with Cairo offset.",
-    "Rebuild and validate production; publish at most one approved article per Cairo day.",
-    "Confirm final production page, sitemap, RSS and canonical; request indexing as appropriate."
+    "Language and source review completed on 2026-11-01; no native-speaker review or new device test claimed.",
+    "Promoted to _posts with the actual Cairo publication date and timestamps.",
+    "Await GitHub Actions validation on this promoted head before merge.",
+    "After merge, confirm the production page, sitemap, RSS, canonical, schema and indexing allowance."
   ]
 }

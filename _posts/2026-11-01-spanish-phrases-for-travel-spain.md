@@ -3,8 +3,8 @@ title: Spanish phrases for travel in Spain
 title_lines: [Spanish phrases, for travel, in Spain]
 description: Spanish phrases for a trip to Spain, including polite requests, restaurant bills, transport tickets, useful signs and words you may know differently from Latin America.
 subtitle: A phrase kit for cafés, ticket counters, and the moment someone answers faster than you expected.
-date: 2026-10-30 22:55:00 +0200
-updated: 2026-10-30 22:55:00 +0200
+date: 2026-11-01 09:02:59 +0200
+updated: 2026-11-01 09:02:59 +0200
 reading_time: 5
 topic: Travel phrases
 feature: Spain
