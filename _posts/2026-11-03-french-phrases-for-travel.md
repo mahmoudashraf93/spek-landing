@@ -3,8 +3,8 @@ title: French phrases for travel in France
 title_lines: [French phrases, for travel, in France]
 description: "Useful French phrases for travel in France: greet politely, order at a café, ask for the bill, read basic signs and clarify a reply you did not understand."
 subtitle: From bonjour to l’addition, a practical set of phrases for your first day in France.
-date: 2026-10-30 22:55:00 +0200
-updated: 2026-10-30 22:55:00 +0200
+date: 2026-11-03 09:05:22 +0200
+updated: 2026-11-03 09:05:22 +0200
 reading_time: 5
 topic: Travel phrases
 feature: France
