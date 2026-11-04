@@ -1,7 +1,7 @@
 {
   "preparedOn": "2026-10-30",
-  "status": "Unpublished draft; keep PR open. No automatic merge or publication.",
-  "article": "_drafts/portuguese-phrases-for-travel-portugal.md",
+  "status": "Published to _posts/2026-11-04-portuguese-phrases-for-travel-portugal.md on 2026-11-04; automated release authorized by the repository publication queue.",
+  "article": "_posts/2026-11-04-portuguese-phrases-for-travel-portugal.md",
   "primaryKeyword": "portuguese phrases for travel",
   "monthlySearchRange": "1K–10K",
   "keywordEvidence": "travel-phrases-2026-10-30.json",
@@ -30,7 +30,8 @@
   "validation": {
     "production": "Draft excluded from normal HTML, hub, related links, sitemap and feed.",
     "privatePreview": "All 8 drafts rendered together; validator passed 23 pages and 15 articles.",
-    "review": "Independent fluent-speaker review has not been performed. Check language examples and pronunciation before publication; required for the Egyptian dialect examples."
+    "review": "Independent fluent-speaker review has not been performed. Check language examples and pronunciation before publication; required for the Egyptian dialect examples.",
+    "publication": "Promotion is pending a fresh GitHub Actions validation of this exact release head before merge; no native-speaker review or device test is claimed."
   },
   "publicationChecklist": [
     "Keep this PR open and unpublished until selected for release.",

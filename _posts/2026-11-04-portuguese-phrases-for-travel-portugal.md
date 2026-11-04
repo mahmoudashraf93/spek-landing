@@ -3,8 +3,8 @@ title: Portuguese phrases for travel in Portugal
 title_lines: [Portuguese phrases, for travel, in Portugal]
 description: "Learn useful Portuguese phrases for Portugal: greetings, café bills, hotel reservations, tickets and European Portuguese words such as comboio and autocarro."
 subtitle: Everyday requests for Portugal, with words to recognise at breakfast, on a bus, and at the station.
-date: 2026-10-30 22:55:00 +0200
-updated: 2026-10-30 22:55:00 +0200
+date: 2026-11-04 09:00:16 +0200
+updated: 2026-11-04 09:00:16 +0200
 reading_time: 5
 topic: Travel phrases
 feature: Portugal
