@@ -3,8 +3,8 @@ title: Spanish phrases for Mexico
 title_lines: [Spanish phrases, for Mexico]
 description: "Practical Spanish phrases for Mexico: greetings, food orders, prices, payment questions and transport, with useful Mexican vocabulary and simple clarification phrases."
 subtitle: A small phrase kit for food, fares, and everyday conversations on a trip to Mexico.
-date: 2026-10-30 22:55:00 +0200
-updated: 2026-10-30 22:55:00 +0200
+date: 2026-11-05 09:05:35 +0200
+updated: 2026-11-05 09:05:35 +0200
 reading_time: 5
 topic: Travel phrases
 feature: Mexico
