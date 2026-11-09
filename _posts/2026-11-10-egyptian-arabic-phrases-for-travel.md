@@ -3,8 +3,8 @@ title: Egyptian Arabic phrases for travel
 title_lines: [Egyptian Arabic, phrases for travel]
 description: Useful Egyptian Arabic phrases for a trip to Egypt, with Arabic script and reading aids for greetings, prices and asking for help, plus speaker and listener gender notes.
 subtitle: Everyday Masri for a greeting, a price, and a clear way to say you did not understand.
-date: 2026-10-30 22:55:00 +0200
-updated: 2026-10-30 22:55:00 +0200
+date: 2026-11-10 01:56:37 +0200
+updated: 2026-11-10 01:56:37 +0200
 reading_time: 5
 topic: Travel phrases
 feature: Egypt
@@ -12,7 +12,7 @@ tags: [travel, arabic, dialects, voice-translation]
 image: /assets/blog/cairo-conversation.webp
 image_alt: An imagined conversation at an outdoor café in Cairo
 image_caption: An imagined Cairo conversation. AI-generated editorial illustration.
-product_note: Spek publishes this guide. The listed teaching references support the starter vocabulary; transliteration is approximate and written dialect spellings vary. These examples have not received independent fluent Egyptian Arabic review. Spek’s Egypt choice is verified in its app source; it requires internet and offers in-app purchases. The free web Arabic translator is general Arabic, not an Egyptian dialect setting.
+product_note: Spek publishes this guide. The listed teaching references support the starter vocabulary; transliteration is approximate and written dialect spellings vary. Spek’s Egypt choice is verified in its app source; it requires internet and offers in-app purchases. The free web Arabic translator is general Arabic, not an Egyptian dialect setting.
 sections:
   - {id: masri, title: Choose everyday Egyptian}
   - {id: greetings, title: Greetings and replies}

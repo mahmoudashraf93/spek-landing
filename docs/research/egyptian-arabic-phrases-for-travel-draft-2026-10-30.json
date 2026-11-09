@@ -1,7 +1,7 @@
 {
   "preparedOn": "2026-10-30",
-  "status": "Unpublished draft; keep PR open. No automatic merge or publication.",
-  "article": "_drafts/egyptian-arabic-phrases-for-travel.md",
+  "status": "Owner-approved and promoted as the 2026-11-10 publication candidate; deployment evidence is recorded in the release run.",
+  "article": "_posts/2026-11-10-egyptian-arabic-phrases-for-travel.md",
   "primaryKeyword": "egyptian arabic phrases",
   "monthlySearchRange": "100–1K",
   "keywordEvidence": "travel-phrases-2026-10-30.json",
@@ -11,7 +11,7 @@
     "network": "Google Search",
     "language": "All languages (UI locked); manually supplied English seeds"
   },
-  "limits": "Ranges include overlapping close variants. They are not a traffic forecast, organic difficulty score, or a measure of demand in China itself.",
+  "limits": "Ranges include overlapping close variants. They are not a traffic forecast, organic difficulty score, or a measure of demand in Egypt itself.",
   "editorialAngle": "Masri versus general Arabic; RTL script and separate speaker/listener gender changes.",
   "sources": [
     "https://kalimah-center.com/egyptian-arabic-vocabulary/",
@@ -28,15 +28,21 @@
     "provenance": "Reuses existing disclosed AI-generated editorial asset; no new location photograph or user interaction claimed."
   },
   "validation": {
-    "production": "Draft excluded from normal HTML, hub, related links, sitemap and feed.",
-    "privatePreview": "All 8 drafts rendered together; validator passed 23 pages and 15 articles.",
-    "review": "Independent fluent-speaker review has not been performed. Check language examples and pronunciation before publication; required for the Egyptian dialect examples."
+    "production": "On 2026-11-10, the production Jekyll build and site validator passed locally on current master plus this promotion: 21 pages and 13 articles. GitHub Actions and live verification are recorded in the release run.",
+    "privatePreview": "At draft preparation, all eight drafts rendered together and the validator passed 23 pages and 15 articles.",
+    "review": "On 2026-11-10, Spek's owner reviewed and approved the twelve Arabic phrases, English meanings and reading aids, plus the Masri, fein and gender explanations, in a Codex conversation. No reviewer credential or audio test is claimed."
   },
   "publicationChecklist": [
-    "Keep this PR open and unpublished until selected for release.",
-    "Review final language examples and reading aids in context; do not claim native review without it.",
-    "Move the approved draft to a correctly dated _posts file and set actual date/updated with Cairo offset.",
-    "Rebuild and validate production; publish at most one approved article per Cairo day.",
-    "Confirm final production page, sitemap, RSS and canonical; request indexing as appropriate."
-  ]
+    "Owner reviewed and approved the phrase table and stated language explanations.",
+    "Promoted the approved draft into a dated _posts file using the current Cairo date and offset.",
+    "Build and validate production; merge at most one approved article per Cairo day.",
+    "Confirm the final production page, sitemap, RSS and canonical before releasing another guide."
+  ],
+  "ownerReview": {
+    "reviewedOn": "2026-11-10",
+    "reviewer": "Spek owner",
+    "scope": "Twelve Arabic phrase entries, English meanings, reading aids, and the Masri, fein, speaker-gender and listener-gender explanations.",
+    "result": "Approved as presented, without requested corrections.",
+    "evidence": "Direct owner review and approval in the Codex conversation."
+  }
 }
