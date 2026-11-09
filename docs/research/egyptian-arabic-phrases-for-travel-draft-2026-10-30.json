@@ -1,0 +1,48 @@
+{
+  "preparedOn": "2026-10-30",
+  "status": "Owner-approved and promoted as the 2026-11-10 publication candidate; deployment evidence is recorded in the release run.",
+  "article": "_posts/2026-11-10-egyptian-arabic-phrases-for-travel.md",
+  "primaryKeyword": "egyptian arabic phrases",
+  "monthlySearchRange": "100–1K",
+  "keywordEvidence": "travel-phrases-2026-10-30.json",
+  "keywordScope": {
+    "period": "October 2025–September 2026",
+    "geography": "Worldwide",
+    "network": "Google Search",
+    "language": "All languages (UI locked); manually supplied English seeds"
+  },
+  "limits": "Ranges include overlapping close variants. They are not a traffic forecast, organic difficulty score, or a measure of demand in Egypt itself.",
+  "editorialAngle": "Masri versus general Arabic; RTL script and separate speaker/listener gender changes.",
+  "sources": [
+    "https://kalimah-center.com/egyptian-arabic-vocabulary/",
+    "https://www.omniglot.com/language/phrases/arabic_egyptian.php",
+    "https://files.lingualism.com/wp-content/uploads/SAMPLE-Talk-Like-an-Egyptian-Lingualism.pdf"
+  ],
+  "productCheck": {
+    "setting": "Egypt — Arabic (Egyptian)",
+    "source": "ios/Spek/Spek/Models/Language.swift",
+    "workflow": "Existing source-checked conversation guide; no new device test."
+  },
+  "cover": {
+    "file": "/assets/blog/cairo-conversation.webp",
+    "provenance": "Reuses existing disclosed AI-generated editorial asset; no new location photograph or user interaction claimed."
+  },
+  "validation": {
+    "production": "On 2026-11-10, the production Jekyll build and site validator passed locally on current master plus this promotion: 21 pages and 13 articles. GitHub Actions and live verification are recorded in the release run.",
+    "privatePreview": "At draft preparation, all eight drafts rendered together and the validator passed 23 pages and 15 articles.",
+    "review": "On 2026-11-10, Spek's owner reviewed and approved the twelve Arabic phrases, English meanings and reading aids, plus the Masri, fein and gender explanations, in a Codex conversation. No reviewer credential or audio test is claimed."
+  },
+  "publicationChecklist": [
+    "Owner reviewed and approved the phrase table and stated language explanations.",
+    "Promoted the approved draft into a dated _posts file using the current Cairo date and offset.",
+    "Build and validate production; merge at most one approved article per Cairo day.",
+    "Confirm the final production page, sitemap, RSS and canonical before releasing another guide."
+  ],
+  "ownerReview": {
+    "reviewedOn": "2026-11-10",
+    "reviewer": "Spek owner",
+    "scope": "Twelve Arabic phrase entries, English meanings, reading aids, and the Masri, fein, speaker-gender and listener-gender explanations.",
+    "result": "Approved as presented, without requested corrections.",
+    "evidence": "Direct owner review and approval in the Codex conversation."
+  }
+}
