@@ -54,6 +54,8 @@ sources:
 
 A general Spanish option can be a useful starting point for a conversation in Mexico. You do not have to install a separate app just because its language picker does not say “Mexican Spanish.” If local wording matters, look more closely at the result and its context.
 
+For a short written message, try our [free English to Spanish translator]({{ '/translate/english-to-spanish/' | relative_url }}), which uses standard Spanish rather than a Mexico-specific setting. For ready-made expressions, see our [Spanish phrases for travel in Mexico]({{ '/blog/spanish-phrases-for-mexico/' | relative_url }}).
+
 - **Say or understand a short phrase:** try [Apple Translate](#apple-translate) or [Google Translate](#google-translate).
 - **Work out what one word means in context:** look for definitions, examples, and country labels in [SpanishDictionary](#spanishdictionary).
 - **Request Mexico explicitly for a spoken exchange:** use [Spek’s country choices](#spek), with its internet requirement and purchases in mind.

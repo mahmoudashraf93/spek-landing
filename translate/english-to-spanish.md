@@ -19,6 +19,8 @@ Spanish wording can depend on who is speaking and who is being addressed. Includ
 
 This free tool offers Google's standard Spanish translation. It does not include a separate Mexican Spanish or Spain Spanish selector. For country-specific options in the iPhone app, read our [Mexican Spanish translator guide]({{ '/blog/mexican-spanish-translator-iphone/' | relative_url }}).
 
+For common travel situations, explore our phrase guides for [Mexico]({{ '/blog/spanish-phrases-for-mexico/' | relative_url }}) and [Spain]({{ '/blog/spanish-phrases-for-travel-spain/' | relative_url }}).
+
 ## Questions about the free Spanish translator
 
 ### Can I translate Spanish back to English?

@@ -63,6 +63,8 @@ That affects what you should ask a translator to do. Reading a formal notice and
 
 Choose the direction deliberately: **English to Egyptian Arabic** when you want to say something, or **Egyptian Arabic to English** when you want to understand a reply. For other trips or conversations, choose the relevant language or regional variety rather than leaving Egypt selected.
 
+For a starting point before a trip, see our [Egyptian Arabic travel phrases]({{ '/blog/egyptian-arabic-phrases-for-travel/' | relative_url }}). For a short written message, the [free English to Arabic web translator]({{ '/translate/english-to-arabic/' | relative_url }}) uses standard Arabic and does not have an Egyptian dialect mode.
+
 <h2 id="compare-the-apps">Compare the iPhone options</h2>
 
 <h3 id="apple-translate">Apple Translate: start here for a general Arabic phrase</h3>

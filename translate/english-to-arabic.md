@@ -21,6 +21,8 @@ This tool uses Google's standard Arabic translation. It does not offer a dedicat
 
 If your goal is a conversation with family or friends in Egypt, our [Egyptian Arabic translator guide]({{ '/blog/egyptian-arabic-translator-iphone/' | relative_url }}) explains the distinction and available iPhone options.
 
+If you are preparing for a trip, our [Egyptian Arabic travel phrases]({{ '/blog/egyptian-arabic-phrases-for-travel/' | relative_url }}) offer examples for greetings, prices, and everyday requests.
+
 ## Tips for clearer Arabic translations
 
 Use complete sentences and make pronouns clear. Arabic wording can vary with the speaker and the person being addressed. Review mixed Arabic and English text, especially names, addresses, amounts, and dates. Automatic translation can misread dialect, informal spelling, or ambiguous phrases.
