@@ -32,10 +32,9 @@
     "review": "No independent native-speaker review or device test is claimed. Core wording, polite forms and romanization were rechecked against the cited official Seoul Tourism source and National Institute of Korean Language dictionary before promotion."
   },
   "publicationChecklist": [
-    "Keep this PR open and unpublished until selected for release.",
-    "Review final language examples and reading aids in context; do not claim native review without it.",
-    "Move the approved draft to a correctly dated _posts file and set actual date/updated with Cairo offset.",
-    "Rebuild and validate production; publish at most one approved article per Cairo day.",
-    "Confirm final production page, sitemap, RSS and canonical; request indexing as appropriate."
+    "Promoted the approved draft into a dated _posts file using the current Cairo date and offset.",
+    "Source-check final language examples and reading aids in context; do not claim native review or device testing.",
+    "Require fresh GitHub Actions validation of this exact release head before merge.",
+    "Confirm final production page, sitemap, RSS and canonical after deployment."
   ]
 }
