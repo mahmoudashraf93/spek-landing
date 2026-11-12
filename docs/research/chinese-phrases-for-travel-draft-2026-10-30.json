@@ -1,0 +1,40 @@
+{
+  "preparedOn": "2026-10-30",
+  "status": "Promoted to _posts/2026-11-12-chinese-phrases-for-travel.md on 2026-11-12 under the authorized publication queue; fresh GitHub Actions validation is required before merge.",
+  "article": "_posts/2026-11-12-chinese-phrases-for-travel.md",
+  "primaryKeyword": "chinese travel phrases",
+  "monthlySearchRange": "100–1K",
+  "keywordEvidence": "china-travel-phrases-2026-10-30.json",
+  "keywordScope": {
+    "period": "October 2025–September 2026",
+    "geography": "Worldwide",
+    "network": "Google Search",
+    "language": "All languages (UI locked); manually supplied English seeds"
+  },
+  "limits": "Ranges include overlapping close variants. They are not a traffic forecast, organic difficulty score, or a measure of demand in China itself.",
+  "editorialAngle": "Mandarin/simplified scope, pinyin tones, addresses in characters, no Cantonese or China-connectivity promise.",
+  "sources": [
+    "https://www.macalaoshi.com/en/guides/chinese-phrases-for-travel",
+    "https://www.tourismnt.com.au/system/files/uploads/files/2025/China%20Market%20information.pdf"
+  ],
+  "productCheck": {
+    "setting": "China — Chinese (Simplified)",
+    "source": "ios/Spek/Spek/Models/Language.swift",
+    "workflow": "Existing source-checked conversation guide; no new device test."
+  },
+  "cover": {
+    "file": "/assets/blog/cafe-conversation.webp",
+    "provenance": "Reuses existing disclosed AI-generated editorial asset; no new location photograph or user interaction claimed."
+  },
+  "validation": {
+    "production": "Promotion is pending a fresh GitHub Actions validation of this exact release head before merge.",
+    "privatePreview": "All 8 drafts rendered together; validator passed 23 pages and 15 articles.",
+    "review": "No independent native-speaker review, device test, connectivity test in China, or comparative translation test is claimed. Core wording, pinyin and scope were rechecked against the cited Mandarin teaching source plus Mandarin for Travel, University of Washington, and MIT references before promotion."
+  },
+  "publicationChecklist": [
+    "Promoted this selected guide to the dated _posts file with the actual Cairo date and offset.",
+    "Source-check final Mandarin wording, pinyin and scope; do not claim native review or device testing.",
+    "Require a fresh GitHub Actions validation of this exact release head before merge.",
+    "Confirm final production page, sitemap, RSS, canonical, schema and indexing after deployment."
+  ]
+}
